@@ -37,6 +37,7 @@ book (e.g., pages 4-278 of the original), use --page-start/--page-end to match t
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 import dataclasses
 import re
 import unicodedata
@@ -546,6 +547,118 @@ def write_tsv(rows: Sequence[Row], output_path: Path, include_header: bool) -> N
             handle.write("\n")
 
 
+def _missing_word_indexes(rows: Sequence[Row]) -> List[int]:
+    """Return missing numeric word indexes in the observed index range."""
+    if not rows:
+        return []
+
+    indexes = sorted({int(row.word_index) for row in rows})
+    start = indexes[0]
+    end = indexes[-1]
+    observed = set(indexes)
+    return [idx for idx in range(start, end + 1) if idx not in observed]
+
+
+def _format_integer_ranges(values: Sequence[int]) -> str:
+    """Format sorted integers as compact ranges (e.g. 3-5, 8, 10-12)."""
+    if not values:
+        return ""
+
+    ranges: List[str] = []
+    start = values[0]
+    prev = values[0]
+
+    for value in values[1:]:
+        if value == prev + 1:
+            prev = value
+            continue
+        ranges.append(f"{start}-{prev}" if start != prev else str(start))
+        start = value
+        prev = value
+
+    ranges.append(f"{start}-{prev}" if start != prev else str(start))
+    return ", ".join(ranges)
+
+
+def _format_table(headers: Sequence[str], data_rows: Sequence[Sequence[str]]) -> str:
+    """Format rows as an ASCII table for terminal output."""
+    widths = [len(header) for header in headers]
+    for row in data_rows:
+        for idx, value in enumerate(row):
+            widths[idx] = max(widths[idx], len(value))
+
+    header_line = " | ".join(header.ljust(widths[idx]) for idx, header in enumerate(headers))
+    separator_line = "-+-".join("-" * width for width in widths)
+    body_lines = [
+        " | ".join(value.ljust(widths[idx]) for idx, value in enumerate(row))
+        for row in data_rows
+    ]
+    return "\n".join([header_line, separator_line, *body_lines])
+
+
+def _collect_pos_counts(rows: Sequence[Row]) -> Counter[str]:
+    """Count each part-of-speech token from parsed rows."""
+    counts: Counter[str] = Counter()
+    for row in rows:
+        part_of_speech = row.part_of_speech.strip()
+        if not part_of_speech:
+            continue
+        for token in part_of_speech.split("、"):
+            token = token.strip()
+            if token:
+                counts[token] += 1
+    return counts
+
+
+def _level_sort_key(level: str) -> Tuple[int, str]:
+    """Sort levels by leading number, then by full label."""
+    match = re.match(r"^(\d+)", level)
+    leading = int(match.group(1)) if match else 10**9
+    return leading, level
+
+
+def print_output_analysis(rows: Sequence[Row]) -> None:
+    """Print continuity checks and output summaries after TSV generation."""
+    if not rows:
+        print("No rows parsed; skipping output analysis.")
+        return
+
+    indexes = sorted({int(row.word_index) for row in rows})
+    missing_indexes = _missing_word_indexes(rows)
+    if missing_indexes:
+        print(
+            "WARNING: Missing word_index values "
+            f"({len(missing_indexes)}): {_format_integer_ranges(missing_indexes)}"
+        )
+    else:
+        print(
+            "word_index continuity check: no missing values "
+            f"(range {indexes[0]}-{indexes[-1]})."
+        )
+
+    pos_counts = _collect_pos_counts(rows)
+    pos_rows = [
+        [token, str(count)]
+        for token, count in sorted(
+            pos_counts.items(),
+            key=lambda item: (-item[1], item[0]),
+        )
+    ]
+    print("\nPart-of-speech tokens in output TSV:")
+    print(_format_table(["part_of_speech", "count"], pos_rows))
+
+    level_counts: Counter[str] = Counter()
+    for row in rows:
+        level_counts[row.level] += 1
+
+    level_rows = [
+        [level, str(level_counts[level])]
+        for level in sorted(level_counts, key=_level_sort_key)
+    ]
+    print("\nWord rows by HSK level:")
+    print(_format_table(["level", "word_count"], level_rows))
+
+
 def build_arg_parser() -> argparse.ArgumentParser:
     """Build the CLI parser."""
     parser = argparse.ArgumentParser(
@@ -602,6 +715,7 @@ def main() -> int:
     write_tsv(rows, args.output, include_header=not args.no_header)
 
     print(f"Wrote {len(rows)} rows to {args.output}")
+    print_output_analysis(rows)
     return 0
 
 
