@@ -93,6 +93,10 @@ CJK_RE = re.compile(r"[\u4e00-\u9fff]")
 CJK_ONLY_RE = re.compile(r"[\u4e00-\u9fff]+")
 PAGE_MARKERS = {"汉", "国", "际", "考"}
 CID_PATTERN = re.compile(r"\(cid:(\d+)\)")
+VALID_HSK_LEVELS = {"1", "2", "3", "4", "5", "6", "7-9"}
+WORD_VALID_RE = re.compile(r"^[一-鿿]+[12]?$")
+PINYIN_EXCEPTION_CHARS = {"-", "’"}
+PINYIN_ALLOWED_SEPARATORS = PRESERVE_SEPARATORS | PINYIN_EXCEPTION_CHARS
 
 CID_CHAR_MAP = {
     "6656": "提",
@@ -125,6 +129,94 @@ def _replace_cid_tokens(text: str) -> str:
         return CID_CHAR_MAP.get(cid, match.group(0))
 
     return CID_PATTERN.sub(repl, text)
+
+
+def _validate_pinyin_text(pinyin: str, word_index: str) -> None:
+    """Validate pinyin symbols and syllables for one row."""
+    normalized = unicodedata.normalize("NFC", pinyin).lower()
+    for ch in normalized:
+        if ch.isspace() or ch in PINYIN_ALLOWED_SEPARATORS:
+            continue
+        if ch in TONE_MARKS:
+            continue
+        if ch == "ü" or ("a" <= ch <= "z"):
+            continue
+        raise ValueError(
+            f"Unsupported pinyin character '{ch}' for word index {word_index}. "
+            f"Allowed separator exceptions: {sorted(PINYIN_EXCEPTION_CHARS)}."
+        )
+
+    tokens = _tokenize_pinyin(normalized)
+    if not tokens:
+        raise ValueError(f"Empty pinyin for word index {word_index}.")
+
+    has_syllable = False
+    for token, is_separator in tokens:
+        if is_separator:
+            continue
+        has_syllable = True
+        base = _strip_tone_marks(token)
+        _segment_syllables(base)
+
+    if not has_syllable:
+        raise ValueError(f"No syllables found in pinyin '{pinyin}' for word index {word_index}.")
+
+
+def validate_rows(rows: Sequence[Row]) -> None:
+    """Validate parsed rows against output schema rules."""
+    max_shown_errors = 25
+    shown_errors: List[str] = []
+    total_errors = 0
+
+    for row_num, row in enumerate(rows, start=1):
+        if not row.word_index.isdigit():
+            total_errors += 1
+            if len(shown_errors) < max_shown_errors:
+                shown_errors.append(f"Row {row_num}: invalid word_index '{row.word_index}'.")
+
+        if row.level not in VALID_HSK_LEVELS:
+            total_errors += 1
+            if len(shown_errors) < max_shown_errors:
+                shown_errors.append(
+                    f"Row {row_num} (word_index {row.word_index}): invalid level '{row.level}'."
+                )
+
+        if not WORD_VALID_RE.fullmatch(row.word):
+            total_errors += 1
+            if len(shown_errors) < max_shown_errors:
+                shown_errors.append(
+                    f"Row {row_num} (word_index {row.word_index}): "
+                    f"invalid word '{row.word}' "
+                    "(must be CJK characters, optionally ending with 1 or 2)."
+                )
+
+        try:
+            _validate_pinyin_text(row.pinyin, row.word_index)
+            expected_numbered = _pinyin_numbered(row.pinyin, row.word_index)
+        except ValueError as exc:
+            total_errors += 1
+            if len(shown_errors) < max_shown_errors:
+                shown_errors.append(
+                    f"Row {row_num} (word_index {row.word_index}): invalid pinyin "
+                    f"'{row.pinyin}' ({exc})."
+                )
+            continue
+
+        if row.pinyin_numbered != expected_numbered:
+            total_errors += 1
+            if len(shown_errors) < max_shown_errors:
+                shown_errors.append(
+                    f"Row {row_num} (word_index {row.word_index}): pinyin_numbered mismatch "
+                    f"(found '{row.pinyin_numbered}', expected '{expected_numbered}')."
+                )
+
+    if total_errors:
+        details = "\n".join(f"- {msg}" for msg in shown_errors)
+        remaining = total_errors - len(shown_errors)
+        remaining_line = (
+            f"\n- ... and {remaining} more validation error(s)." if remaining > 0 else ""
+        )
+        raise ValueError(f"Validation failed with {total_errors} error(s):\n{details}{remaining_line}")
 
 
 def _is_pinyin_token(token: str) -> bool:
@@ -739,6 +831,7 @@ def main() -> int:
 
     lines = extract_text_lines(args.pdf, args.page_start, args.page_end)
     rows = parse_entries(lines)
+    validate_rows(rows)
     write_tsv(rows, args.output, include_header=not args.no_header)
 
     print(f"Wrote {len(rows)} rows to {args.output}")
