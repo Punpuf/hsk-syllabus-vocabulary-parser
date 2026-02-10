@@ -29,12 +29,8 @@ Generated output file: [`hsk_word_list.tsv`](./hsk_word_list.tsv)
 
 ## Output Quality
 
-A manual check was performed by comparing 20 pages of the original syllabus with the output of the script, and the information matched. Further quality analysis is recommended. If you identify any problems, please open an issue.
+A manual (human-done) check was performed by comparing all the entries on the first and last pages of the original syllabus with the output of the script, and the information matched. Further quality analysis is recommended. If you identify any problems, please open an issue.
 
-After generation, the script prints:
-- a `word_index` continuity check (and missing indexes, if any)
-- part-of-speech token counts found in the TSV
-- word counts by HSK level
 
 ## How To Use
 
@@ -42,8 +38,8 @@ You can simply [download the generated TSV file](./hsk_word_list.tsv), but if yo
 
 1. Clone the project.
 ```bash
-git clone <repo-url>
-cd hsk_tsv_extractor
+git clone git@github.com:Punpuf/hsk-syllabus-vocabulary-parser.git
+cd hsk-syllabus-vocabulary-parser
 ```
 2. Move the syllabus PDF to the project root.
 
@@ -74,6 +70,7 @@ The input lines in the syllabus follow this structure:
 Formatting conventions used in the source:
 - Multiple pinyin pronunciations in `pinyin` are separated by `/` (e.g., `shéi/shuí`).
 - Multiple part-of-speech labels in `part_of_speech` are separated by `、`.
+- Some syllabus entries include internal pinyin spaces to show sub-word boundaries (e.g., `打电话` as `dǎ diànhuà`). In the extractor output, this internal space is removed in `pinyin` (output: `dǎdiànhuà`).
 
 If a word appears in multiple levels, the syllabus uses parentheses in both the `level` and `part_of_speech` columns. For example:
 - `level`: `1（4）`

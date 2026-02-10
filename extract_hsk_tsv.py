@@ -25,6 +25,8 @@ Pinyin numbering
 - The output includes a `pinyin_numbered` column (e.g., "bàba" -> "ba4 ba5").
 - Pinyin is split into syllables, tone numbers are derived from accent marks, and
   neutral tone syllables use tone 5.
+- Source pinyin may contain internal spaces for syllable boundaries (e.g.,
+  "dǎ diànhuà"); the output `pinyin` column normalizes these as "dǎdiànhuà".
 - Slash separators are preserved in the numbered output to reflect alternate readings.
 - Other separator symbols (including dashes) are treated as syllable boundaries and removed.
 - Syllabic interjections (e.g., "ng") are supported and treated as valid syllables.
