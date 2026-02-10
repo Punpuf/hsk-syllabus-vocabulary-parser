@@ -13,17 +13,17 @@ The goal of this project is to produce a list of Chinese words per **HSK level**
 
 ## Output Format
 
-| word_index | level | word | pinyin  | pinyin_numbered | part_of_speech |
-|-----------:|------:|------|---------|-----------------|----------------|
-|          1 |     1 | 爱    | ài      | ai4             | 动              |
-|          2 |     1 | 八    | bā      | ba1             | 数              |
-|          3 |     1 | 爸爸   | bàba    | ba4 ba5         | 名              |
-|          4 |     1 | 吧    | ba      | ba5             | 助              |
-|          5 |     1 | 白天   | báitiān | bai2 tian1      | 名              |
-|          6 |     1 | 百    | bǎi     | bai3            | 数              |
-|          7 |     1 | 半    | bàn     | ban4            | 数              |
-|          7 |     4 | 半    | bàn     | ban4            | 副              |
-|          8 |     1 | 包子   | bāozi   | bao1 zi5        | 名              |
+| word_index | level | word | pinyin  | pinyin_numbered | pinyin_cc-cedict | part_of_speech |
+|-----------:|------:|------|---------|-----------------|------------------|----------------|
+|          1 |     1 | 爱    | ài      | ai4             | ai4              | 动              |
+|          2 |     1 | 八    | bā      | ba1             | ba1              | 数              |
+|          3 |     1 | 爸爸   | bàba    | ba4 ba5         | ba4 ba5          | 名              |
+|          4 |     1 | 吧    | ba      | ba5             | ba5              | 助              |
+|          5 |     1 | 白天   | báitiān | bai2 tian1      | bai2 tian1       | 名              |
+|          6 |     1 | 百    | bǎi     | bai3            | bai3             | 数              |
+|          7 |     1 | 半    | bàn     | ban4            | ban4             | 数              |
+|          7 |     4 | 半    | bàn     | ban4            | ban4             | 副              |
+|          8 |     1 | 包子   | bāozi   | bao1 zi5        | bao1 zi5         | 名              |
 
 Generated output file: [`hsk_word_list.tsv`](./hsk_word_list.tsv)
 
@@ -95,7 +95,7 @@ Examples from the generated TSV (the _meanings_ in the table below are AI-genera
 
 ## Pinyin Numbering
 
-The extractor adds a `pinyin_numbered` column. 
+The extractor adds both `pinyin_numbered` and `pinyin_cc-cedict` columns.
 
 ### The Process
 
@@ -106,6 +106,14 @@ The extractor adds a `pinyin_numbered` column.
 5. Preserve `/` to indicate alternate readings (`shéi/shuí` and `shú/shóu`).
 6. Remove other separators (e.g., `-`, `’`).
 7. Validate that rejoining the numbered syllables (without numbers/spaces) matches the normalized pinyin.
+
+`pinyin_cc-cedict` is derived from `pinyin_numbered` specifically for compatibility with
+the way CC-CEDICT represents tone sandhi and erhua in numbered pinyin. It normalizes:
+- `不` -> `bu4`
+- `一` -> `yi1`
+- merged erhua is split into its own syllable: `zher4` -> `zhe4 r5`
+
+Note: additional adjustments are needed to better adapt to the CC-CEDICT format.
 
 ### Edge Cases and Fixes
 

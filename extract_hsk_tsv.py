@@ -23,6 +23,8 @@ Output rows: level=1 -> "形、介" and level=4 -> "动、量"
 
 Pinyin numbering
 - The output includes a `pinyin_numbered` column (e.g., "bàba" -> "ba4 ba5").
+- The output also includes `pinyin_cc-cedict`, which normalizes Hanzi "不" to `bu4`
+  and "一" to `yi1` based on character position.
 - Pinyin is split into syllables, tone numbers are derived from accent marks, and
   neutral tone syllables use tone 5.
 - Source pinyin may contain internal spaces for syllable boundaries (e.g.,
@@ -119,6 +121,9 @@ MISSING_WORD_OVERRIDES = {
     "10550": "盏",
 }
 LETTER_PATTERN = re.compile(r"[a-zü]+")
+NUMBERED_SYLLABLE_RE = re.compile(r"[a-zü]+[1-5]")
+CC_CEDICT_TONE_OVERRIDES = {"不": "bu4", "一": "yi1"}
+ERHUA_MERGED_RE = re.compile(r"^([a-zü]+)r([1-5])$")
 
 
 def _replace_cid_tokens(text: str) -> str:
@@ -129,6 +134,122 @@ def _replace_cid_tokens(text: str) -> str:
         return CID_CHAR_MAP.get(cid, match.group(0))
 
     return CID_PATTERN.sub(repl, text)
+
+
+def _extract_hanzi_chars(word: str) -> List[str]:
+    """Extract only CJK Hanzi characters from a word string."""
+    return [char for char in word if CJK_RE.fullmatch(char)]
+
+
+def _split_erhua_syllables(numbered_text: str) -> str:
+    """
+    Split merged erhua syllables into separate tokens in numbered pinyin.
+
+    Examples:
+        zher4 -> zhe4 r5
+        dianr3 -> dian3 r5
+    """
+    matches = list(NUMBERED_SYLLABLE_RE.finditer(numbered_text.lower()))
+    if not matches:
+        return numbered_text
+
+    out_parts: List[str] = []
+    cursor = 0
+    for match in matches:
+        start = match.start()
+        end = match.end()
+        out_parts.append(numbered_text[cursor:start])
+
+        original = numbered_text[start:end]
+        lower = original.lower()
+        erhua = ERHUA_MERGED_RE.fullmatch(lower)
+        if erhua and lower not in {"er1", "er2", "er3", "er4", "er5", "r5"}:
+            base, tone = erhua.groups()
+            out_parts.append(f"{base}{tone} r5")
+        else:
+            out_parts.append(original)
+
+        cursor = end
+
+    out_parts.append(numbered_text[cursor:])
+    return "".join(out_parts)
+
+
+def _pinyin_cc_cedict(word: str, pinyin_numbered: str) -> str:
+    """
+    Build a CC-CEDICT-normalized numbered pinyin string.
+
+    This keeps "不" as bu4 and "一" as yi1 by Hanzi position while preserving
+    the original separators (spaces, slashes).
+    """
+    cc_cedict = pinyin_numbered
+    hanzi_chars = _extract_hanzi_chars(word)
+    if not hanzi_chars:
+        return _split_erhua_syllables(cc_cedict)
+    if "不" not in hanzi_chars and "一" not in hanzi_chars:
+        return _split_erhua_syllables(cc_cedict)
+
+    syllable_matches = list(NUMBERED_SYLLABLE_RE.finditer(cc_cedict.lower()))
+    if not syllable_matches:
+        return _split_erhua_syllables(cc_cedict)
+
+    # Map each Hanzi to the syllable index it most likely aligns with.
+    # Handle erhua forms where "儿" may be merged into a preceding syllable (e.g., dianr3).
+    char_to_syllable: List[int | None] = []
+    syllable_idx = 0
+    for idx, hanzi in enumerate(hanzi_chars):
+        is_suffix_erhua = hanzi == "儿" and idx > 0 and syllable_idx > 0
+        if is_suffix_erhua:
+            char_to_syllable.append(syllable_idx - 1)
+            continue
+        if syllable_idx >= len(syllable_matches):
+            char_to_syllable.append(None)
+            continue
+        char_to_syllable.append(syllable_idx)
+        syllable_idx += 1
+
+    override_indices: dict[int, str] = {}
+    used_override_indices: set[int] = set()
+    for char_idx, hanzi in enumerate(hanzi_chars):
+        override = CC_CEDICT_TONE_OVERRIDES.get(hanzi)
+        if not override:
+            continue
+
+        target_prefix = override[:-1]
+        preferred_idx = char_to_syllable[char_idx]
+        chosen_idx: int | None = None
+
+        if preferred_idx is not None and preferred_idx < len(syllable_matches):
+            preferred_syllable = syllable_matches[preferred_idx].group(0)[:-1]
+            if preferred_syllable.startswith(target_prefix):
+                chosen_idx = preferred_idx
+
+        if chosen_idx is None:
+            for syll_idx, match in enumerate(syllable_matches):
+                if syll_idx in used_override_indices:
+                    continue
+                if match.group(0)[:-1].startswith(target_prefix):
+                    chosen_idx = syll_idx
+                    break
+
+        if chosen_idx is None and preferred_idx is not None and preferred_idx < len(syllable_matches):
+            chosen_idx = preferred_idx
+
+        if chosen_idx is not None:
+            override_indices[chosen_idx] = override
+            used_override_indices.add(chosen_idx)
+
+    out_parts: List[str] = []
+    cursor = 0
+    for idx, match in enumerate(syllable_matches):
+        out_parts.append(cc_cedict[cursor:match.start()])
+        override = override_indices.get(idx)
+        out_parts.append(override if override else match.group(0))
+        cursor = match.end()
+
+    out_parts.append(cc_cedict[cursor:])
+    cc_cedict = "".join(out_parts)
+    return _split_erhua_syllables(cc_cedict)
 
 
 def _validate_pinyin_text(pinyin: str, word_index: str) -> None:
@@ -210,6 +331,15 @@ def validate_rows(rows: Sequence[Row]) -> None:
                     f"(found '{row.pinyin_numbered}', expected '{expected_numbered}')."
                 )
 
+        expected_cc_cedict = _pinyin_cc_cedict(row.word, expected_numbered)
+        if row.pinyin_cc_cedict != expected_cc_cedict:
+            total_errors += 1
+            if len(shown_errors) < max_shown_errors:
+                shown_errors.append(
+                    f"Row {row_num} (word_index {row.word_index}): pinyin_cc-cedict mismatch "
+                    f"(found '{row.pinyin_cc_cedict}', expected '{expected_cc_cedict}')."
+                )
+
     if total_errors:
         details = "\n".join(f"- {msg}" for msg in shown_errors)
         remaining = total_errors - len(shown_errors)
@@ -236,6 +366,7 @@ class Row:
     word: str
     pinyin: str
     pinyin_numbered: str
+    pinyin_cc_cedict: str
     part_of_speech: str
 
     def to_tsv(self) -> str:
@@ -247,6 +378,7 @@ class Row:
                 self.word,
                 self.pinyin,
                 self.pinyin_numbered,
+                self.pinyin_cc_cedict,
                 self.part_of_speech,
             ]
         )
@@ -534,6 +666,7 @@ def _build_rows(
 ) -> List[Row]:
     """Build rows for a single word entry."""
     pinyin_numbered = _pinyin_numbered(pinyin, word_index)
+    pinyin_cc_cedict = _pinyin_cc_cedict(word, pinyin_numbered)
 
     levels = parse_levels(level_field)
     if len(levels) == 1:
@@ -544,6 +677,7 @@ def _build_rows(
                 word=word,
                 pinyin=pinyin,
                 pinyin_numbered=pinyin_numbered,
+                pinyin_cc_cedict=pinyin_cc_cedict,
                 part_of_speech=part_of_speech,
             )
         ]
@@ -559,6 +693,7 @@ def _build_rows(
             word=word,
             pinyin=pinyin,
             pinyin_numbered=pinyin_numbered,
+            pinyin_cc_cedict=pinyin_cc_cedict,
             part_of_speech=pos_group,
         )
         for level, pos_group in zip(levels, pos_groups)
@@ -660,7 +795,9 @@ def write_tsv(rows: Sequence[Row], output_path: Path, include_header: bool) -> N
     """Write rows to a TSV file."""
     with output_path.open("w", encoding="utf-8") as handle:
         if include_header:
-            handle.write("word_index\tlevel\tword\tpinyin\tpinyin_numbered\tpart_of_speech\n")
+            handle.write(
+                "word_index\tlevel\tword\tpinyin\tpinyin_numbered\tpinyin_cc-cedict\tpart_of_speech\n"
+            )
         for row in rows:
             handle.write(row.to_tsv())
             handle.write("\n")
