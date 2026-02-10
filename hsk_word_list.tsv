@@ -13,7 +13,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 11	1	边	biān	bian1	名、后缀
 12	1	病	bìng	bing4	名、动
 13	1	不	bù	bu4	副
-14	1	不客气	bú	bu2	kèqi
+14	1	不客气	búkèqi	bu2 ke4 qi5	
 15	1	不要	búyào	bu2 yao4	副
 16	1	菜	cài	cai4	名
 17	1	茶	chá	cha2	名
@@ -23,7 +23,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 21	1	吃	chī	chi1	动
 22	1	出租车	chūzūchē	chu1 zu1 che1	名
 23	1	穿	chuān	chuan1	动
-24	1	打电话	dǎ	da3	diànhuà
+24	1	打电话	dǎdiànhuà	da3 dian4 hua4	
 25	1	大	dà	da4	形
 26	1	大家	dàjiā	da4 jia1	代
 27	1	大学	dàxué	da4 xue2	名
@@ -129,7 +129,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 117	1	卖	mài	mai4	动
 118	1	忙	máng	mang2	形、动
 119	1	猫	māo	mao1	名
-120	1	没关系	méi	mei2	guānxi
+120	1	没关系	méiguānxi	mei2 guan1 xi5	
 121	1	没事	méishì	mei2 shi4	动
 122	1	没有	méiyǒu	mei2 you3	动、副
 123	1	妹妹	mèimei	mei4 mei5	名
@@ -157,7 +157,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 144	1	呢	ne	ne5	助
 145	1	能	néng	neng2	动
 146	1	你	nǐ	ni3	代
-147	1	你好	nǐ	ni3	hǎo
+147	1	你好	nǐhǎo	ni3 hao3	
 148	1	你们	nǐmen	ni3 men5	代
 149	1	年	nián	nian2	名、量
 150	1	您	nín	nin2	代
@@ -238,7 +238,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 224	1	午饭	wǔfàn	wu3 fan4	名
 225	1	喜欢	xǐhuan	xi3 huan5	动
 226	1	下	xià	xia4	名、动、量
-227	1	下雨	xià	xia4	yǔ
+227	1	下雨	xiàyǔ	xia4 yu3	
 228	1	下班	xiàbān	xia4 ban1	动
 229	1	下课	xiàkè	xia4 ke4	动
 230	1	下午	xiàwǔ	xia4 wu3	名
@@ -314,7 +314,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 297	1	昨天	zuótiān	zuo2 tian1	名
 298	1	坐	zuò	zuo4	动
 299	1	做	zuò	zuo4	动
-300	1	做饭	zuò	zuo4	fàn
+300	1	做饭	zuòfàn	zuo4 fan4	
 301	2	啊	a	a5	助
 302	2	爱好	àihào	ai4 hao4	动、名
 303	2	白色	báisè	bai2 se4	名
@@ -329,7 +329,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 310	5	笔	bǐ	bi3	量
 311	2	别1	bié	bie2	副
 312	2	不错	búcuò	bu2 cuo4	形
-313	2	不好意思	bù	bu4	hǎoyìsi
+313	2	不好意思	bùhǎoyìsi	bu4 hao3 yi4 si5	
 314	2	长	cháng	chang2	形
 315	2	车站	chēzhàn	che1 zhan4	名
 316	2	出	chū	chu1	动
@@ -424,7 +424,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 396	2	绿色	lǜsè	lü4 se4	名
 396	4	绿色	lǜsè	lü4 se4	形
 397	2	慢	màn	man4	形
-398	2	没意思	méi	mei2	yìsi
+398	2	没意思	méiyìsi	mei2 yi4 si5	
 399	2	每	měi	mei3	代
 399	4	每	měi	mei3	副
 400	2	门	mén	men2	名
@@ -488,7 +488,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 451	2	网上	wǎngshang	wang3 shang5	名
 452	2	忘	wàng	wang4	动
 453	2	位	wèi	wei4	量
-454	2	为什么	wèi	wei4	shénme
+454	2	为什么	wèishénme	wei4 shen2 me5	
 455	2	希望	xīwàng	xi1 wang4	动
 456	2	洗	xǐ	xi3	动
 457	2	洗手间	xǐshǒujiān	xi3 shou3 jian1	名
@@ -514,7 +514,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 476	2	因为	yīnwèi	yin1 wei4	介、连
 477	2	游	yóu	you2	动
 478	2	游泳	yóuyǒng	you2 yong3	动
-479	2	有意思	yǒu	you3	yìsi
+479	2	有意思	yǒuyìsi	you3 yi4 si5	
 480	2	有时	yǒushí	you3 shi2	副
 481	2	右	yòu	you4	名
 482	2	右边	yòubian	you4 bian5	名
@@ -579,7 +579,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 538	3	不但	búdàn	bu2 dan4	连
 539	3	不见	bújiàn	bu2 jian4	动
 540	3	不用	búyòng	bu2 yong4	副
-541	3	不同	bù	bu4	tóng
+541	3	不同	bùtóng	bu4 tong2	
 542	3	不久	bùjiǔ	bu4 jiu3	形
 543	3	不行	bùxíng	bu4 xing2	动、形
 544	3	才1	cái	cai2	副
@@ -593,8 +593,8 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 552	3	差不多	chàbuduō	cha4 bu5 duo1	形、副
 553	3	尝	cháng	chang2	动
 554	3	常	cháng	chang2	副
-555	3	常见	cháng	chang2	jiàn
-556	3	常用	cháng	chang2	yòng
+555	3	常见	chángjiàn	chang2 jian4	
+556	3	常用	chángyòng	chang2 yong4	
 557	3	常常	chángcháng	chang2 chang2	副
 558	3	衬衫	chènshān	chen4 shan1	名
 559	3	成绩	chéngjì	cheng2 ji4	名
@@ -679,7 +679,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 634	3	复习	fùxí	fu4 xi2	动
 635	3	该1	gāi	gai1	动
 636	3	干净	gānjìng	gan1 jing4	形
-637	3	感兴趣	gǎn	gan3	xìngqù
+637	3	感兴趣	gǎnxìngqù	gan3 xing4 qu4	
 638	3	感到	gǎndào	gan3 dao4	动
 639	3	感冒	gǎnmào	gan3 mao4	名、动
 640	3	干	gàn	gan4	动
@@ -1022,7 +1022,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 961	3	运动员	yùndòngyuán	yun4 dong4 yuan2	名
 962	3	咱们	zánmen	zan2 men5	代
 963	3	脏	zāng	zang1	形
-964	3	怎么办	zěnme	zen3 me5	bàn
+964	3	怎么办	zěnmebàn	zen3 me5 ban4	
 965	3	怎样	zěnyàng	zen3 yang4	代
 966	3	站2	zhàn	zhan4	动
 967	3	张	zhāng	zhang1	动、量
@@ -1035,7 +1035,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 974	3	直到	zhídào	zhi2 dao4	动
 975	3	只	zhǐ	zhi3	副
 976	3	纸	zhǐ	zhi3	名
-977	3	只能	zhǐ	zhi3	néng
+977	3	只能	zhǐnéng	zhi3 neng2	
 978	3	只是	zhǐshì	zhi3 shi4	副、连
 979	3	只要	zhǐyào	zhi3 yao4	连
 980	3	只有	zhǐyǒu	zhi3 you3	连
@@ -1164,7 +1164,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 1097	4	吹	chuī	chui1	动
 1098	4	词语	cíyǔ	ci2 yu3	名
 1099	4	此	cǐ	ci3	代
-1100	4	此次	cǐ	ci3	cì
+1100	4	此次	cǐcì	ci3 ci4	
 1101	4	此外	cǐwài	ci3 wai4	连
 1102	4	从此	cóngcǐ	cong2 ci3	副
 1103	4	从来	cónglái	cong2 lai2	副
@@ -1179,7 +1179,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 1112	4	答	dá	da2	动
 1113	4	答案	dá’àn	da2 an4	名
 1114	4	达到	dádào	da2 dao4	动
-1115	4	打招呼	dǎ	da3	zhāohu
+1115	4	打招呼	dǎzhāohu	da3 zhao1 hu5	
 1116	4	打败	dǎbài	da3 bai4	动
 1117	4	打工	dǎgōng	da3 gong1	动
 1118	4	打扰	dǎrǎo	dar3 ao3	动
@@ -1493,7 +1493,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 1416	4	拒绝	jùjué	ju4 jue2	动
 1417	4	距离	jùlí	ju4 li2	动、名
 1418	4	剧院	jùyuàn	ju4 yuan4	名
-1419	4	开玩笑	kāi	kai1	wánxiào
+1419	4	开玩笑	kāiwánxiào	kai1 wan2 xiao4	
 1420	4	看法	kànfǎ	kan4 fa3	名
 1421	4	烤	kǎo	kao3	动
 1422	4	考虑	kǎolǜ	kao3 lü4	动
@@ -1553,7 +1553,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 1473	4	两2	liǎng	liang3	量
 1474	4	亮	liàng	liang4	形、动
 1475	4	列	liè	lie4	动、量
-1476	4	零下	líng	ling2	xià
+1476	4	零下	língxià	ling2 xia4	
 1477	4	零花钱	línghuāqián	ling2 hua1 qian2	名
 1478	4	零钱	língqián	ling2 qian2	名
 1479	4	零食	língshí	ling2 shi2	名
@@ -1609,7 +1609,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 1528	4	内	nèi	nei4	名
 1529	4	内容	nèiróng	neir4 o2 ng5	名
 1530	4	内心	nèixīn	nei4 xin1	名
-1531	4	能否	néng	neng2	fǒu
+1531	4	能否	néngfǒu	neng2 fou3	
 1532	4	能够	nénggòu	neng2 gou4	动
 1533	4	能力	nénglì	neng2 li4	名
 1534	4	嗯	ǹg	ng4	叹
@@ -1745,7 +1745,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 1662	4	食堂	shítáng	shi2 tang2	名
 1663	4	食物	shíwù	shi2 wu4	名
 1664	4	实在	shízài	shi2 zai4	形、副
-1665	4	十字路口	shízì	shi2 zi4	lùkǒu
+1665	4	十字路口	shízìlùkǒu	shi2 zi4 lu4 kou3	
 1666	4	使	shǐ	shi3	动
 1667	4	使馆	shǐguǎn	shi3 guan3	名
 1668	4	使用	shǐyòng	shi3 yong4	动
@@ -2292,7 +2292,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 2197	5	此前	cǐqián	ci3 qian2	名
 2198	5	此时	cǐshí	ci3 shi2	名
 2199	5	刺激	cìjī	ci4 ji1	动、名
-2200	5	从不	cóng	cong2	bù
+2200	5	从不	cóngbù	cong2 bu4	
 2201	5	从而	cóng’ér	cong2 er2	连
 2202	5	从前	cóngqián	cong2 qian2	名
 2203	5	从事	cóngshì	cong2 shi4	动
@@ -2710,7 +2710,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 2614	5	近代	jìndài	jin4 dai4	名
 2615	5	进口	jìnkǒu	jin4 kou3	动
 2616	5	尽力	jìnlì	jin4 li4	动
-2617	5	近年来	jìnnián	jin4 nian2	lái
+2617	5	近年来	jìnniánlái	jin4 nian2 lai2	
 2618	5	近期	jìnqī	jin4 qi1	名
 2619	5	近日	jìnrì	jin4 ri4	名
 2620	5	进一步	jìnyíbù	jin4 yi2 bu4	副
@@ -3502,14 +3502,14 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 3399	5	优美	yōuměi	you1 mei3	形
 3400	5	优势	yōushì	you1 shi4	名
 3401	5	优质	yōuzhì	you1 zhi4	形
-3402	5	由此	yóu	you2	cǐ
+3402	5	由此	yóucǐ	you2 ci3	
 3403	5	邮寄	yóujì	you2 ji4	动
 3404	5	邮局	yóujú	you2 ju2	名
 3405	5	游览	yóulǎn	you2 lan3	动
 3406	5	邮票	yóupiào	you2 piao4	名
 3407	5	油条	yóutiáo	you2 tiao2	名
 3408	5	犹豫	yóuyù	you2 yu4	形
-3409	5	有害	yǒu	you3	hài
+3409	5	有害	yǒuhài	you3 hai4	
 3410	5	有力	yǒulì	you3 li4	形
 3411	5	有利	yǒulì	you3 li4	形
 3412	5	有限	yǒuxiàn	you3 xian4	形
@@ -3530,7 +3530,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 3427	5	预约	yùyuē	yu4 yue1	动
 3428	5	原	yuán	yuan2	形
 3429	5	圆	yuán	yuan2	名、形
-3430	5	原有	yuán	yuan2	yǒu
+3430	5	原有	yuányǒu	yuan2 you3	
 3431	5	元旦	Yuándàn	yuan2 dan4	名
 3432	5	员工	yuángōng	yuan2 gong1	名
 3433	5	原则	yuánzé	yuan2 ze2	名
@@ -3621,7 +3621,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 3518	5	制造	zhìzào	zhi4 zao4	动
 3519	5	制作	zhìzuò	zhi4 zuo4	动
 3520	5	中华	Zhōnghuá	zhong1 hua2	名
-3521	5	中华民族	Zhōnghuá	zhong1 hua2	Mínzú
+3521	5	中华民族	ZhōnghuáMínzú	zhong1 hua2 min2 zu2	
 3522	5	中级	zhōngjí	zhong1 ji2	形
 3523	5	中介	zhōngjiè	zhong1 jie4	名
 3524	5	中期	zhōngqī	zhong1 qi1	名
@@ -3767,7 +3767,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 3664	6	博览会	bólǎnhuì	bo2 lan3 hui4	名
 3665	6	薄弱	bóruò	bo2 ruo4	形
 3666	6	脖子	bózi	bo2 zi5	名
-3667	6	不耐烦	bú	bu2	nàifán
+3667	6	不耐烦	búnàifán	bu2 nai4 fan2	
 3668	6	不顾	búgù	bu2 gu4	动
 3669	6	不料	búliào	bu2 liao4	连
 3670	6	不适	búshì	bu2 shi4	形
@@ -3936,7 +3936,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 3833	6	搭	dā	da1	动
 3834	6	搭配	dāpèi	da1 pei4	动、形
 3835	6	答复	dáfù	da2 fu4	动
-3836	6	打交道	dǎ	da3	jiāodao
+3836	6	打交道	dǎjiāodao	da3 jiao1 dao5	
 3837	6	打动	dǎdòng	da3 dong4	动
 3838	6	打击	dǎjī	da3 ji1	动
 3839	6	打架	dǎjià	da3 jia4	动
@@ -4217,7 +4217,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 4114	6	过渡	guòdù	guo4 du4	动
 4115	6	过后	guòhòu	guo4 hou4	名
 4116	6	过时	guòshí	guo4 shi2	动、形
-4117	6	海内外	hǎi	hai3	nèiwài
+4117	6	海内外	hǎinèiwài	hai3 nei4 wai4	
 4118	6	海岸	hǎi’àn	hai3 an4	名
 4119	6	海拔	hǎibá	hai3 ba2	名
 4120	6	海面	hǎimiàn	hai3 mian4	名
@@ -4228,8 +4228,8 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 4125	6	罕见	hǎnjiàn	han3 jian4	形
 4126	6	旱灾	hànzāi	han4 zai1	名
 4127	6	航空	hángkōng	hang2 kong1	动
-4128	6	毫不	háo	hao2	bù
-4129	6	毫无	háo	hao2	wú
+4128	6	毫不	háobù	hao2 bu4	
+4129	6	毫无	háowú	hao2 wu2	
 4130	6	毫米	háomǐ	hao2 mi3	量
 4131	6	毫升	háoshēng	hao2 sheng1	量
 4132	6	好不	hǎobù	hao3 bu4	副
@@ -4796,7 +4796,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 4691	6	热水器	rèshuǐqì	re4 shui3 qi4	名
 4692	6	热线	rèxiàn	re4 xian4	名
 4693	6	热议	rèyì	re4 yi4	动
-4694	6	人工智能	réngōng	reng2 o1 ng5	zhìnéng
+4694	6	人工智能	réngōngzhìnéng	reng2 o1 ng5 zhi4 neng2	
 4695	6	人家	rénjia	ren2 jia5	代
 4696	6	人均	rénjūn	ren2 jun1	动
 4697	6	人山人海	rénshān-rénhǎi	ren2 shan1 ren2 hai3	
@@ -5116,7 +5116,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 5011	6	戏曲	xìqǔ	xi4 qu3	名
 5012	6	细致	xìzhì	xi4 zhi4	形
 5013	6	吓	xià	xia4	动
-5014	6	下功夫	xià	xia4	gōngfu
+5014	6	下功夫	xiàgōngfu	xia4 gong1 fu5	
 5015	6	下单	xiàdān	xia4 dan1	动
 5016	6	夏令营	xiàlìngyíng	xia4 ling4 ying2	名
 5017	6	下线	xiàxiàn	xia4 xian4	动
@@ -5562,7 +5562,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 5456	7-9	摆动	bǎidòng	bai3 dong4	动
 5457	7-9	百分比	bǎifēnbǐ	bai3 fen1 bi3	名
 5458	7-9	百合	bǎihé	bai3 he2	名
-5459	7-9	百科全书	bǎikē	bai3 ke1	quánshū
+5459	7-9	百科全书	bǎikēquánshū	bai3 ke1 quan2 shu1	
 5460	7-9	摆平	bǎipíng	bai3 ping2	动
 5461	7-9	摆设	bǎishe	bai3 she5	名
 5462	7-9	(cid:7679)树	bǎishù	bai3 shu4	名
@@ -5795,7 +5795,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 5689	7-9	伯母	bómǔ	bo2 mu3	名
 5690	7-9	博学	bóxué	bo2 xue2	形
 5691	7-9	博弈	bóyì	bo2 yi4	动
-5692	7-9	不算	bú	bu2	suàn
+5692	7-9	不算	búsuàn	bu2 suan4	
 5693	7-9	不当	búdàng	bu2 dang4	形
 5694	7-9	不定	búdìng	bu2 ding4	形、副
 5695	7-9	不动产	búdòngchǎn	bu2 dong4 chan3	名
@@ -5822,9 +5822,9 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 5716	7-9	哺育	bǔyù	bu3 yu4	动
 5717	7-9	补助	bǔzhù	bu3 zhu4	动、名
 5718	7-9	捕捉	bǔzhuō	bu3 zhuo1	动
-5719	7-9	不经意	bù	bu4	jīngyì
-5720	7-9	不予	bù	bu4	yǔ
-5721	7-9	不准	bù	bu4	zhǔn
+5719	7-9	不经意	bùjīngyì	bu4 jing1 yi4	
+5720	7-9	不予	bùyǔ	bu4 yu3	
+5721	7-9	不准	bùzhǔn	bu4 zhun3	
 5722	7-9	不耻下问	bùchǐ-xiàwèn	bu4 chi3 xia4 wen4	
 5723	7-9	不辞而别	bùcí’érbié	bu4 ci2 er2 bie2	
 5724	7-9	不得而知	bùdé’érzhī	bu4 de2 er2 zhi1	
@@ -5948,7 +5948,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 5842	7-9	昌盛	chāngshèng	chang1 sheng4	形
 5843	7-9	偿还	chánghuán	chang2 huan2	动
 5844	7-9	常理	chánglǐ	chang2 li3	名
-5845	7-9	长期以来	chángqī	chang2 qi1	yǐlái
+5845	7-9	长期以来	chángqīyǐlái	chang2 qi1 yi3 lai2	
 5846	7-9	常人	chángrén	changr2 en2	名
 5847	7-9	常态	chángtài	chang2 tai4	名
 5848	7-9	长效	chángxiào	chang2 xiao4	名、形
@@ -6218,8 +6218,8 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 6112	7-9	答辩	dábiàn	da2 bian4	动
 6113	7-9	达标	dábiāo	da2 biao1	动
 6114	7-9	打2	dǎ	da3	介
-6115	7-9	打喷嚏	dǎ	da3	pēntì
-6116	7-9	打下手	dǎ	da3	xiàshǒu
+6115	7-9	打喷嚏	dǎpēntì	da3 pen1 ti4	
+6116	7-9	打下手	dǎxiàshǒu	da3 xia4 shou3	
 6117	7-9	打岔	dǎchà	da3 cha4	动
 6118	7-9	打倒	dǎdǎo	da3 dao3	动
 6119	7-9	打赌	dǎdǔ	da3 du3	动
@@ -6506,7 +6506,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 6400	7-9	敦促	dūncù	dun1 cu4	动
 6401	7-9	敦厚	dūnhòu	dun1 hou4	形
 6402	7-9	炖	dùn	dun4	动
-6403	7-9	多年来	duō	duo1	nián lái
+6403	7-9	多年来	duōniánlái	duo1 nian2 lai2	
 6404	7-9	多半	duōbàn	duo1 ban4	数、副
 6405	7-9	多边	duōbiān	duo1 bian1	形
 6406	7-9	哆嗦	duōsuo	duo1 suo5	动
@@ -7048,7 +7048,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 6942	7-9	裹	guǒ	guo3	动
 6943	7-9	果断	guǒduàn	guo3 duan4	形
 6944	7-9	果真	guǒzhēn	guo3 zhen1	副、连
-6945	7-9	过意不去	guò	guo4	yì bú qù
+6945	7-9	过意不去	guòyìbúqù	guo4 yi4 bu2 qu4	
 6946	7-9	过半	guòbàn	guo4 ban4	动
 6947	7-9	过不去	guòbuqù	guo4 bu5 qu4	动
 6948	7-9	过错	guòcuò	guo4 cuo4	名
@@ -7142,7 +7142,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 7036	7-9	和睦	hémù	he2 mu4	形
 7037	7-9	核能	hénéng	hen2 eng2	名
 7038	7-9	河畔	hépàn	he2 pan4	名
-7039	7-9	和平共处	hépíng	he2 ping2	gòngchǔ
+7039	7-9	和平共处	hépínggòngchǔ	he2 ping2 gong4 chu3	
 7040	7-9	和气	héqi	he2 qi5	形、名
 7041	7-9	和尚	héshang	he2 shang5	名
 7042	7-9	核实	héshí	he2 shi2	动
@@ -7744,7 +7744,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 7638	7-9	救治	jiùzhì	jiu4 zhi4	动
 7639	7-9	就座	jiùzuò	jiu4 zuo4	动
 7640	7-9	居安思危	jū’ān-sīwēi	ju1 an1 si1 wei1	
-7641	7-9	居高不下	jūgāo	ju1 gao1	bú xià
+7641	7-9	居高不下	jūgāobúxià	ju1 gao1 bu2 xia4	
 7642	7-9	鞠躬	jūgōng	ju1 gong1	动
 7643	7-9	拘留	jūliú	ju1 liu2	动
 7644	7-9	拘束	jūshù	ju1 shu4	动、形
@@ -8420,7 +8420,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 8314	7-9	耐人寻味	nàirénxúnwèi	nair4 en2 xun2 wei4	
 8315	7-9	耐用	nàiyòng	nai4 yong4	形
 8316	7-9	难处	nánchù	nan2 chu4	名
-8317	7-9	难得一见	nándé	nan2 de2	yí jiàn
+8317	7-9	难得一见	nándéyíjiàn	nan2 de2 yi2 jian4	
 8318	7-9	男方	nánfāng	nan2 fang1	名
 8319	7-9	南瓜	nánguā	nan2 gua1	名
 8320	7-9	难怪	nánguài	nan2 guai4	动、副
@@ -8529,7 +8529,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 8423	7-9	胖乎乎	pànghūhū	pang4 hu1 hu1	形
 8424	7-9	抛弃	pāoqì	pao1 qi4	动
 8425	7-9	刨	páo	pao2	动
-8426	7-9	跑龙套	pǎo	pao3	lóngtào
+8426	7-9	跑龙套	pǎolóngtào	pao3 long2 tao4	
 8427	7-9	炮	pào	pao4	名
 8428	7-9	泡沫	pàomò	pao4 mo4	名
 8429	7-9	胚胎	pēitāi	pei1 tai1	名
@@ -8551,7 +8551,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 8445	7-9	澎湃	péngpài	peng2 pai4	形
 8446	7-9	膨胀	péngzhàng	peng2 zhang4	动
 8447	7-9	捧场	pěngchǎng	peng3 chang3	动
-8448	7-9	碰钉子	pèng	peng4	dīngzi
+8448	7-9	碰钉子	pèngdīngzi	peng4 ding1 zi5	
 8449	7-9	碰巧	pèngqiǎo	peng4 qiao3	副
 8450	7-9	劈	pī	pi1	动
 8451	7-9	批发	pīfā	pi1 fa1	动
@@ -8621,7 +8621,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 8515	7-9	屏障	píngzhàng	ping2 zhang4	名
 8516	7-9	凭证	píngzhèng	ping2 zheng4	名
 8517	7-9	颇	pō	po1	副
-8518	7-9	泼冷水	pō	po1	lěngshuǐ
+8518	7-9	泼冷水	pōlěngshuǐ	po1 leng3 shui3	
 8519	7-9	破案	pò’àn	po4 an4	动
 8520	7-9	迫不及待	pòbùjídài	po4 bu4 ji2 dai4	
 8521	7-9	破除	pòchú	po4 chu2	动
@@ -9017,7 +9017,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 8911	7-9	赡养	shànyǎng	shan4 yang3	动
 8912	7-9	善意	shànyì	shan4 yi4	名
 8913	7-9	擅自	shànzì	shan4 zi4	副
-8914	7-9	伤脑筋	shāng	shang1	nǎojīn
+8914	7-9	伤脑筋	shāngnǎojīn	shang1 nao3 jin1	
 8915	7-9	伤残	shāngcán	shang1 can2	动
 8916	7-9	商贩	shāngfàn	shang1 fan4	名
 8917	7-9	伤感	shānggǎn	shang1 gan3	形
@@ -9062,7 +9062,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 8956	7-9	设	shè	she4	动
 8957	7-9	设定	shèdìng	she4 ding4	动
 8958	7-9	设法	shèfǎ	she4 fa3	动
-8959	7-9	社会主义	shèhuì	she4 hui4	zhǔyì
+8959	7-9	社会主义	shèhuìzhǔyì	she4 hui4 zhu3 yi4	
 8960	7-9	社交	shèjiāo	she4 jiao1	名
 8961	7-9	涉猎	shèliè	she4 lie4	动
 8962	7-9	社团	shètuán	she4 tuan2	名
@@ -9168,7 +9168,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 9062	7-9	师长	shīzhǎng	shi1 zhang3	名
 9063	7-9	师资	shīzī	shi1 zi1	名
 9064	7-9	失踪	shīzōng	shi1 zong1	动
-9065	7-9	时隔	shí	shi2	gé
+9065	7-9	时隔	shígé	shi2 ge2	
 9066	7-9	时而	shí’ér	shi2 er2	副
 9067	7-9	实地	shídì	shi2 di4	名、副
 9068	7-9	时段	shíduàn	shi2 duan4	名
@@ -9193,7 +9193,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 9087	7-9	势必	shìbì	shi4 bi4	副
 9088	7-9	势不可当	shìbùkědāng	shi4 bu4 ke3 dang1	
 9089	7-9	视察	shìchá	shi4 cha2	动
-9090	7-9	市场经济	shìchǎng	shi4 chang3	jīngjì
+9090	7-9	市场经济	shìchǎngjīngjì	shi4 chang3 jing1 ji4	
 9091	7-9	世代	shìdài	shi4 dai4	名
 9092	7-9	试点	shìdiǎn	shi4 dian3	动、名
 9093	7-9	是非	shìfēi	shi4 fei1	名
@@ -9408,7 +9408,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 9302	7-9	算数	suànshù	suan4 shu4	动
 9303	7-9	算账	suànzhàng	suan4 zhang4	动
 9304	7-9	虽说	suīshuō	sui1 shuo1	连
-9305	7-9	随处可见	suíchù	sui2 chu4	kě jiàn
+9305	7-9	随处可见	suíchùkějiàn	sui2 chu4 ke3 jian4	
 9306	7-9	随即	suíjí	sui2 ji2	副
 9307	7-9	随机	suíjī	sui2 ji1	副、形
 9308	7-9	随身	suíshēn	sui2 shen1	形
@@ -9467,7 +9467,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 9361	7-9	糖尿病	tángniàobìng	tang2 niao4 bing4	名
 9362	7-9	淌	tǎng	tang3	动
 9363	7-9	倘若	tǎngruò	tang3 ruo4	连
-9364	7-9	掏腰包	tāo	tao1	yāobāo
+9364	7-9	掏腰包	tāoyāobāo	tao1 yao1 bao1	
 9365	7-9	滔滔不绝	tāotāo-bùjué	tao1 tao1 bu4 jue2	
 9366	7-9	淘	táo	tao2	动
 9367	7-9	逃避	táobì	tao2 bi4	动
@@ -9571,7 +9571,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 9465	7-9	通车	tōngchē	tong1 che1	动
 9466	7-9	通告	tōnggào	tong1 gao4	动、名
 9467	7-9	通红	tōnghóng	tong1 hong2	形
-9468	7-9	通货膨胀	tōnghuò	tong1 huo4	péngzhàng
+9468	7-9	通货膨胀	tōnghuòpéngzhàng	tong1 huo4 peng2 zhang4	
 9469	7-9	通缉	tōngjī	tong1 ji1	动
 9470	7-9	通顺	tōngshùn	tong1 shun4	形
 9471	7-9	通俗	tōngsú	tong1 su2	形
@@ -10511,7 +10511,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 10405	7-9	渔民	yúmín	yu2 min2	名
 10406	7-9	逾期	yúqī	yu2 qi1	动
 10407	7-9	愉悦	yúyuè	yu2 yue4	形
-10408	7-9	与否	yǔ	yu3	fǒu
+10408	7-9	与否	yǔfǒu	yu3 fou3	
 10409	7-9	与日俱增	yǔrì-jùzēng	yu3 ri4 ju4 zeng1	
 10410	7-9	与时俱进	yǔshí-jùjìn	yu3 shi2 ju4 jin4	
 10411	7-9	予以	yǔyǐ	yu3 yi3	动
@@ -10787,7 +10787,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 10681	7-9	芝麻	zhīma	zhi1 ma5	名
 10682	7-9	支配	zhīpèi	zhi1 pei4	动
 10683	7-9	支票	zhīpiào	zhi1 piao4	名
-10684	7-9	知识分子	zhīshi	zhi1 shi5	fènzǐ
+10684	7-9	知识分子	zhīshifènzǐ	zhi1 shi5 fen4 zi3	
 10685	7-9	肢体	zhītǐ	zhi1 ti3	名
 10686	7-9	支援	zhīyuán	zhi1 yuan2	动
 10687	7-9	支柱	zhīzhù	zhi1 zhu4	名
@@ -10998,7 +10998,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 10892	7-9	着重	zhuózhòng	zhuo2 zhong4	动
 10893	7-9	茁壮	zhuózhuàng	zhuo2 zhuang4	形
 10894	7-9	兹	zī	zi1	代
-10895	7-9	资本主义	zīběn	zi1 ben3	zhǔyì
+10895	7-9	资本主义	zīběnzhǔyì	zi1 ben3 zhu3 yi4	
 10896	7-9	资历	zīlì	zi1 li4	名
 10897	7-9	滋润	zīrùn	zi1 run4	形、动
 10898	7-9	资深	zīshēn	zi1 shen1	形
@@ -11054,8 +11054,8 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 10948	7-9	纵然	zòngrán	zongr4 an2	连
 10949	7-9	纵容	zòngróng	zongr4 o2 ng5	动
 10950	7-9	纵深	zòngshēn	zong4 shen1	名
-10951	7-9	走过场	zǒu	zou3	guòchǎng
-10952	7-9	走弯路	zǒu	zou3	wānlù
+10951	7-9	走过场	zǒuguòchǎng	zou3 guo4 chang3	
+10952	7-9	走弯路	zǒuwānlù	zou3 wan1 lu4	
 10953	7-9	走漏	zǒulòu	zou3 lou4	动
 10954	7-9	走势	zǒushì	zou3 shi4	名
 10955	7-9	走私	zǒusī	zou3 si1	动
@@ -11077,7 +11077,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 10971	7-9	阻挠	zǔnáo	zun3 ao2	动
 10972	7-9	组装	zǔzhuāng	zu3 zhuang1	动
 10973	7-9	祖宗	zǔzong	zu3 zong5	名
-10974	7-9	钻空子	zuān	zuan1	kòngzi
+10974	7-9	钻空子	zuānkòngzi	zuan1 kong4 zi5	
 10975	7-9	钻研	zuānyán	zuan1 yan2	动
 10976	7-9	钻石	zuànshí	zuan4 shi2	名
 10977	7-9	嘴唇	zuǐchún	zui3 chun2	名

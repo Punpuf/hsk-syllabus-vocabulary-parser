@@ -12,7 +12,7 @@ The expected input is the official syllabus:
 
 The goal of this project is to produce a **clean list of Chinese words** where **both Hanzi and pinyin are present**. Many existing lists only store Hanzi, which is not sufficient for uniquely identifying a word because multiple words can share the same Hanzi with different pronunciations.
 
-## AI Usage
+## AI Usage Notice
 
 A model was used to generate the processing script and this README file.
 

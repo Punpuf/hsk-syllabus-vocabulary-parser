@@ -100,6 +100,14 @@ MISSING_WORD_OVERRIDES = {
 LETTER_PATTERN = re.compile(r"[a-zü]+")
 
 
+def _is_pinyin_token(token: str) -> bool:
+    """Return True if a whitespace-delimited token looks like pinyin."""
+    if not token or CJK_RE.search(token):
+        return False
+    stripped = "".join(ch for ch in token if ch not in SEPARATOR_CHARS)
+    return bool(stripped) and bool(PINYIN_TOKEN_RE.fullmatch(stripped))
+
+
 @dataclasses.dataclass(frozen=True)
 class Row:
     """A single TSV row."""
@@ -477,11 +485,11 @@ def parse_entries(lines: Iterable[str]) -> List[Row]:
             continue
 
         word = parts[0]
-        pinyin = parts[1]
-        part_of_speech = " ".join(parts[2:]).strip()
+        remaining = parts[1:]
+        first_token = remaining[0]
 
-        if PINYIN_TOKEN_RE.fullmatch(word) and CJK_RE.search(pinyin):
-            part_of_speech = " ".join(parts[1:]).strip()
+        if _is_pinyin_token(word) and CJK_RE.search(first_token):
+            part_of_speech = " ".join(remaining).strip()
             override_word = MISSING_WORD_OVERRIDES.get(word_index)
             if override_word:
                 rows.extend(
@@ -501,6 +509,22 @@ def parse_entries(lines: Iterable[str]) -> List[Row]:
                     part_of_speech=part_of_speech,
                 )
             continue
+
+        pinyin_parts: List[str] = []
+        split_idx = 0
+        for idx, token in enumerate(remaining):
+            if _is_pinyin_token(token):
+                pinyin_parts.append(token)
+                split_idx = idx + 1
+            else:
+                break
+
+        if not pinyin_parts:
+            pinyin_parts = [first_token]
+            split_idx = 1
+
+        pinyin = "".join(pinyin_parts)
+        part_of_speech = " ".join(remaining[split_idx:]).strip()
 
         rows.extend(_build_rows(word_index, level_field, word, pinyin, part_of_speech))
 
