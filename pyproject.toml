@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=80.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hsk-tsv-extractor"
+version = "0.1.0"
+description = "Extract an HSK word list from a PDF into a TSV file."
+requires-python = ">=3.10"
+dependencies = [
+  "pdfplumber>=0.10.3,<1.0.0",
+  "pypinyin>=0.50.0",
+]
