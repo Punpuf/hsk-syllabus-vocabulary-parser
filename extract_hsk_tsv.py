@@ -92,6 +92,20 @@ PINYIN_TOKEN_RE = re.compile(r"^[A-Za-zāáǎàēéěèīíǐìōóǒòūúǔù�
 CJK_RE = re.compile(r"[\u4e00-\u9fff]")
 CJK_ONLY_RE = re.compile(r"[\u4e00-\u9fff]+")
 PAGE_MARKERS = {"汉", "国", "际", "考"}
+CID_PATTERN = re.compile(r"\(cid:(\d+)\)")
+
+CID_CHAR_MAP = {
+    "6656": "提",
+    "11522": "盒",
+    "11520": "盐",
+    "15359": "藏",
+    "6655": "描",
+    "7680": "某",
+    "11521": "监",
+    "7679": "柏",
+    "15360": "藐",
+    "11519": "盏",
+}
 
 MISSING_WORD_OVERRIDES = {
     "1726": "提",
@@ -101,6 +115,16 @@ MISSING_WORD_OVERRIDES = {
     "10550": "盏",
 }
 LETTER_PATTERN = re.compile(r"[a-zü]+")
+
+
+def _replace_cid_tokens(text: str) -> str:
+    """Replace PDF CID placeholders with mapped Hanzi when available."""
+
+    def repl(match: re.Match[str]) -> str:
+        cid = match.group(1)
+        return CID_CHAR_MAP.get(cid, match.group(0))
+
+    return CID_PATTERN.sub(repl, text)
 
 
 def _is_pinyin_token(token: str) -> bool:
@@ -455,6 +479,7 @@ def parse_entries(lines: Iterable[str]) -> List[Row]:
     pending: PendingEntry | None = None
 
     for line in lines:
+        line = _replace_cid_tokens(line)
         if not line or line.startswith("序号"):
             continue
 

@@ -907,7 +907,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 849	3	太阳	tàiyáng	tai4 yang2	名
 850	3	糖	táng	tang2	名
 851	3	特别	tèbié	te4 bie2	形、副
-852	3	(cid:6656)高	tígāo	ti2 gao1	动
+852	3	提高	tígāo	ti2 gao1	动
 853	3	体育	tǐyù	ti3 yu4	名
 854	3	体育馆	tǐyùguǎn	ti3 yu4 guan3	名
 855	3	甜	tián	tian2	形
@@ -1364,7 +1364,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 1291	4	好好	hǎohǎo	hao3 hao3	形、副
 1292	4	好笑	hǎoxiào	hao3 xiao4	形
 1293	4	合格	hégé	he2 ge2	形
-1294	4	(cid:11522)子	hézi	he2 zi5	名
+1294	4	盒子	hézi	he2 zi5	名
 1295	4	红包	hóngbāo	hong2 bao1	名
 1296	4	厚	hòu	hou4	形
 1297	4	后悔	hòuhuǐ	hou4 hui3	动
@@ -1809,12 +1809,12 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 1723	4	讨论	tǎolùn	tao3 lun4	动
 1724	4	讨厌	tǎoyàn	tao3 yan4	形、动
 1725	4	特点	tèdiǎn	te4 dian3	名
-1726	4	(cid:6656)	tí	ti2	动
-1727	4	(cid:6656)出	tíchū	ti2 chu1	动
-1728	4	(cid:6656)到	tídào	ti2 dao4	动
-1729	4	(cid:6656)供	tígōng	ti2 gong1	动
-1730	4	(cid:6656)前	tíqián	ti2 qian2	动
-1731	4	(cid:6656)醒	tíxǐng	ti2 xing3	动
+1726	4	提	tí	ti2	动
+1727	4	提出	tíchū	ti2 chu1	动
+1728	4	提到	tídào	ti2 dao4	动
+1729	4	提供	tígōng	ti2 gong1	动
+1730	4	提前	tíqián	ti2 qian2	动
+1731	4	提醒	tíxǐng	ti2 xing3	动
 1732	4	体检	tǐjiǎn	ti3 jian3	动
 1733	4	体温	tǐwēn	ti3 wen1	名
 1734	4	体重	tǐzhòng	ti3 zhong4	名
@@ -1931,7 +1931,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 1841	4	牙膏	yágāo	ya2 gao1	名
 1842	4	亚洲	Yàzhōu	ya4 zhou1	名
 1843	4	烟	yān	yan1	名
-1844	4	(cid:11520)	yán	yan2	名
+1844	4	盐	yán	yan2	名
 1845	4	严格	yángé	yang2 e2	形、动
 1846	4	研究	yánjiū	yan2 jiu1	动
 1847	4	研究生	yánjiūshēng	yan2 jiu1 sheng1	名
@@ -2184,7 +2184,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 2089	5	参考	cānkǎo	can1 kao3	动
 2090	5	餐饮	cānyǐn	can1 yin3	名
 2091	5	参与	cānyù	can1 yu4	动
-2092	5	(cid:15359)	cáng	cang2	动
+2092	5	藏	cáng	cang2	动
 2093	5	操作	cāozuò	cao1 zuo4	动
 2094	5	册	cè	ce4	量
 2095	5	测	cè	ce4	动
@@ -2568,7 +2568,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 2473	5	好奇	hàoqí	hao4 qi2	形
 2474	5	合	hé	he2	动
 2475	5	合法	héfǎ	he2 fa3	形
-2476	5	(cid:11522)饭	héfàn	he2 fan4	名
+2476	5	盒饭	héfàn	he2 fan4	名
 2477	5	合理	hélǐ	he2 li3	形
 2478	5	河流	héliú	he2 liu2	名
 2479	5	合同	hétóng	he2 tong2	名
@@ -2865,7 +2865,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 2768	5	面积	miànjī	mian4 ji1	名
 2769	5	面临	miànlín	mian4 lin2	动
 2770	5	面向	miànxiàng	mian4 xiang4	动
-2771	5	(cid:6655)述	miáoshù	miao2 shu4	动
+2771	5	描述	miáoshù	miao2 shu4	动
 2772	5	敏感	mǐngǎn	ming3 an3	形
 2773	5	名称	míngchēng	ming2 cheng1	名
 2774	5	名牌	míngpái	ming2 pai2	名
@@ -2879,7 +2879,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 2782	5	模糊	móhu	mo2 hu5	形、动
 2783	5	模式	móshì	mo2 shi4	名
 2784	5	陌生	mòshēng	mo4 sheng1	形
-2785	5	(cid:7680)	mǒu	mou3	代
+2785	5	某	mǒu	mou3	代
 2786	5	目光	mùguāng	mu4 guang1	名
 2787	5	木头	mùtou	mu4 tou5	名
 2788	5	哪怕	nǎpà	na3 pa4	连
@@ -3212,12 +3212,12 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 3110	5	特有	tèyǒu	te4 you3	形
 3111	5	特征	tèzhēng	te4 zheng1	名
 3112	5	疼痛	téngtòng	teng2 tong4	形
-3113	5	(cid:6656)倡	tíchàng	ti2 chang4	动
-3114	5	(cid:6656)交	tíjiāo	ti2 jiao1	动
+3113	5	提倡	tíchàng	ti2 chang4	动
+3114	5	提交	tíjiāo	ti2 jiao1	动
 3115	5	题目	tímù	ti2 mu4	名
-3116	5	(cid:6656)起	tíqǐ	ti2 qi3	动
-3117	5	(cid:6656)升	tíshēng	ti2 sheng1	动
-3118	5	(cid:6656)问	tíwèn	ti2 wen4	动
+3116	5	提起	tíqǐ	ti2 qi3	动
+3117	5	提升	tíshēng	ti2 sheng1	动
+3118	5	提问	tíwèn	ti2 wen4	动
 3119	5	体会	tǐhuì	ti3 hui4	动、名
 3120	5	体力	tǐlì	ti3 li4	名
 3121	5	体现	tǐxiàn	ti3 xian4	动
@@ -4342,9 +4342,9 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 4239	6	嫁	jià	jia4	动
 4240	6	尖	jiān	jian1	形、名
 4241	6	肩膀	jiānbǎng	jian1 bang3	名
-4242	6	(cid:11521)测	jiāncè	jian1 ce4	动
+4242	6	监测	jiāncè	jian1 ce4	动
 4243	6	坚定	jiāndìng	jian1 ding4	形、动
-4244	6	(cid:11521)督	jiāndū	jian1 du1	动
+4244	6	监督	jiāndū	jian1 du1	动
 4245	6	坚固	jiāngù	jian1 gu4	形
 4246	6	坚决	jiānjué	jian1 jue2	形
 4247	6	艰难	jiānnán	jian1 nan2	形
@@ -4615,8 +4615,8 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 4511	6	面部	miànbù	mian4 bu4	名
 4512	6	面粉	miànfěn	mian4 fen3	名
 4513	6	面子	miànzi	mian4 zi5	名
-4514	6	(cid:6655)绘	miáohuì	miao2 hui4	动
-4515	6	(cid:6655)写	miáoxiě	miao2 xie3	动
+4514	6	描绘	miáohuì	miao2 hui4	动
+4515	6	描写	miáoxiě	miao2 xie3	动
 4516	6	妙	miào	miao4	形
 4517	6	灭	miè	mie4	动
 4518	6	民歌	míngē	ming2 e1	名
@@ -4740,7 +4740,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 4635	6	前景	qiánjǐng	qian2 jing3	名
 4636	6	潜力	qiánlì	qian2 li4	名
 4637	6	前期	qiánqī	qian2 qi1	名
-4638	6	前(cid:6656)	qiántí	qian2 ti2	名
+4638	6	前提	qiántí	qian2 ti2	名
 4639	6	前者	qiánzhě	qian2 zhe3	名
 4640	6	枪	qiāng	qiang1	名
 4641	6	墙壁	qiángbì	qiang2 bi4	名
@@ -4834,7 +4834,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 4729	6	散发	sànfā	san4 fa1	动
 4730	6	嗓子	sǎngzi	sang3 zi5	名
 4731	6	丧失	sàngshī	sang4 shi1	动
-4732	6	扫(cid:6655)	sǎomiáo	sao3 miao2	动
+4732	6	扫描	sǎomiáo	sao3 miao2	动
 4733	6	杀	shā	sha1	动
 4734	6	刹车	shāchē	sha1 che1	动、名
 4735	6	鲨鱼	shāyú	sha1 yu2	名
@@ -4910,7 +4910,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 4805	6	事务	shìwù	shi4 wu4	名
 4806	6	事项	shìxiàng	shi4 xiang4	名
 4807	6	适宜	shìyí	shi4 yi2	形
-4808	6	收(cid:15359)	shōucáng	shou1 cang2	动
+4808	6	收藏	shōucáng	shou1 cang2	动
 4809	6	收购	shōugòu	shou1 gou4	动
 4810	6	收取	shōuqǔ	shou1 qu3	动
 4811	6	收益	shōuyì	shou1 yi4	名
@@ -4984,8 +4984,8 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 4879	6	特性	tèxìng	te4 xing4	名
 4880	6	特意	tèyì	te4 yi4	副
 4881	6	题材	tícái	ti2 cai2	名
-4882	6	(cid:6656)取	tíqǔ	ti2 qu3	动
-4883	6	(cid:6656)示	tíshì	ti2 shi4	动
+4882	6	提取	tíqǔ	ti2 qu3	动
+4883	6	提示	tíshì	ti2 shi4	动
 4884	6	体操	tǐcāo	ti3 cao1	名
 4885	6	体积	tǐjī	ti3 ji1	名
 4886	6	体系	tǐxì	ti3 xi4	名
@@ -5281,7 +5281,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 5176	6	银	yín	yin2	名
 5177	6	银牌	yínpái	yin2 pai2	名
 5178	6	引	yǐn	yin3	动
-5179	6	隐(cid:15359)	yǐncáng	yin3 cang2	动
+5179	6	隐藏	yǐncáng	yin3 cang2	动
 5180	6	引导	yǐndǎo	yin3 dao3	动
 5181	6	引发	yǐnfā	yin3 fa1	动
 5182	6	引入	yǐnrù	yin3 ru4	动
@@ -5565,7 +5565,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 5459	7-9	百科全书	bǎikēquánshū	bai3 ke1 quan2 shu1	
 5460	7-9	摆平	bǎipíng	bai3 ping2	动
 5461	7-9	摆设	bǎishe	bai3 she5	名
-5462	7-9	(cid:7679)树	bǎishù	bai3 shu4	名
+5462	7-9	柏树	bǎishù	bai3 shu4	名
 5463	7-9	败坏	bàihuài	bai4 huai4	动、形
 5464	7-9	拜会	bàihuì	bai4 hui4	动
 5465	7-9	拜见	bàijiàn	bai4 jian4	动
@@ -5621,7 +5621,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 5515	7-9	保鲜	bǎoxiān	bao3 xian1	动
 5516	7-9	保养	bǎoyǎng	bao3 yang3	动
 5517	7-9	保佑	bǎoyòu	bao3 you4	动
-5518	7-9	宝(cid:15359)	bǎozàng	bao3 zang4	名
+5518	7-9	宝藏	bǎozàng	bao3 zang4	名
 5519	7-9	保重	bǎozhòng	bao3 zhong4	动
 5520	7-9	报	bào	bao4	动
 5521	7-9	豹	bào	bao4	名
@@ -5894,9 +5894,9 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 5788	7-9	仓促	cāngcù	cang1 cu4	形
 5789	7-9	沧桑	cāngsāng	cang1 sang1	名
 5790	7-9	苍蝇	cāngying	cang1 ying5	名
-5791	7-9	(cid:15359)匿	cángnì	cang2 ni4	动
-5792	7-9	(cid:15359)品	cángpǐn	cang2 pin3	名
-5793	7-9	(cid:15359)身	cángshēn	cang2 shen1	动
+5791	7-9	藏匿	cángnì	cang2 ni4	动
+5792	7-9	藏品	cángpǐn	cang2 pin3	名
+5793	7-9	藏身	cángshēn	cang2 shen1	动
 5794	7-9	操控	cāokòng	cao1 kong4	动
 5795	7-9	操劳	cāoláo	cao1 lao2	动
 5796	7-9	操练	cāoliàn	cao1 lian4	动
@@ -6338,7 +6338,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 6232	7-9	堤	dī	di1	名
 6233	7-9	堤坝	dībà	di1 ba4	名
 6234	7-9	低调	dīdiào	di1 diao4	名、形
-6235	7-9	(cid:6656)防	dīfang	di1 fang5	动
+6235	7-9	提防	dīfang	di1 fang5	动
 6236	7-9	低谷	dīgǔ	di1 gu3	名
 6237	7-9	低估	dīgū	di1 gu1	动
 6238	7-9	低落	dīluò	di1 luo4	形
@@ -7454,26 +7454,26 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 7348	7-9	兼	jiān	jian1	动
 7349	7-9	煎	jiān	jian1	动
 7350	7-9	煎熬	jiān’áo	jian1 ao2	动
-7351	7-9	(cid:11521)察	jiānchá	jian1 cha2	动
+7351	7-9	监察	jiānchá	jian1 cha2	动
 7352	7-9	尖端	jiānduān	jian1 duan1	名、形
 7353	7-9	肩负	jiānfù	jian1 fu4	动
 7354	7-9	兼顾	jiāngù	jian1 gu4	动
-7355	7-9	(cid:11521)管	jiānguǎn	jian1 guan3	动
+7355	7-9	监管	jiānguǎn	jian1 guan3	动
 7356	7-9	坚果	jiānguǒ	jian1 guo3	名
-7357	7-9	(cid:11521)护	jiānhù	jian1 hu4	动
+7357	7-9	监护	jiānhù	jian1 hu4	动
 7358	7-9	艰巨	jiānjù	jian1 ju4	形
-7359	7-9	(cid:11521)控	jiānkòng	jian1 kong4	动
+7359	7-9	监控	jiānkòng	jian1 kong4	动
 7360	7-9	歼灭	jiānmiè	jian1 mie4	动
 7361	7-9	坚韧	jiānrèn	jianr1 en4	形
 7362	7-9	兼任	jiānrèn	jianr1 en4	动
 7363	7-9	兼容	jiānróng	jianr1 o2 ng5	动
 7364	7-9	尖锐	jiānruì	jian1 rui4	形
 7365	7-9	坚实	jiānshí	jian1 shi2	形
-7366	7-9	(cid:11521)视	jiānshì	jian1 shi4	动
+7366	7-9	监视	jiānshì	jian1 shi4	动
 7367	7-9	坚守	jiānshǒu	jian1 shou3	动
 7368	7-9	艰险	jiānxiǎn	jian1 xian3	形
 7369	7-9	坚信	jiānxìn	jian1 xin4	动
-7370	7-9	(cid:11521)狱	jiānyù	jian1 yu4	名
+7370	7-9	监狱	jiānyù	jian1 yu4	名
 7371	7-9	奸诈	jiānzhà	jian1 zha4	形
 7372	7-9	拣	jiǎn	jian3	动
 7373	7-9	剪彩	jiǎncǎi	jian3 cai3	动
@@ -7946,7 +7946,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 7840	7-9	狂热	kuángrè	kuangr2 e4	形
 7841	7-9	矿	kuàng	kuang4	名
 7842	7-9	框	kuàng	kuang4	名、动
-7843	7-9	矿(cid:15359)	kuàngcáng	kuang4 cang2	名
+7843	7-9	矿藏	kuàngcáng	kuang4 cang2	名
 7844	7-9	矿产	kuàngchǎn	kuang4 chan3	名
 7845	7-9	框架	kuàngjià	kuang4 jia4	名
 7846	7-9	旷课	kuàngkè	kuang4 ke4	动
@@ -8234,7 +8234,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 8128	7-9	马后炮	mǎhòupào	ma3 hou4 pao4	名
 8129	7-9	马力	mǎlì	ma3 li4	量
 8130	7-9	马桶	mǎtǒng	ma3 tong3	名
-8131	7-9	埋(cid:15359)	máicáng	mai2 cang2	动
+8131	7-9	埋藏	máicáng	mai2 cang2	动
 8132	7-9	埋伏	máifú	mai2 fu2	动
 8133	7-9	埋没	máimò	mai2 mo4	动
 8134	7-9	埋头苦干	máitóu-kǔgàn	mai2 tou2 ku3 gan4	
@@ -8325,7 +8325,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 8219	7-9	苗条	miáotiao	miao2 tiao5	形
 8220	7-9	苗头	miáotou	miao2 tou5	名
 8221	7-9	瞄准	miáozhǔn	miao2 zhun3	动
-8222	7-9	(cid:15360)视	miǎoshì	miao3 shi4	动
+8222	7-9	藐视	miǎoshì	miao3 shi4	动
 8223	7-9	渺小	miǎoxiǎo	miao3 xiao3	形
 8224	7-9	庙	miào	miao4	名
 8225	7-9	庙会	miàohuì	miao4 hui4	名
@@ -9490,14 +9490,14 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 9384	7-9	藤蔓	téngwàn	teng2 wan4	名
 9385	7-9	剔除	tīchú	ti1 chu2	动
 9386	7-9	梯子	tīzi	ti1 zi5	名
-9387	7-9	(cid:6656)拔	tíbá	ti2 ba2	动
-9388	7-9	(cid:6656)纲	tígāng	ti2 gang1	名
-9389	7-9	(cid:6656)及	tíjí	ti2 ji2	动
-9390	7-9	(cid:6656)炼	tíliàn	ti2 lian4	动
-9391	7-9	(cid:6656)名	tímíng	ti2 ming2	动
-9392	7-9	(cid:6656)速	tísù	ti2 su4	动
-9393	7-9	(cid:6656)心吊胆	tíxīn-diàodǎn	ti2 xin1 diao4 dan3	
-9394	7-9	(cid:6656)议	tíyì	ti2 yi4	动、名
+9387	7-9	提拔	tíbá	ti2 ba2	动
+9388	7-9	提纲	tígāng	ti2 gang1	名
+9389	7-9	提及	tíjí	ti2 ji2	动
+9390	7-9	提炼	tíliàn	ti2 lian4	动
+9391	7-9	提名	tímíng	ti2 ming2	动
+9392	7-9	提速	tísù	ti2 su4	动
+9393	7-9	提心吊胆	tíxīn-diàodǎn	ti2 xin1 diao4 dan3	
+9394	7-9	提议	tíyì	ti2 yi4	动、名
 9395	7-9	体裁	tǐcái	ti3 cai2	名
 9396	7-9	体谅	tǐliàng	ti3 liang4	动
 9397	7-9	体面	tǐmiàn	ti3 mian4	名、形
@@ -9975,7 +9975,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 9869	7-9	镶嵌	xiāngqiàn	xiang1 qian4	动
 9870	7-9	乡亲	xiāngqīn	xiang1 qin1	名
 9871	7-9	相识	xiāngshí	xiang1 shi2	动、名
-9872	7-9	相(cid:6656)并论	xiāngtí-bìnglùn	xiang1 ti2 bing4 lun4	
+9872	7-9	相提并论	xiāngtí-bìnglùn	xiang1 ti2 bing4 lun4	
 9873	7-9	相通	xiāngtōng	xiang1 tong1	动
 9874	7-9	乡下	xiāngxia	xiang1 xia5	名
 9875	7-9	香油	xiāngyóu	xiang1 you2	名
@@ -10012,7 +10012,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 9906	7-9	小康	xiǎokāng	xiao3 kang1	形
 9907	7-9	小品	xiǎopǐn	xiao3 pin3	名
 9908	7-9	小人	xiǎorén	xiaor3 en2	名
-9909	7-9	小(cid:6656)琴	xiǎotíqín	xiao3 ti2 qin2	名
+9909	7-9	小提琴	xiǎotíqín	xiao3 ti2 qin2	名
 9910	7-9	小心翼翼	xiǎoxīn-yìyì	xiao3 xin1 yi4 yi4	
 9911	7-9	效仿	xiàofǎng	xiao4 fang3	动
 9912	7-9	孝敬	xiàojìng	xiao4 jing4	动
@@ -10578,7 +10578,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 10472	7-9	晕头转向	yūntóu-zhuànxiàng	yun1 tou2 zhuan4 xiang4	
 10473	7-9	陨石	yǔnshí	yun3 shi2	名
 10474	7-9	熨	yùn	yun4	动
-10475	7-9	蕴(cid:15359)	yùncáng	yun4 cang2	动
+10475	7-9	蕴藏	yùncáng	yun4 cang2	动
 10476	7-9	运筹帷幄	yùnchóu-wéiwò	yun4 chou2 wei2 wo4	
 10477	7-9	孕妇	yùnfù	yun4 fu4	名
 10478	7-9	蕴含	yùnhán	yun4 han2	动
@@ -10653,7 +10653,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 10547	7-9	沾光	zhānguāng	zhan1 guang1	动
 10548	7-9	瞻仰	zhānyǎng	zhan1 yang3	动
 10549	7-9	斩	zhǎn	zhan3	动
-10550	7-9	(cid:11519)	zhǎn	zhan3	量
+10550	7-9	盏	zhǎn	zhan3	量
 10551	7-9	斩钉截铁	zhǎndīng-jiétiě	zhan3 ding1 jie2 tie3	
 10552	7-9	展望	zhǎnwàng	zhan3 wang4	动
 10553	7-9	辗转	zhǎnzhuǎn	zhan3 zhuan3	动
@@ -10710,7 +10710,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 10604	7-9	哲理	zhélǐ	zhe2 li3	名
 10605	7-9	折磨	zhémó	zhe2 mo2	动
 10606	7-9	折射	zhéshè	zhe2 she4	动
-10607	7-9	珍(cid:15359)	zhēncáng	zhen1 cang2	动、名
+10607	7-9	珍藏	zhēncáng	zhen1 cang2	动、名
 10608	7-9	侦查	zhēnchá	zhen1 cha2	动
 10609	7-9	针锋相对	zhēnfēng-xiāngduì	zhen1 feng1 xiang1 dui4	
 10610	7-9	针灸	zhēnjiǔ	zhen1 jiu3	名
@@ -10915,7 +10915,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 10809	7-9	注	zhù	zhu4	动、名
 10810	7-9	驻	zhù	zhu4	动
 10811	7-9	筑	zhù	zhu4	动
-10812	7-9	贮(cid:15359)	zhùcáng	zhu4 cang2	动
+10812	7-9	贮藏	zhùcáng	zhu4 cang2	动
 10813	7-9	著称	zhùchēng	zhu4 cheng1	动
 10814	7-9	住处	zhùchù	zhu4 chu4	名
 10815	7-9	注定	zhùdìng	zhu4 ding4	动
@@ -10985,7 +10985,7 @@ word_index	level	word	pinyin	pinyin_numbered	part_of_speech
 10879	7-9	准许	zhǔnxǔ	zhun3 xu3	动
 10880	7-9	准则	zhǔnzé	zhun3 ze2	名
 10881	7-9	拙劣	zhuōliè	zhuo1 lie4	形
-10882	7-9	捉迷(cid:15359)	zhuōmícáng	zhuo1 mi2 cang2	
+10882	7-9	捉迷藏	zhuōmícáng	zhuo1 mi2 cang2	
 10883	7-9	着力	zhuólì	zhuo2 li4	动
 10884	7-9	着落	zhuóluò	zhuo2 luo4	名
 10885	7-9	酌情	zhuóqíng	zhuo2 qing2	动
