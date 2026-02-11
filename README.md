@@ -101,17 +101,21 @@ The extractor adds both `pinyin_numbered` and `pinyin_cc-cedict` columns.
 
 1. Normalize and lowercase the pinyin.
 2. Split into chunks on separators and whitespace.
-3. Segment each chunk into valid pinyin syllables.
-4. Derive tone numbers from accent marks (neutral tone = `5`).
-5. Preserve `/` to indicate alternate readings (`shéi/shuí` and `shú/shóu`).
-6. Remove other separators (e.g., `-`, `’`).
-7. Validate that rejoining the numbered syllables (without numbers/spaces) matches the normalized pinyin.
+3. Align syllable boundaries to Hanzi using the bundled CC-CEDICT mapping (errors on ambiguity).
+4. Segment each chunk into valid pinyin syllables.
+5. Derive tone numbers from accent marks (neutral tone = `5`).
+6. Preserve `/` to indicate alternate readings (`shéi/shuí` and `shú/shóu`).
+7. Remove other separators (e.g., `-`, `’`).
+8. Validate that rejoining the numbered syllables (without numbers/spaces) matches the normalized pinyin.
 
 `pinyin_cc-cedict` is derived from `pinyin_numbered` specifically for compatibility with
-the way CC-CEDICT represents tone sandhi and erhua in numbered pinyin. It normalizes:
-- `不` -> `bu4`
+the way CC-CEDICT represents tone sandhi and erhua in numbered pinyin. CC-CEDICT is used
+to validate syllable boundaries only; tone numbers always come from the source pinyin
+annotations (neutral tone = `5`). It normalizes:
+- `不` -> `bu4` (keeps `bu5` if the original tone is neutral)
 - `一` -> `yi1`
-- merged erhua is split into its own syllable: `zher4` -> `zhe4 r5`
+- if the word contains `儿`, merged erhua is split into its own syllable:
+  `zher4` -> `zhe4 r5`
 
 Note: additional adjustments are needed to better adapt to the CC-CEDICT format.
 

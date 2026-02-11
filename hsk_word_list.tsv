@@ -46,7 +46,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 43	1	读书	dúshū	du2 shu1	du2 shu1	动
 44	1	对	duì	dui4	dui4	形、介
 44	4	对	duì	dui4	dui4	动、量
-45	1	对不起	duìbuqǐ	dui4 bu5 qi3	dui4 bu4 qi3	动
+45	1	对不起	duìbuqǐ	dui4 bu5 qi3	dui4 bu5 qi3	动
 46	1	多	duō	duo1	duo1	形、动、代
 46	2	多	duō	duo1	duo1	数、副
 47	1	多少	duōshao	duo1 shao5	duo1 shao5	代
@@ -81,7 +81,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 72	1	好吃	hǎochī	hao3 chi1	hao3 chi1	形
 73	1	好看	hǎokàn	hao3 kan4	hao3 kan4	形
 74	1	好听	hǎotīng	hao3 ting1	hao3 ting1	形
-75	1	好玩儿	hǎowánr	hao3 wanr2	hao3 wan2 r5	形
+75	1	好玩儿	hǎowánr	hao3 wan2 r5	hao3 wan2 r5	形
 76	1	号	hào	hao4	hao4	名、量
 77	1	喝	hē	he1	he1	动
 78	1	和1	hé	he2	he2	介、连
@@ -95,7 +95,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 85	1	几	jǐ	ji3	ji3	代、数
 86	1	家	jiā	jia1	jia1	名、量
 86	3	家	jiā	jia1	jia1	后缀
-87	1	家人	jiārén	jiar1 en2	jia1 r5 en2	名
+87	1	家人	jiārén	jia1 ren2	jia1 ren2	名
 88	1	见	jiàn	jian4	jian4	动
 89	1	件	jiàn	jian4	jian4	量
 90	1	饺子	jiǎozi	jiao3 zi5	jiao3 zi5	名
@@ -136,21 +136,21 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 124	1	们	men	men5	men5	后缀
 125	1	米饭	mǐfàn	mi3 fan4	mi3 fan4	名
 126	1	面包	miànbāo	mian4 bao1	mian4 bao1	名
-127	1	面条儿	miàntiáor	mian4 tiaor2	mian4 tiao2 r5	名
+127	1	面条儿	miàntiáor	mian4 tiao2 r5	mian4 tiao2 r5	名
 128	1	明年	míngnián	ming2 nian2	ming2 nian2	名
 129	1	明天	míngtiān	ming2 tian1	ming2 tian1	名
 130	1	名字	míngzi	ming2 zi5	ming2 zi5	名
 131	1	哪	nǎ	na3	na3	代
 132	1	哪个	nǎge	na3 ge5	na3 ge5	代
 133	1	哪里	nǎlǐ	na3 li3	na3 li3	代
-134	1	哪儿	nǎr	nar3	na3 r5	代
+134	1	哪儿	nǎr	na3 r5	na3 r5	代
 135	1	哪些	nǎxiē	na3 xie1	na3 xie1	代
 136	1	那	nà	na4	na4	代
 136	2	那	nà	na4	na4	连
 137	1	那边	nàbiān	na4 bian1	na4 bian1	代
 138	1	那个	nàge	na4 ge5	na4 ge5	代
 139	1	那里	nàlǐ	na4 li3	na4 li3	代
-140	1	那儿	nàr	nar4	na4 r5	代
+140	1	那儿	nàr	na4 r5	na4 r5	代
 141	1	那些	nàxiē	na4 xie1	na4 xie1	代
 142	1	男	nán	nan2	nan2	形
 143	1	男朋友	nánpéngyou	nan2 peng2 you5	nan2 peng2 you5	名
@@ -273,11 +273,11 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 259	1	一下	yíxià	yi2 xia4	yi1 xia4	数量
 259	4	一下	yíxià	yi2 xia4	yi1 xia4	副
 260	1	椅子	yǐzi	yi3 zi5	yi3 zi5	名
-261	1	一点儿	yìdiǎnr	yi4 dianr3	yi1 dian3 r5	数量
+261	1	一点儿	yìdiǎnr	yi4 dian3 r5	yi1 dian3 r5	数量
 262	1	一些	yìxiē	yi4 xie1	yi1 xie1	数量
 263	1	有	yǒu	you3	you3	动
 264	1	有的	yǒude	you3 de5	you3 de5	代
-265	1	有点儿	yǒudiǎnr	you3 dianr3	you3 dian3 r5	副
+265	1	有点儿	yǒudiǎnr	you3 dian3 r5	you3 dian3 r5	副
 266	1	有些	yǒuxiē	you3 xie1	you3 xie1	代
 266	3	有些	yǒuxiē	you3 xie1	you3 xie1	副
 267	1	雨	yǔ	yu3	yu3	名
@@ -296,7 +296,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 280	1	这边	zhèbiān	zhe4 bian1	zhe4 bian1	代
 281	1	这个	zhège	zhe4 ge5	zhe4 ge5	代
 282	1	这里	zhèlǐ	zhe4 li3	zhe4 li3	代
-283	1	这儿	zhèr	zher4	zhe4 r5	代
+283	1	这儿	zhèr	zhe4 r5	zhe4 r5	代
 284	1	这些	zhèxiē	zhe4 xie1	zhe4 xie1	代
 285	1	真	zhēn	zhen1	zhen1	副
 285	4	真	zhēn	zhen1	zhen1	形
@@ -407,7 +407,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 379	2	开学	kāixué	kai1 xue2	kai1 xue2	动
 380	2	考	kǎo	kao3	kao3	动
 381	2	考试	kǎoshì	kao3 shi4	kao3 shi4	动、名
-382	2	可能	kěnéng	ken3 eng2	ken3 eng2	形、名、动
+382	2	可能	kěnéng	ke3 neng2	ke3 neng2	形、名、动
 383	2	裤子	kùzi	ku4 zi5	ku4 zi5	名
 384	2	快	kuài	kuai4	kuai4	形、副
 385	2	快乐	kuàilè	kuai4 le4	kuai4 le4	形
@@ -438,9 +438,9 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 407	2	那样	nàyàng	na4 yang4	na4 yang4	代
 408	2	奶茶	nǎichá	nai3 cha2	nai3 cha2	名
 409	2	奶奶	nǎinai	nai3 nai5	nai3 nai5	名
-410	2	男孩儿	nánháir	nan2 hair2	nan2 hai2 r5	名
+410	2	男孩儿	nánháir	nan2 hai2 r5	nan2 hai2 r5	名
 411	2	鸟	niǎo	niao3	niao3	名
-412	2	女孩儿	nǚháir	nü3 hair2	nü3 hai2 r5	名
+412	2	女孩儿	nǚháir	nü3 hai2 r5	nü3 hai2 r5	名
 413	2	旁边	pángbiān	pang2 bian1	pang2 bian1	名
 414	2	跑	pǎo	pao3	pao3	动
 415	2	跑步	pǎobù	pao3 bu4	pao3 bu4	动
@@ -468,7 +468,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 435	2	书包	shūbāo	shu1 bao1	shu1 bao1	名
 436	2	舒服	shūfu	shu1 fu5	shu1 fu5	形
 437	2	送	sòng	song4	song4	动
-438	2	虽然	suīrán	suir1 an2	sui1 r5 an2	连
+438	2	虽然	suīrán	sui1 ran2	sui1 ran2	连
 439	2	所以	suǒyǐ	suo3 yi3	suo3 yi3	连
 440	2	疼	téng	teng2	teng2	形
 440	6	疼	téng	teng2	teng2	动
@@ -495,7 +495,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 458	2	下来	xiàlái	xia4 lai2	xia4 lai2	动
 459	2	下面	xiàmiàn	xia4 mian4	xia4 mian4	名
 460	2	下去	xiàqù	xia4 qu4	xia4 qu4	动
-461	2	小孩儿	xiǎoháir	xiao3 hair2	xiao3 hai2 r5	名
+461	2	小孩儿	xiǎoháir	xiao3 hai2 r5	xiao3 hai2 r5	名
 462	2	小时候	xiǎoshíhou	xiao3 shi2 hou5	xiao3 shi2 hou5	名
 463	2	笑	xiào	xiao4	xiao4	动
 464	2	姓	xìng	xing4	xing4	名、动
@@ -505,8 +505,8 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 468	2	药	yào	yao4	yao4	名
 469	2	药店	yàodiàn	yao4 dian4	yao4 dian4	名
 470	2	爷爷	yéye	ye2 ye5	ye2 ye5	名
-471	2	一会儿	yíhuìr	yi2 huir4	yi1 hui4 r5	数量
-471	3	一会儿	yíhuìr	yi2 huir4	yi1 hui4 r5	副
+471	2	一会儿	yíhuìr	yi2 hui4 r5	yi1 hui4 r5	数量
+471	3	一会儿	yíhuìr	yi2 hui4 r5	yi1 hui4 r5	副
 472	2	已经	yǐjīng	yi3 jing1	yi3 jing1	副
 473	2	一起	yìqǐ	yi4 qi3	yi1 qi3	副
 474	2	意思	yìsi	yi4 si5	yi4 si5	名
@@ -540,7 +540,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 500	2	左边	zuǒbian	zuo3 bian5	zuo3 bian5	名
 501	3	阿姨	āyí	a1 yi2	a1 yi2	名
 502	3	矮	ǎi	ai3	ai3	形
-503	3	爱人	àiren	air4 en5	ai4 r5 en5	名
+503	3	爱人	àiren	ai4 ren5	ai4 ren5	名
 504	3	安静	ānjìng	an1 jing4	an1 jing4	形
 505	3	安全	ānquán	an1 quan2	an1 quan2	形
 506	3	把	bǎ	ba3	ba3	量、介
@@ -549,7 +549,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 509	3	搬家	bānjiā	ban1 jia1	ban1 jia1	动
 510	3	办	bàn	ban4	ban4	动
 511	3	办法	bànfǎ	ban4 fa3	ban4 fa3	名
-512	3	办公室	bàngōngshì	bang4 o1 ng5 shi4	bang4 o1 ng5 shi4	名
+512	3	办公室	bàngōngshì	ban4 gong1 shi4	ban4 gong1 shi4	名
 513	3	半天	bàntiān	ban4 tian1	ban4 tian1	数量
 514	3	帮助	bāngzhù	bang1 zhu4	bang1 zhu4	动
 515	3	饱	bǎo	bao3	bao3	形
@@ -569,13 +569,13 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 529	3	变化	biànhuà	bian4 hua4	bian4 hua4	动、名
 530	3	表演	biǎoyǎn	biao3 yan3	biao3 yan3	动
 531	3	别的	biéde	bie2 de5	bie2 de5	代
-532	3	别人	biérén	bier2 en2	bie2 r5 en2	代
+532	3	别人	biérén	bie2 ren2	bie2 ren2	代
 533	3	宾馆	bīnguǎn	bin1 guan3	bin1 guan3	名
 534	3	冰	bīng	bing1	bing1	名
 534	5	冰	bīng	bing1	bing1	动
 535	3	冰激凌	bīngjīlíng	bing1 ji1 ling2	bing1 ji1 ling2	名
 536	3	冰箱	bīngxiāng	bing1 xiang1	bing1 xiang1	名
-537	3	病人	bìngrén	bingr4 en2	bing4 r5 en2	名
+537	3	病人	bìngrén	bing4 ren2	bing4 ren2	名
 538	3	不但	búdàn	bu2 dan4	bu4 dan4	连
 539	3	不见	bújiàn	bu2 jian4	bu4 jian4	动
 540	3	不用	búyòng	bu2 yong4	bu4 yong4	副
@@ -590,7 +590,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 549	3	层	céng	ceng2	ceng2	量
 550	3	查	chá	cha2	cha2	动
 551	3	差	chà	cha4	cha4	形、动
-552	3	差不多	chàbuduō	cha4 bu5 duo1	cha4 bu4 duo1	形、副
+552	3	差不多	chàbuduō	cha4 bu5 duo1	cha4 bu5 duo1	形、副
 553	3	尝	cháng	chang2	chang2	动
 554	3	常	cháng	chang2	chang2	副
 555	3	常见	chángjiàn	chang2 jian4	chang2 jian4	
@@ -613,15 +613,15 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 572	3	打算	dǎsuàn	da3 suan4	da3 suan4	动、名
 573	3	大概	dàgài	da4 gai4	da4 gai4	形、副
 573	6	大概	dàgài	da4 gai4	da4 gai4	名
-574	3	大人	dàren	dar4 en5	da4 r5 en5	名
+574	3	大人	dàren	da4 ren5	da4 ren5	名
 575	3	大小	dàxiǎo	da4 xiao3	da4 xiao3	名
 576	3	大熊猫	dàxióngmāo	da4 xiong2 mao1	da4 xiong2 mao1	名
 577	3	大衣	dàyī	da4 yi1	da4 yi1	名
 578	3	带	dài	dai4	dai4	动
 578	5	带	dài	dai4	dai4	名
 579	3	担心	dānxīn	dan1 xin1	dan1 xin1	动
-580	3	蛋糕	dàngāo	dang4 ao1	dang4 ao1	名
-581	3	当然	dāngrán	dangr1 an2	dang1 r5 an2	副
+580	3	蛋糕	dàngāo	dan4 gao1	dan4 gao1	名
+581	3	当然	dāngrán	dang1 ran2	dang1 ran2	副
 582	3	到处	dàochù	dao4 chu4	dao4 chu4	副
 583	3	得	dé	de2	de2	动
 584	3	得到	dédào	de2 dao4	de2 dao4	动
@@ -786,7 +786,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 735	3	刻	kè	ke4	ke4	量
 735	5	刻	kè	ke4	ke4	动
 736	3	课本	kèběn	ke4 ben3	ke4 ben3	名
-737	3	客人	kèrén	ker4 en2	ke4 r5 en2	名
+737	3	客人	kèrén	ke4 ren2	ke4 ren2	名
 738	3	课文	kèwén	ke4 wen2	ke4 wen2	名
 739	3	空调	kōngtiáo	kong1 tiao2	kong1 tiao2	名
 740	3	哭	kū	ku1	ku1	动
@@ -796,7 +796,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 744	3	蓝	lán	lan2	lan2	形
 745	3	老	lǎo	lao3	lao3	形、前缀
 745	4	老	lǎo	lao3	lao3	副
-746	3	老人	lǎorén	laor3 en2	lao3 r5 en2	名
+746	3	老人	lǎorén	lao3 ren2	lao3 ren2	名
 747	3	离开	líkāi	li2 kai1	li2 kai1	动
 748	3	礼物	lǐwù	li3 wu4	li3 wu4	名
 749	3	历史	lìshǐ	li4 shi3	li4 shi3	名
@@ -806,7 +806,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 753	3	凉快	liángkuai	liang2 kuai5	liang2 kuai5	形
 754	3	辆	liàng	liang4	liang4	量
 755	3	聊	liáo	liao2	liao2	动
-756	3	聊天儿	liáotiānr	liao2 tianr1	liao2 tian1 r5	动
+756	3	聊天儿	liáotiānr	liao2 tian1 r5	liao2 tian1 r5	动
 757	3	了解	liǎojiě	liao3 jie3	liao3 jie3	动
 758	3	邻居	línjū	lin2 ju1	lin2 ju1	名
 759	3	留学	liúxué	liu2 xue2	liu2 xue2	动
@@ -824,14 +824,14 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 770	3	面前	miànqián	mian4 qian2	mian4 qian2	名
 771	3	明白	míngbai	ming2 bai5	ming2 bai5	形、动
 772	3	名单	míngdān	ming2 dan1	ming2 dan1	名
-773	3	名人	míngrén	mingr2 en2	ming2 r5 en2	名
+773	3	名人	míngrén	ming2 ren2	ming2 ren2	名
 774	3	南	nán	nan2	nan2	名
 775	3	难	nán	nan2	nan2	形
 775	6	难	nán	nan2	nan2	动
 776	3	南方	nánfāng	nan2 fang1	nan2 fang1	名
 777	3	难过	nánguò	nan2 guo4	nan2 guo4	形
 778	3	难看	nánkàn	nan2 kan4	nan2 kan4	形
-779	3	男人	nánrén	nanr2 en2	nan2 r5 en2	名
+779	3	男人	nánrén	nan2 ren2	nan2 ren2	名
 780	3	男生	nánshēng	nan2 sheng1	nan2 sheng1	名
 781	3	难题	nántí	nan2 ti2	nan2 ti2	名
 782	3	难听	nántīng	nan2 ting1	nan2 ting1	形
@@ -840,7 +840,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 785	3	牛	niú	niu2	niu2	名
 785	5	牛	niú	niu2	niu2	形
 786	3	努力	nǔlì	nu3 li4	nu3 li4	动、形
-787	3	女人	nǚrén	nür3 en2	nü3 r5 en2	名
+787	3	女人	nǚrén	nü3 ren2	nü3 ren2	名
 788	3	女生	nǚshēng	nü3 sheng1	nü3 sheng1	名
 789	3	爬	pá	pa2	pa2	动
 790	3	怕	pà	pa4	pa4	动
@@ -882,7 +882,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 824	3	上衣	shàngyī	shang4 yi1	shang4 yi1	名
 825	3	勺子	sháozi	shao2 zi5	shao2 zi5	名
 826	3	身边	shēnbiān	shen1 bian1	shen1 bian1	名
-827	3	身高	shēngāo	sheng1 ao1	sheng1 ao1	名
+827	3	身高	shēngāo	shen1 gao1	shen1 gao1	名
 828	3	声	shēng	sheng1	sheng1	名、量
 829	3	生活	shēnghuó	sheng1 huo2	sheng1 huo2	名、动
 830	3	生气	shēngqì	sheng1 qi4	sheng1 qi4	动
@@ -918,7 +918,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 859	3	同事	tóngshì	tong2 shi4	tong2 shi4	名
 860	3	同意	tóngyì	tong2 yi4	tong2 yi4	动
 861	3	头发	tóufa	tou2 fa5	tou2 fa5	名
-862	3	突然	tūrán	tur1 an2	tu1 r5 an2	形
+862	3	突然	tūrán	tu1 ran2	tu1 ran2	形
 863	3	图书馆	túshūguǎn	tu2 shu1 guan3	tu2 shu1 guan3	名
 864	3	腿	tuǐ	tui3	tui3	名
 865	3	外地	wàidì	wai4 di4	wai4 di4	名
@@ -940,7 +940,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 881	3	西北	xīběi	xi1 bei3	xi1 bei3	名
 882	3	西方	xīfāng	xi1 fang1	xi1 fang1	名
 883	3	西瓜	xīguā	xi1 gua1	xi1 gua1	名
-884	3	西南	xīnán	xin1 an2	xin1 an2	名
+884	3	西南	xīnán	xi1 nan2	xi1 nan2	名
 885	3	习惯	xíguàn	xi2 guan4	xi2 guan4	动、名
 886	3	喜爱	xǐ’ài	xi3 ai4	xi3 ai4	动
 887	3	洗衣机	xǐyījī	xi3 yi1 ji1	xi3 yi1 ji1	名
@@ -982,7 +982,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 921	3	页	yè	ye4	ye4	量
 922	3	一定	yídìng	yi2 ding4	yi1 ding4	形、副
 923	3	一共	yígòng	yi2 gong4	yi1 gong4	副
-924	3	一块儿	yíkuàir	yi2 kuair4	yi1 kuai4 r5	名、副
+924	3	一块儿	yíkuàir	yi2 kuai4 r5	yi1 kuai4 r5	名、副
 925	3	一样	yíyàng	yi2 yang4	yi1 yang4	形
 926	3	以后	yǐhòu	yi3 hou4	yi3 hou4	名
 927	3	以前	yǐqián	yi3 qian2	yi3 qian2	名
@@ -1069,7 +1069,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1007	4	按时	ànshí	an4 shi2	an4 shi2	副
 1008	4	按照	ànzhào	an4 zhao4	an4 zhao4	介
 1009	4	白酒	báijiǔ	bai2 jiu3	bai2 jiu3	名
-1010	4	办公	bàngōng	bang4 o1 ng5	bang4 o1 ng5	动
+1010	4	办公	bàngōng	ban4 gong1	ban4 gong1	动
 1011	4	办理	bànlǐ	ban4 li3	ban4 li3	动
 1012	4	办事	bànshì	ban4 shi4	ban4 shi4	动
 1013	4	棒	bàng	bang4	bang4	形
@@ -1132,7 +1132,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1067	4	查看	chákàn	cha2 kan4	cha2 kan4	动
 1068	4	茶叶	cháyè	cha2 ye4	cha2 ye4	名
 1069	4	查找	cházhǎo	cha2 zhao3	cha2 zhao3	动
-1070	4	差点儿	chàdiǎnr	cha4 dianr3	cha4 dian3 r5	形、副
+1070	4	差点儿	chàdiǎnr	cha4 dian3 r5	cha4 dian3 r5	形、副
 1071	4	产生	chǎnshēng	chan3 sheng1	chan3 sheng1	动
 1072	4	厂	chǎng	chang3	chang3	名
 1073	4	场	chǎng	chang3	chang3	量
@@ -1182,7 +1182,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1115	4	打招呼	dǎzhāohu	da3 zhao1 hu5	da3 zhao1 hu5	
 1116	4	打败	dǎbài	da3 bai4	da3 bai4	动
 1117	4	打工	dǎgōng	da3 gong1	da3 gong1	动
-1118	4	打扰	dǎrǎo	dar3 ao3	da3 r5 ao3	动
+1118	4	打扰	dǎrǎo	da3 rao3	da3 rao3	动
 1119	4	打印	dǎyìn	da3 yin4	da3 yin4	动
 1120	4	打印机	dǎyìnjī	da3 yin4 ji1	da3 yin4 ji1	名
 1121	4	打折	dǎzhé	da3 zhe2	da3 zhe2	动
@@ -1194,7 +1194,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1127	4	大赛	dàsài	da4 sai4	da4 sai4	名
 1128	4	大厅	dàtīng	da4 ting1	da4 ting1	名
 1129	4	大约	dàyuē	da4 yue1	da4 yue1	副
-1130	4	大自然	dàzìrán	da4 zir4 an2	da4 zi4 r5 an2	名
+1130	4	大自然	dàzìrán	da4 zi4 ran2	da4 zi4 ran2	名
 1131	4	待	dāi	dai1	dai1	动
 1132	4	戴	dài	dai4	dai4	动
 1133	4	袋子	dàizi	dai4 zi5	dai4 zi5	名
@@ -1284,7 +1284,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1213	4	复印	fùyìn	fu4 yin4	fu4 yin4	动
 1214	4	复杂	fùzá	fu4 za2	fu4 za2	形
 1215	4	负责	fùzé	fu4 ze2	fu4 ze2	动、形
-1216	4	负责人	fùzérén	fu4 zer2 en2	fu4 ze2 r5 en2	名
+1216	4	负责人	fùzérén	fu4 ze2 ren2	fu4 ze2 ren2	名
 1217	4	父子	fùzǐ	fu4 zi3	fu4 zi3	名
 1218	4	改	gǎi	gai3	gai3	动
 1219	4	改变	gǎibiàn	gai3 bian4	gai3 bian4	动
@@ -1299,11 +1299,11 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1227	4	感觉	gǎnjué	gan3 jue2	gan3 jue2	名、动
 1228	4	赶快	gǎnkuài	gan3 kuai4	gan3 kuai4	副
 1229	4	感情	gǎnqíng	gan3 qing2	gan3 qing2	名
-1230	4	感人	gǎnrén	ganr3 en2	gan3 r5 en2	形
+1230	4	感人	gǎnrén	gan3 ren2	gan3 ren2	形
 1231	4	赶上	gǎnshàng	gan3 shang4	gan3 shang4	动
 1232	4	感受	gǎnshòu	gan3 shou4	gan3 shou4	动、名
 1233	4	感谢	gǎnxiè	gan3 xie4	gan3 xie4	动
-1234	4	干活儿	gànhuór	gan4 huor2	gan4 huo2 r5	动
+1234	4	干活儿	gànhuór	gan4 huo2 r5	gan4 huo2 r5	动
 1235	4	钢琴	gāngqín	gang1 qin2	gang1 qin2	名
 1236	4	高价	gāojià	gao1 jia4	gao1 jia4	名
 1237	4	高考	gāokǎo	gao1 kao3	gao1 kao3	名
@@ -1325,7 +1325,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1253	4	功课	gōngkè	gong1 ke4	gong1 ke4	名
 1254	4	公里	gōnglǐ	gong1 li3	gong1 li3	量
 1255	4	公路	gōnglù	gong1 lu4	gong1 lu4	名
-1256	4	工人	gōngrén	gongr1 en2	gong1 r5 en2	名
+1256	4	工人	gōngrén	gong1 ren2	gong1 ren2	名
 1257	4	工资	gōngzī	gong1 zi1	gong1 zi1	名
 1258	4	共	gòng	gong4	gong4	副
 1259	4	共同	gòngtóng	gong4 tong2	gong4 tong2	形
@@ -1368,7 +1368,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1295	4	红包	hóngbāo	hong2 bao1	hong2 bao1	名
 1296	4	厚	hòu	hou4	hou4	形
 1297	4	后悔	hòuhuǐ	hou4 hui3	hou4 hui3	动
-1298	4	忽然	hūrán	hur1 an2	hu1 r5 an2	副
+1298	4	忽然	hūrán	hu1 ran2	hu1 ran2	副
 1299	4	互联网	hùliánwǎng	hu4 lian2 wang3	hu4 lian2 wang3	名
 1300	4	护士	hùshi	hu4 shi5	hu4 shi5	名
 1301	4	互相	hùxiāng	hu4 xiang1	hu4 xiang1	副
@@ -1400,7 +1400,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1327	4	既	jì	ji4	ji4	副、连
 1328	4	寄	jì	ji4	ji4	动
 1329	4	计划	jìhuà	ji4 hua4	ji4 hua4	名、动
-1330	4	既然	jìrán	jir4 an2	ji4 r5 an2	连
+1330	4	既然	jìrán	ji4 ran2	ji4 ran2	连
 1331	4	技术	jìshù	ji4 shu4	ji4 shu4	名
 1332	4	继续	jìxù	ji4 xu4	ji4 xu4	动
 1333	4	记者	jìzhě	ji4 zhe3	ji4 zhe3	名
@@ -1477,7 +1477,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1401	4	景点	jǐngdiǎn	jing3 dian3	jing3 dian3	名
 1402	4	景区	jǐngqū	jing3 qu1	jing3 qu1	名
 1403	4	景色	jǐngsè	jing3 se4	jing3 se4	名
-1404	4	竟然	jìngrán	jingr4 an2	jing4 r5 an2	副
+1404	4	竟然	jìngrán	jing4 ran2	jing4 ran2	副
 1405	4	竞争	jìngzhēng	jing4 zheng1	jing4 zheng1	动
 1406	4	镜子	jìngzi	jing4 zi5	jing4 zi5	名
 1407	4	究竟	jiūjìng	jiu1 jing4	jiu1 jing4	副
@@ -1526,7 +1526,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1447	4	拉	lā	la1	la1	动
 1448	4	垃圾	lājī	la1 ji1	la1 ji1	名
 1449	4	辣	là	la4	la4	形
-1450	4	来不及	láibují	lai2 bu5 ji2	lai2 bu4 ji2	动
+1450	4	来不及	láibují	lai2 bu5 ji2	lai2 bu5 ji2	动
 1451	4	来得及	láidejí	lai2 de5 ji2	lai2 de5 ji2	动
 1452	4	懒	lǎn	lan3	lan3	形
 1453	4	浪费	làngfèi	lang4 fei4	lang4 fei4	动
@@ -1607,7 +1607,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1526	4	难忘	nánwàng	nan2 wang4	nan2 wang4	动
 1527	4	男性	nánxìng	nan2 xing4	nan2 xing4	名
 1528	4	内	nèi	nei4	nei4	名
-1529	4	内容	nèiróng	neir4 o2 ng5	nei4 r5 o2 ng5	名
+1529	4	内容	nèiróng	nei4 rong2	nei4 rong2	名
 1530	4	内心	nèixīn	nei4 xin1	nei4 xin1	名
 1531	4	能否	néngfǒu	neng2 fou3	neng2 fou3	
 1532	4	能够	nénggòu	neng2 gou4	neng2 gou4	动
@@ -1687,7 +1687,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1606	4	却	què	que4	que4	副
 1607	4	确实	quèshí	que4 shi2	que4 shi2	副
 1608	4	然而	rán’ér	ran2 er2	ran2 er2	连
-1609	4	热闹	rènao	ren4 ao5	ren4 ao5	形、动、名
+1609	4	热闹	rènao	re4 nao5	re4 nao5	形、动、名
 1610	4	人生	rénshēng	ren2 sheng1	ren2 sheng1	名
 1611	4	人数	rénshù	ren2 shu4	ren2 shu4	名
 1612	4	人员	rényuán	ren2 yuan2	ren2 yuan2	名
@@ -1695,7 +1695,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1614	4	任务	rènwu	ren4 wu5	ren4 wu5	名
 1615	4	扔	rēng	reng1	reng1	动
 1616	4	仍	réng	reng2	reng2	副
-1617	4	仍然	réngrán	rengr2 an2	reng2 r5 an2	副
+1617	4	仍然	réngrán	reng2 ran2	reng2 ran2	副
 1618	4	日常	rìcháng	ri4 chang2	ri4 chang2	形
 1619	4	日记	rìjì	ri4 ji4	ri4 ji4	名
 1620	4	日期	rìqī	ri4 qi1	ri4 qi1	名
@@ -1764,7 +1764,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1681	4	首	shǒu	shou3	shou3	量
 1682	4	首都	shǒudū	shou3 du1	shou3 du1	名
 1683	4	首先	shǒuxiān	shou3 xian1	shou3 xian1	副、代
-1684	4	受不了	shòubuliǎo	shou4 bu5 liao3	shou4 bu4 liao3	动
+1684	4	受不了	shòubuliǎo	shou4 bu5 liao3	shou4 bu5 liao3	动
 1685	4	售票员	shòupiàoyuán	shou4 piao4 yuan2	shou4 piao4 yuan2	名
 1686	4	受伤	shòushāng	shou4 shang1	shou4 shang1	动
 1687	4	输	shū	shu1	shu1	动
@@ -1867,7 +1867,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1777	4	文件	wénjiàn	wen2 jian4	wen2 jian4	名
 1778	4	文章	wénzhāng	wen2 zhang1	wen2 zhang1	名
 1779	4	文字	wénzì	wen2 zi4	wen2 zi4	名
-1780	4	污染	wūrǎn	wur1 an3	wu1 r5 an3	动
+1780	4	污染	wūrǎn	wu1 ran3	wu1 ran3	动
 1781	4	无	wú	wu2	wu2	动
 1782	4	无法	wúfǎ	wu2 fa3	wu2 fa3	动
 1783	4	无聊	wúliáo	wu2 liao2	wu2 liao2	形
@@ -1932,7 +1932,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1842	4	亚洲	Yàzhōu	ya4 zhou1	ya4 zhou1	名
 1843	4	烟	yān	yan1	yan1	名
 1844	4	盐	yán	yan2	yan2	名
-1845	4	严格	yángé	yang2 e2	yang2 e2	形、动
+1845	4	严格	yángé	yan2 ge2	yan2 ge2	形、动
 1846	4	研究	yánjiū	yan2 jiu1	yan2 jiu1	动
 1847	4	研究生	yánjiūshēng	yan2 jiu1 sheng1	yan2 jiu1 sheng1	名
 1848	4	严重	yánzhòng	yan2 zhong4	yan2 zhong4	形
@@ -1954,7 +1954,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1864	4	叶子	yèzi	ye4 zi5	ye4 zi5	名
 1865	4	一切	yíqiè	yi2 qie4	yi1 qie4	代
 1866	4	已	yǐ	yi3	yi3	副
-1867	4	以内	yǐnèi	yin3 ei4	yin3 ei4	名
+1867	4	以内	yǐnèi	yi3 nei4	yi3 nei4	名
 1868	4	意见	yìjiàn	yi4 jian4	yi4 jian4	名
 1869	4	一生	yìshēng	yi4 sheng1	yi1 sheng1	名
 1870	4	艺术	yìshù	yi4 shu4	yi4 shu4	名
@@ -2007,7 +2007,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1917	4	暂停	zàntíng	zan4 ting2	zan4 ting2	动
 1918	4	早餐	zǎocān	zao3 can1	zao3 can1	名
 1919	4	早晨	zǎochen	zao3 chen5	zao3 chen5	名
-1920	4	责任	zérèn	zer2 en4	ze2 r5 en4	名
+1920	4	责任	zérèn	ze2 ren4	ze2 ren4	名
 1921	4	增加	zēngjiā	zeng1 jia1	zeng1 jia1	动
 1922	4	增长	zēngzhǎng	zeng1 zhang3	zeng1 zhang3	动
 1923	4	招聘	zhāopìn	zhao1 pin4	zhao1 pin4	动
@@ -2069,7 +2069,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 1978	4	资料	zīliào	zi1 liao4	zi1 liao4	名
 1979	4	仔细	zǐxì	zi3 xi4	zi3 xi4	形
 1980	4	自	zì	zi4	zi4	介
-1981	4	自然	zìrán	zir4 an2	zi4 r5 an2	名、形、副
+1981	4	自然	zìrán	zi4 ran2	zi4 ran2	名、形、副
 1982	4	自习	zìxí	zi4 xi2	zi4 xi2	动
 1983	4	自信	zìxìn	zi4 xin4	zi4 xin4	动、名、形
 1984	4	自学	zìxué	zi4 xue2	zi4 xue2	动
@@ -2134,7 +2134,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2040	5	本2	běn	ben3	ben3	副、代
 2041	5	本地	běndì	ben3 di4	ben3 di4	名
 2042	5	本领	běnlǐng	ben3 ling3	ben3 ling3	名
-2043	5	本人	běnrén	benr3 en2	ben3 r5 en2	代
+2043	5	本人	běnrén	ben3 ren2	ben3 ren2	代
 2044	5	本质	běnzhì	ben3 zhi4	ben3 zhi4	名
 2045	5	彼此	bǐcǐ	bi3 ci3	bi3 ci3	代
 2046	5	比分	bǐfēn	bi3 fen1	bi3 fen1	名
@@ -2144,7 +2144,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2050	5	毕竟	bìjìng	bi4 jing4	bi4 jing4	副
 2051	5	避免	bìmiǎn	bi4 mian3	bi4 mian3	动
 2052	5	闭幕式	bìmùshì	bi4 mu4 shi4	bi4 mu4 shi4	名
-2053	5	必然	bìrán	bir4 an2	bi4 r5 an2	形、名
+2053	5	必然	bìrán	bi4 ran2	bi4 ran2	形、名
 2054	5	必需	bìxū	bi4 xu1	bi4 xu1	动
 2055	5	必要	bìyào	bi4 yao4	bi4 yao4	形
 2056	5	便	biàn	bian4	bian4	副
@@ -2171,8 +2171,8 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2077	5	不得了	bùdéliǎo	bu4 de2 liao3	bu4 de2 liao3	形
 2078	5	不符	bùfú	bu4 fu2	bu4 fu2	动
 2079	5	不良	bùliáng	bu4 liang2	bu4 liang2	形
-2080	5	不然	bùrán	bur4 an2	bu4 an2	连
-2080	7-9	不然	bùrán	bur4 an2	bu4 an2	形
+2080	5	不然	bùrán	bu4 ran2	bu4 ran2	连
+2080	7-9	不然	bùrán	bu4 ran2	bu4 ran2	形
 2081	5	步行	bùxíng	bu4 xing2	bu4 xing2	动
 2082	5	不足	bùzú	bu4 zu2	bu4 zu2	动、名
 2083	5	才2	cái	cai2	cai2	名
@@ -2237,8 +2237,8 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2142	5	成立	chénglì	cheng2 li4	cheng2 li4	动
 2143	5	成年1	chéngnián	cheng2 nian2	cheng2 nian2	动
 2144	5	城区	chéngqū	cheng2 qu1	cheng2 qu1	名
-2145	5	成人	chéngrén	chengr2 en2	cheng2 r5 en2	动、名
-2146	5	承认	chéngrèn	chengr2 en4	cheng2 r5 en4	动
+2145	5	成人	chéngrén	cheng2 ren2	cheng2 ren2	动、名
+2146	5	承认	chéngrèn	cheng2 ren4	cheng2 ren4	动
 2147	5	承受	chéngshòu	cheng2 shou4	cheng2 shou4	动
 2148	5	成熟	chéngshú	cheng2 shu2	cheng2 shu2	动、形
 2149	5	乘务员	chéngwùyuán	cheng2 wu4 yuan2	cheng2 wu4 yuan2	名
@@ -2316,7 +2316,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2221	5	大力	dàlì	da4 li4	da4 li4	名、副
 2222	5	大妈	dàmā	da4 ma1	da4 ma1	名
 2223	5	大米	dàmǐ	da4 mi3	da4 mi3	名
-2224	5	大脑	dànǎo	dan4 ao3	dan4 ao3	名
+2224	5	大脑	dànǎo	da4 nao3	da4 nao3	名
 2225	5	大批	dàpī	da4 pi1	da4 pi1	形
 2226	5	大厦	dàshà	da4 sha4	da4 sha4	名
 2227	5	大事	dàshì	da4 shi4	da4 shi4	名
@@ -2332,7 +2332,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2237	5	待遇	dàiyù	dai4 yu4	dai4 yu4	名
 2238	5	单	dān	dan1	dan1	形、副、名、量
 2239	5	单独	dāndú	dan1 du2	dan1 du2	副
-2240	5	担任	dānrèn	danr1 en4	dan1 r5 en4	动
+2240	5	担任	dānrèn	dan1 ren4	dan1 ren4	动
 2241	5	单一	dānyī	dan1 yi1	dan1 yi1	形
 2242	5	单元	dānyuán	dan1 yuan2	dan1 yuan2	名
 2243	5	胆小	dǎnxiǎo	dan3 xiao3	dan3 xiao3	形
@@ -2360,7 +2360,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2265	5	等于	děngyú	deng3 yu2	deng3 yu2	动
 2266	5	低头	dītóu	di1 tou2	di1 tou2	动
 2267	5	的确	díquè	di2 que4	di2 que4	副
-2268	5	敌人	dírén	dir2 en2	di2 r5 en2	名
+2268	5	敌人	dírén	di2 ren2	di2 ren2	名
 2269	5	递	dì	di4	di4	动
 2270	5	地理	dìlǐ	di4 li3	di4 li3	名
 2271	5	地面	dìmiàn	di4 mian4	di4 mian4	名
@@ -2383,7 +2383,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2288	5	冻	dòng	dong4	dong4	动
 2289	5	洞	dòng	dong4	dong4	名
 2290	5	动画	dònghuà	dong4 hua4	dong4 hua4	名
-2291	5	动人	dòngrén	dongr4 en2	dong4 r5 en2	形
+2291	5	动人	dòngrén	dong4 ren2	dong4 ren2	形
 2292	5	动手	dòngshǒu	dong4 shou3	dong4 shou3	动
 2293	5	豆腐	dòufu	dou4 fu5	dou4 fu5	名
 2294	5	豆浆	dòujiāng	dou4 jiang1	dou4 jiang1	名
@@ -2421,7 +2421,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2326	5	法院	fǎyuàn	fa3 yuan4	fa3 yuan4	名
 2327	5	翻	fān	fan1	fan1	动
 2328	5	番茄	fānqié	fan1 qie2	fan1 qie2	名
-2329	5	繁荣	fánróng	fanr2 o2 ng5	fan2 r5 o2 ng5	形、动
+2329	5	繁荣	fánróng	fan2 rong2	fan2 rong2	形、动
 2330	5	反	fǎn	fan3	fan3	形、动、副
 2331	5	反而	fǎn’ér	fan3 er2	fan3 er2	副
 2332	5	反复	fǎnfù	fan3 fu4	fan3 fu4	副、动、名
@@ -2456,7 +2456,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2361	5	风俗	fēngsú	feng1 su2	feng1 su2	名
 2362	5	风险	fēngxiǎn	feng1 xian3	feng1 xian3	名
 2363	5	否定	fǒudìng	fou3 ding4	fou3 ding4	动、形
-2364	5	否认	fǒurèn	four3 en4	fou3 r5 en4	动
+2364	5	否认	fǒurèn	fou3 ren4	fou3 ren4	动
 2365	5	夫妇	fūfù	fu1 fu4	fu1 fu4	名
 2366	5	扶	fú	fu2	fu2	动
 2367	5	福	fú	fu2	fu2	名
@@ -2492,7 +2492,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2397	5	格外	géwài	ge2 wai4	ge2 wai4	副
 2398	5	个别	gèbié	ge4 bie2	ge4 bie2	副、形
 2399	5	各行各业	gèháng-gèyè	ge4 hang2 ge4 ye4	ge4 hang2 ge4 ye4	
-2400	5	个人	gèrén	ger4 en2	ge4 r5 en2	名
+2400	5	个人	gèrén	ge4 ren2	ge4 ren2	名
 2401	5	个性	gèxìng	ge4 xing4	ge4 xing4	名
 2402	5	各自	gèzì	ge4 zi4	ge4 zi4	代
 2403	5	根	gēn	gen1	gen1	名、量
@@ -2544,7 +2544,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2449	5	锅	guō	guo1	guo1	名
 2450	5	国画	guóhuà	guo2 hua4	guo2 hua4	名
 2451	5	国庆	guóqìng	guo2 qing4	guo2 qing4	名
-2452	5	果然	guǒrán	guor3 an2	guo3 r5 an2	副
+2452	5	果然	guǒrán	guo3 ran2	guo3 ran2	副
 2453	5	果实	guǒshí	guo3 shi2	guo3 shi2	名
 2454	5	过度	guòdù	guo4 du4	guo4 du4	形
 2455	5	过分	guòfèn	guo4 fen4	guo4 fen4	形
@@ -2616,8 +2616,8 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2520	5	机构	jīgòu	ji1 gou4	ji1 gou4	名
 2521	5	激烈	jīliè	ji1 lie4	ji1 lie4	形
 2522	5	机器	jīqì	ji1 qi4	ji1 qi4	名
-2523	5	机器人	jīqìrén	ji1 qir4 en2	ji1 qi4 r5 en2	名
-2524	5	肌肉	jīròu	jir1 ou4	ji1 r5 ou4	名
+2523	5	机器人	jīqìrén	ji1 qi4 ren2	ji1 qi4 ren2	名
+2524	5	肌肉	jīròu	ji1 rou4	ji1 rou4	名
 2525	5	及	jí	ji2	ji2	连
 2526	5	级	jí	ji2	ji2	名、量
 2527	5	集	jí	ji2	ji2	名、量
@@ -2637,7 +2637,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2541	5	记录	jìlù	ji4 lu4	ji4 lu4	动、名
 2542	5	纪录	jìlù	ji4 lu4	ji4 lu4	名
 2543	5	纪录片	jìlùpiàn	ji4 lu4 pian4	ji4 lu4 pian4	名
-2544	5	技能	jìnéng	jin4 eng2	jin4 eng2	名
+2544	5	技能	jìnéng	ji4 neng2	ji4 neng2	名
 2545	5	纪念	jìniàn	ji4 nian4	ji4 nian4	动、名
 2546	5	纪念日	jìniànrì	ji4 nian4 ri4	ji4 nian4 ri4	名
 2547	5	计算	jìsuàn	ji4 suan4	ji4 suan4	动
@@ -2647,7 +2647,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2551	5	嘉宾	jiābīn	jia1 bin1	jia1 bin1	名
 2552	5	家电	jiādiàn	jia1 dian4	jia1 dian4	名
 2553	5	加工	jiāgōng	jia1 gong1	jia1 gong1	动
-2554	5	加热	jiārè	jiar1 e4	jia1 r5 e4	动
+2554	5	加热	jiārè	jia1 re4	jia1 re4	动
 2555	5	加深	jiāshēn	jia1 shen1	jia1 shen1	动
 2556	5	加速	jiāsù	jia1 su4	jia1 su4	动
 2557	5	家务	jiāwù	jia1 wu4	jia1 wu4	名
@@ -2726,7 +2726,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2630	5	救护车	jiùhùchē	jiu4 hu4 che1	jiu4 hu4 che1	名
 2631	5	就业	jiùyè	jiu4 ye4	jiu4 ye4	动
 2632	5	居民	jūmín	ju1 min2	ju1 min2	名
-2633	5	居然	jūrán	jur1 an2	ju1 r5 an2	副
+2633	5	居然	jūrán	ju1 ran2	ju1 ran2	副
 2634	5	居住	jūzhù	ju1 zhu4	ju1 zhu4	动
 2635	5	橘子	júzi	ju2 zi5	ju2 zi5	名
 2636	5	据	jù	ju4	ju4	介
@@ -2814,7 +2814,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2717	5	良好	liánghǎo	liang2 hao3	liang2 hao3	形
 2718	5	粮食	liángshi	liang2 shi5	liang2 shi5	名
 2719	5	量	liàng	liang4	liang4	名
-2720	5	了不起	liǎobuqǐ	liao3 bu5 qi3	liao3 bu4 qi3	形
+2720	5	了不起	liǎobuqǐ	liao3 bu5 qi3	liao3 bu5 qi3	形
 2721	5	列车	lièchē	lie4 che1	lie4 che1	名
 2722	5	临时	línshí	lin2 shi2	lin2 shi2	副、形
 2723	5	铃	líng	ling2	ling2	名
@@ -2835,7 +2835,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2738	5	录	lù	lu4	lu4	动
 2739	5	陆地	lùdì	lu4 di4	lu4 di4	名
 2740	5	录取	lùqǔ	lu4 qu3	lu4 qu3	动
-2741	5	路人	lùrén	lur4 en2	lu4 r5 en2	名
+2741	5	路人	lùrén	lu4 ren2	lu4 ren2	名
 2742	5	路线	lùxiàn	lu4 xian4	lu4 xian4	名
 2743	5	陆续	lùxù	lu4 xu4	lu4 xu4	副
 2744	5	录音	lùyīn	lu4 yin1	lu4 yin1	动、名
@@ -2849,7 +2849,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2752	5	毛笔	máobǐ	mao2 bi3	mao2 bi3	名
 2753	5	毛病	máobìng	mao2 bing4	mao2 bing4	名
 2754	5	矛盾	máodùn	mao2 dun4	mao2 dun4	名、动、形
-2755	5	没法儿	méifǎr	mei2 far3	mei2 fa3 r5	动
+2755	5	没法儿	méifǎr	mei2 fa3 r5	mei2 fa3 r5	动
 2756	5	玫瑰	méigui	mei2 gui5	mei2 gui5	名
 2757	5	媒体	méitǐ	mei2 ti3	mei2 ti3	名
 2758	5	美术	měishù	mei3 shu4	mei3 shu4	名
@@ -2866,7 +2866,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2769	5	面临	miànlín	mian4 lin2	mian4 lin2	动
 2770	5	面向	miànxiàng	mian4 xiang4	mian4 xiang4	动
 2771	5	描述	miáoshù	miao2 shu4	miao2 shu4	动
-2772	5	敏感	mǐngǎn	ming3 an3	ming3 an3	形
+2772	5	敏感	mǐngǎn	min3 gan3	min3 gan3	形
 2773	5	名称	míngchēng	ming2 cheng1	ming2 cheng1	名
 2774	5	名牌	míngpái	ming2 pai2	ming2 pai2	名
 2775	5	名片	míngpiàn	ming2 pian4	ming2 pian4	名
@@ -2903,7 +2903,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2806	5	女子	nǚzǐ	nü3 zi3	nü3 zi3	名
 2807	5	哦	ò	o4	o4	叹
 2808	5	欧洲	Ōuzhōu	ou1 zhou1	ou1 zhou1	名
-2809	5	偶然	ǒurán	our3 an2	ou3 r5 an2	形
+2809	5	偶然	ǒurán	ou3 ran2	ou3 ran2	形
 2810	5	拍摄	pāishè	pai1 she4	pai1 she4	动
 2811	5	排列	páiliè	pai2 lie4	pai2 lie4	动
 2812	5	派	pài	pai4	pai4	动
@@ -2981,7 +2981,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2880	5	亲朋好友	qīnpéng-hǎoyǒu	qin1 peng2 hao3 you3	qin1 peng2 hao3 you3	
 2881	5	亲切	qīnqiè	qin1 qie4	qin1 qie4	形
 2882	5	亲情	qīnqíng	qin1 qing2	qin1 qing2	名
-2883	5	亲人	qīnrén	qinr1 en2	qin1 r5 en2	名
+2883	5	亲人	qīnrén	qin1 ren2	qin1 ren2	名
 2884	5	亲自	qīnzì	qin1 zi4	qin1 zi4	副
 2885	5	勤奋	qínfèn	qin2 fen4	qin2 fen4	形
 2886	5	青	qīng	qing1	qing1	形
@@ -3007,7 +3007,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2905	5	缺乏	quēfá	que1 fa2	que1 fa2	动
 2906	5	确保	quèbǎo	que4 bao3	que4 bao3	动
 2907	5	确定	quèdìng	que4 ding4	que4 ding4	形、动
-2908	5	确认	quèrèn	quer4 en4	que4 r5 en4	动
+2908	5	确认	quèrèn	que4 ren4	que4 ren4	动
 2909	5	群	qún	qun2	qun2	量、名
 2910	5	群体	qúntǐ	qun2 ti3	qun2 ti3	名
 2911	5	燃烧	ránshāo	ran2 shao1	ran2 shao1	动
@@ -3017,7 +3017,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2915	5	热烈	rèliè	re4 lie4	re4 lie4	形
 2916	5	热心	rèxīn	re4 xin1	re4 xin1	形
 2917	5	人才	réncái	ren2 cai2	ren2 cai2	名
-2918	5	人工	réngōng	reng2 o1 ng5	reng2 o1 ng5	形、名
+2918	5	人工	réngōng	ren2 gong1	ren2 gong1	形、名
 2919	5	人际	rénjì	ren2 ji4	ren2 ji4	形
 2920	5	人口	rénkǒu	ren2 kou3	ren2 kou3	名
 2921	5	人类	rénlèi	ren2 lei4	ren2 lei4	名
@@ -3058,7 +3058,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2956	5	伤	shāng	shang1	shang1	名、动
 2957	5	伤害	shānghài	shang1 hai4	shang1 hai4	动
 2958	5	商家	shāngjiā	shang1 jia1	shang1 jia1	名
-2959	5	商人	shāngrén	shangr1 en2	shang1 r5 en2	名
+2959	5	商人	shāngrén	shang1 ren2	shang1 ren2	名
 2960	5	商务	shāngwù	shang1 wu4	shang1 wu4	名
 2961	5	商业	shāngyè	shang1 ye4	shang1 ye4	名
 2962	5	赏	shǎng	shang3	shang3	动
@@ -3069,7 +3069,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 2967	5	烧	shāo	shao1	shao1	动、名
 2968	5	烧烤	shāokǎo	shao1 kao3	shao1 kao3	名
 2969	5	蛇	shé	she2	she2	名
-2970	5	舍不得	shěbude	she3 bu5 de5	she3 bu4 de5	动
+2970	5	舍不得	shěbude	she3 bu5 de5	she3 bu5 de5	动
 2971	5	舍得	shěde	she3 de5	she3 de5	动
 2972	5	设备	shèbèi	she4 bei4	she4 bei4	名
 2973	5	设计	shèjì	she4 ji4	she4 ji4	动、名
@@ -3106,7 +3106,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 3004	5	湿	shī	shi1	shi1	形
 3005	5	失恋	shīliàn	shi1 lian4	shi1 lian4	动
 3006	5	失眠	shīmián	shi1 mian2	shi1 mian2	动
-3007	5	诗人	shīrén	shir1 en2	shi1 r5 en2	名
+3007	5	诗人	shīrén	shi1 ren2	shi1 ren2	名
 3008	5	失误	shīwù	shi1 wu4	shi1 wu4	动、名
 3009	5	失业	shīyè	shi1 ye4	shi1 ye4	动
 3010	5	时差	shíchā	shi2 cha1	shi2 cha1	名
@@ -3161,7 +3161,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 3059	5	输入	shūrù	shu1 ru4	shu1 ru4	动
 3060	5	舒适	shūshì	shu1 shi4	shu1 shi4	形
 3061	5	熟练	shúliàn	shu2 lian4	shu2 lian4	形
-3062	5	熟人	shúrén	shur2 en2	shu2 r5 en2	名
+3062	5	熟人	shúrén	shu2 ren2	shu2 ren2	名
 3063	5	数	shǔ	shu3	shu3	动
 3064	5	鼠标	shǔbiāo	shu3 biao1	shu3 biao1	名
 3065	5	属于	shǔyú	shu3 yu2	shu3 yu2	动
@@ -3174,10 +3174,10 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 3072	5	税	shuì	shui4	shui4	名
 3073	5	睡眠	shuìmián	shui4 mian2	shui4 mian2	名
 3074	5	顺	shùn	shun4	shun4	动、介、形
-3075	5	说不定	shuōbudìng	shuo1 bu5 ding4	shuo1 bu4 ding4	动、副
+3075	5	说不定	shuōbudìng	shuo1 bu5 ding4	shuo1 bu5 ding4	动、副
 3076	5	说服	shuōfú	shuo1 fu2	shuo1 fu2	动
 3077	5	思考	sīkǎo	si1 kao3	si1 kao3	动
-3078	5	私人	sīrén	sir1 en2	si1 r5 en2	名
+3078	5	私人	sīrén	si1 ren2	si1 ren2	名
 3079	5	思维	sīwéi	si1 wei2	si1 wei2	名、动
 3080	5	思想	sīxiǎng	si1 xiang3	si1 xiang3	名
 3081	5	四处	sìchù	si4 chu4	si4 chu4	名
@@ -3199,7 +3199,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 3097	5	缩小	suōxiǎo	suo1 xiao3	suo1 xiao3	动
 3098	5	所1	suǒ	suo3	suo3	量、名
 3099	5	锁	suǒ	suo3	suo3	名、动
-3100	5	他人	tārén	tar1 en2	ta1 r5 en2	代
+3100	5	他人	tārén	ta1 ren2	ta1 ren2	代
 3101	5	台灯	táidēng	tai2 deng1	tai2 deng1	名
 3102	5	台阶	táijiē	tai2 jie1	tai2 jie1	名
 3103	5	太太	tàitai	tai4 tai5	tai4 tai5	名
@@ -3288,7 +3288,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 3186	5	违法	wéifǎ	wei2 fa3	wei2 fa3	动
 3187	5	违反	wéifǎn	wei2 fan3	wei2 fan3	动
 3188	5	围巾	wéijīn	wei2 jin1	wei2 jin1	名
-3189	5	围绕	wéirào	weir2 ao4	wei2 r5 ao4	动
+3189	5	围绕	wéirào	wei2 rao4	wei2 rao4	动
 3190	5	维修	wéixiū	wei2 xiu1	wei2 xiu1	动
 3191	5	唯一	wéiyī	wei2 yi1	wei2 yi1	形
 3192	5	尾巴	wěiba	wei3 ba5	wei3 ba5	名
@@ -3334,7 +3334,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 3232	5	先进	xiānjìn	xian1 jin4	xian1 jin4	形、名
 3233	5	闲	xián	xian2	xian2	形
 3234	5	显得	xiǎnde	xian3 de5	xian3 de5	动
-3235	5	显然	xiǎnrán	xianr3 an2	xian3 r5 an2	形
+3235	5	显然	xiǎnrán	xian3 ran2	xian3 ran2	形
 3236	5	显示	xiǎnshì	xian3 shi4	xian3 shi4	动
 3237	5	县	xiàn	xian4	xian4	名
 3238	5	现场	xiànchǎng	xian4 chang3	xian4 chang3	名
@@ -3378,18 +3378,18 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 3276	5	新郎	xīnláng	xin1 lang2	xin1 lang2	名
 3277	5	心理	xīnlǐ	xin1 li3	xin1 li3	名
 3278	5	新娘	xīnniáng	xin1 niang2	xin1 niang2	名
-3279	5	新人	xīnrén	xinr1 en2	xin1 r5 en2	名
+3279	5	新人	xīnrén	xin1 ren2	xin1 ren2	名
 3280	5	欣赏	xīnshǎng	xin1 shang3	xin1 shang3	动
 3281	5	心态	xīntài	xin1 tai4	xin1 tai4	名
 3282	5	新型	xīnxíng	xin1 xing2	xin1 xing2	形
 3283	5	信封	xìnfēng	xin4 feng1	xin4 feng1	名
-3284	5	信任	xìnrèn	xinr4 en4	xin4 r5 en4	动
+3284	5	信任	xìnrèn	xin4 ren4	xin4 ren4	动
 3285	5	信用	xìnyòng	xin4 yong4	xin4 yong4	名
 3286	5	行程	xíngchéng	xing2 cheng2	xing2 cheng2	名
 3287	5	形成	xíngchéng	xing2 cheng2	xing2 cheng2	动
 3288	5	行动	xíngdòng	xing2 dong4	xing2 dong4	动、名
-3289	5	行人	xíngrén	xingr2 en2	xing2 r5 en2	名
-3290	5	形容	xíngróng	xingr2 o2 ng5	xing2 r5 o2 ng5	动
+3289	5	行人	xíngrén	xing2 ren2	xing2 ren2	名
+3290	5	形容	xíngróng	xing2 rong2	xing2 rong2	动
 3291	5	形式	xíngshì	xing2 shi4	xing2 shi4	名
 3292	5	形势	xíngshì	xing2 shi4	xing2 shi4	名
 3293	5	行驶	xíngshǐ	xing2 shi3	xing2 shi3	动
@@ -3448,7 +3448,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 3346	5	依据	yījù	yi1 ju4	yi1 ju4	名、动、介
 3347	5	依靠	yīkào	yi1 kao4	yi1 kao4	动、名
 3348	5	医疗	yīliáo	yi1 liao2	yi1 liao2	动
-3349	5	依然	yīrán	yir1 an2	yi1 r5 an2	副
+3349	5	依然	yīrán	yi1 ran2	yi1 ran2	副
 3350	5	医学	yīxué	yi1 xue2	yi1 xue2	名
 3351	5	移	yí	yi2	yi2	动
 3352	5	一次性	yícìxìng	yi2 ci4 xing4	yi1 ci4 xing4	形
@@ -3644,8 +3644,8 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 3541	5	主持	zhǔchí	zhu3 chi2	zhu3 chi2	动
 3542	5	主动	zhǔdòng	zhu3 dong4	zhu3 dong4	形
 3543	5	主观	zhǔguān	zhu3 guan1	zhu3 guan1	形
-3544	5	主人	zhǔrén	zhur3 en2	zhu3 r5 en2	名
-3545	5	主任	zhǔrèn	zhur3 en4	zhu3 r5 en4	名
+3544	5	主人	zhǔrén	zhu3 ren2	zhu3 ren2	名
+3545	5	主任	zhǔrèn	zhu3 ren4	zhu3 ren4	名
 3546	5	主食	zhǔshí	zhu3 shi2	zhu3 shi2	名
 3547	5	主题	zhǔtí	zhu3 ti2	zhu3 ti2	名
 3548	5	主席	zhǔxí	zhu3 xi2	zhu3 xi2	名
@@ -3659,7 +3659,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 3556	5	专家	zhuānjiā	zhuan1 jia1	zhuan1 jia1	名
 3557	5	专心	zhuānxīn	zhuan1 xin1	zhuan1 xin1	形
 3558	5	转变	zhuǎnbiàn	zhuan3 bian4	zhuan3 bian4	动
-3559	5	转告	zhuǎngào	zhuang3 ao4	zhuang3 ao4	动
+3559	5	转告	zhuǎngào	zhuan3 gao4	zhuan3 gao4	动
 3560	5	装饰	zhuāngshì	zhuang1 shi4	zhuang1 shi4	动、名
 3561	5	装修	zhuāngxiū	zhuang1 xiu1	zhuang1 xiu1	动
 3562	5	撞	zhuàng	zhuang4	zhuang4	动
@@ -3903,8 +3903,8 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 3800	6	穿过	chuānguò	chuan1 guo4	chuan1 guo4	动
 3801	6	传承	chuánchéng	chuan2 cheng2	chuan2 cheng2	动
 3802	6	传达	chuándá	chuan2 da2	chuan2 da2	动
-3803	6	传染	chuánrǎn	chuanr2 an3	chuan2 r5 an3	动
-3804	6	传染病	chuánrǎnbìng	chuanr2 an3 bing4	chuan2 r5 an3 bing4	名
+3803	6	传染	chuánrǎn	chuan2 ran3	chuan2 ran3	动
+3804	6	传染病	chuánrǎnbìng	chuan2 ran3 bing4	chuan2 ran3 bing4	名
 3805	6	传授	chuánshòu	chuan2 shou4	chuan2 shou4	动
 3806	6	传输	chuánshū	chuan2 shu1	chuan2 shu1	动
 3807	6	传真	chuánzhēn	chuan2 zhen1	chuan2 zhen1	名
@@ -3950,7 +3950,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 3847	6	大都	dàdū	da4 du1	da4 du1	副
 3848	6	大方	dàfang	da4 fang5	da4 fang5	形
 3849	6	大幅	dàfú	da4 fu2	da4 fu2	副
-3850	6	大伙儿	dàhuǒr	da4 huor3	da4 huo3 r5	代
+3850	6	大伙儿	dàhuǒr	da4 huo3 r5	da4 huo3 r5	代
 3851	6	大使	dàshǐ	da4 shi3	da4 shi3	名
 3852	6	大师	dàshī	da4 shi1	da4 shi1	名
 3853	6	大洋洲	Dàyángzhōu	da4 yang2 zhou1	da4 yang2 zhou1	名
@@ -3998,7 +3998,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 3895	6	地质	dìzhì	di4 zhi4	di4 zhi4	名
 3896	6	点击	diǎnjī	dian3 ji1	dian3 ji1	动
 3897	6	典礼	diǎnlǐ	dian3 li3	dian3 li3	名
-3898	6	点燃	diǎnrán	dianr3 an2	dian3 r5 an2	动
+3898	6	点燃	diǎnrán	dian3 ran2	dian3 ran2	动
 3899	6	典型	diǎnxíng	dian3 xing2	dian3 xing2	名、形
 3900	6	电饭锅	diànfànguō	dian4 fan4 guo1	dian4 fan4 guo1	名
 3901	6	电力	diànlì	dian4 li4	dian4 li4	名
@@ -4084,7 +4084,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 3981	6	肥沃	féiwò	fei2 wo4	fei2 wo4	形
 3982	6	肺	fèi	fei4	fei4	名
 3983	6	肺炎	fèiyán	fei4 yan2	fei4 yan2	名
-3984	6	分工	fēngōng	feng1 o1 ng5	feng1 o1 ng5	动
+3984	6	分工	fēngōng	fen1 gong1	fen1 gong1	动
 3985	6	分级	fēnjí	fen1 ji2	fen1 ji2	动
 3986	6	分期	fēnqī	fen1 qi1	fen1 qi1	动
 3987	6	分散	fēnsàn	fen1 san4	fen1 san4	形、动
@@ -4097,7 +4097,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 3994	6	丰收	fēngshōu	feng1 shou1	feng1 shou1	动
 3995	6	风雨	fēngyǔ	feng1 yu3	feng1 yu3	名
 3996	6	奉献	fèngxiàn	feng4 xian4	feng4 xian4	动
-3997	6	夫人	fūrén	fur1 en2	fu1 r5 en2	名
+3997	6	夫人	fūrén	fu1 ren2	fu1 ren2	名
 3998	6	服	fú	fu2	fu2	动
 3999	6	浮	fú	fu2	fu2	动
 4000	6	服从	fúcóng	fu2 cong2	fu2 cong2	动
@@ -4119,13 +4119,13 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4016	6	概率	gàilǜ	gai4 lü4	gai4 lü4	名
 4017	6	肝	gān	gan1	gan1	名
 4018	6	干脆	gāncuì	gan1 cui4	gan1 cui4	形、副
-4019	6	尴尬	gāngà	gang1 a4	gang1 a4	形
+4019	6	尴尬	gāngà	gan1 ga4	gan1 ga4	形
 4020	6	干旱	gānhàn	gan1 han4	gan1 han4	形
-4021	6	干扰	gānrǎo	ganr1 ao3	gan1 r5 ao3	动
+4021	6	干扰	gānrǎo	gan1 rao3	gan1 rao3	动
 4022	6	干燥	gānzào	gan1 zao4	gan1 zao4	形
 4023	6	感激	gǎnjī	gan3 ji1	gan3 ji1	动
 4024	6	赶忙	gǎnmáng	gan3 mang2	gan3 mang2	副
-4025	6	感染	gǎnrǎn	ganr3 an3	gan3 r5 an3	动
+4025	6	感染	gǎnrǎn	gan3 ran3	gan3 ran3	动
 4026	6	感想	gǎnxiǎng	gan3 xiang3	gan3 xiang3	名
 4027	6	钢笔	gāngbǐ	gang1 bi3	gang1 bi3	名
 4028	6	港口	gǎngkǒu	gang3 kou3	gang3 kou3	名
@@ -4160,7 +4160,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4057	6	攻击	gōngjī	gong1 ji1	gong1 ji1	动
 4058	6	公开	gōngkāi	gong1 kai1	gong1 kai1	形、动
 4059	6	公民	gōngmín	gong1 min2	gong1 min2	名
-4060	6	公认	gōngrèn	gongr1 en4	gong1 r5 en4	动
+4060	6	公认	gōngrèn	gong1 ren4	gong1 ren4	动
 4061	6	功效	gōngxiào	gong1 xiao4	gong1 xiao4	名
 4062	6	工序	gōngxù	gong1 xu4	gong1 xu4	名
 4063	6	公益	gōngyì	gong1 yi4	gong1 yi4	名
@@ -4178,7 +4178,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4075	6	古典	gǔdiǎn	gu3 dian3	gu3 dian3	形
 4076	6	古迹	gǔjì	gu3 ji4	gu3 ji4	名
 4077	6	股票	gǔpiào	gu3 piao4	gu3 piao4	名
-4078	6	古人	gǔrén	gur3 en2	gu3 r5 en2	名
+4078	6	古人	gǔrén	gu3 ren2	gu3 ren2	名
 4079	6	股市	gǔshì	gu3 shi4	gu3 shi4	名
 4080	6	骨头	gǔtou	gu3 tou5	gu3 tou5	名
 4081	6	鼓舞	gǔwǔ	gu3 wu3	gu3 wu3	动、形
@@ -4234,7 +4234,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4131	6	毫升	háoshēng	hao2 sheng1	hao2 sheng1	量
 4132	6	好不	hǎobù	hao3 bu4	hao3 bu4	副
 4133	6	好感	hǎogǎn	hao3 gan3	hao3 gan3	名
-4134	6	好容易	hǎoróngyì	haor3 o2 ng5 yi4	hao3 r5 o2 ng5 yi4	形
+4134	6	好容易	hǎoróngyì	hao3 rong2 yi4	hao3 rong2 yi4	形
 4135	6	好客	hàokè	hao4 ke4	hao4 ke4	形
 4136	6	好学	hàoxué	hao4 xue2	hao4 xue2	动
 4137	6	号召	hàozhào	hao4 zhao4	hao4 zhao4	动
@@ -4254,7 +4254,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4151	6	洪水	hóngshuǐ	hong2 shui3	hong2 shui3	名
 4152	6	后代	hòudài	hou4 dai4	hou4 dai4	名
 4153	6	后期	hòuqī	hou4 qi1	hou4 qi1	名
-4154	6	后人	hòurén	hour4 en2	hou4 r5 en2	名
+4154	6	后人	hòurén	hou4 ren2	hou4 ren2	名
 4155	6	后退	hòutuì	hou4 tui4	hou4 tui4	动
 4156	6	后者	hòuzhě	hou4 zhe3	hou4 zhe3	名
 4157	6	忽略	hūlüè	hu1 lüe4	hu1 lüe4	动
@@ -4360,7 +4360,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4257	6	剑	jiàn	jian4	jian4	名
 4258	6	箭	jiàn	jian4	jian4	名
 4259	6	鉴定	jiàndìng	jian4 ding4	jian4 ding4	动、名
-4260	6	间隔	jiàngé	jiang4 e2	jiang4 e2	名、动
+4260	6	间隔	jiàngé	jian4 ge2	jian4 ge2	名、动
 4261	6	间接	jiànjiē	jian4 jie1	jian4 jie1	形
 4262	6	健全	jiànquán	jian4 quan2	jian4 quan2	形、动
 4263	6	建筑物	jiànzhùwù	jian4 zhu4 wu4	jian4 zhu4 wu4	名
@@ -4403,7 +4403,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4300	6	金额	jīn’é	jin1 e2	jin1 e2	名
 4301	6	金牌	jīnpái	jin1 pai2	jin1 pai2	名
 4302	6	金钱	jīnqián	jin1 qian2	jin1 qian2	名
-4303	6	金融	jīnróng	jinr1 o2 ng5	jin1 r5 o2 ng5	名
+4303	6	金融	jīnróng	jin1 rong2	jin1 rong2	名
 4304	6	金属	jīnshǔ	jin1 shu3	jin1 shu3	名
 4305	6	金子	jīnzi	jin1 zi5	jin1 zi5	名
 4306	6	尽	jìn	jin4	jin4	动
@@ -4416,7 +4416,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4312	6	进展	jìnzhǎn	jin4 zhan3	jin4 zhan3	动
 4313	6	精美	jīngměi	jing1 mei3	jing1 mei3	形
 4314	6	精确	jīngquè	jing1 que4	jing1 que4	形
-4315	6	惊人	jīngrén	jingr1 en2	jing1 r5 en2	形
+4315	6	惊人	jīngrén	jing1 ren2	jing1 ren2	形
 4316	6	经商	jīngshāng	jing1 shang1	jing1 shang1	动
 4317	6	精通	jīngtōng	jing1 tong1	jing1 tong1	动
 4318	6	精心	jīngxīn	jing1 xin1	jing1 xin1	形
@@ -4459,7 +4459,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4355	6	决策	juécè	jue2 ce4	jue2 ce4	动、名
 4356	6	绝望	juéwàng	jue2 wang4	jue2 wang4	动
 4357	6	军队	jūnduì	jun1 dui4	jun1 dui4	名
-4358	6	军人	jūnrén	junr1 en2	jun1 r5 en2	名
+4358	6	军人	jūnrén	jun1 ren2	jun1 ren2	名
 4359	6	均匀	jūnyún	jun1 yun2	jun1 yun2	形
 4360	6	卡片	kǎpiàn	ka3 pian4	ka3 pian4	名
 4361	6	开创	kāichuàng	kai1 chuang4	kai1 chuang4	动
@@ -4468,7 +4468,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4364	6	开设	kāishè	kai1 she4	kai1 she4	动
 4365	6	开头	kāitóu	kai1 tou2	kai1 tou2	动、名
 4366	6	砍	kǎn	kan3	kan3	动
-4367	6	看不起	kànbuqǐ	kan4 bu5 qi3	kan4 bu4 qi3	动
+4367	6	看不起	kànbuqǐ	kan4 bu5 qi3	kan4 bu5 qi3	动
 4368	6	看待	kàndài	kan4 dai4	kan4 dai4	动
 4369	6	看得起	kàndeqǐ	kan4 de5 qi3	kan4 de5 qi3	动
 4370	6	看好	kànhǎo	kan4 hao3	kan4 hao3	动
@@ -4509,7 +4509,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4405	6	款	kuǎn	kuan3	kuan3	名、量
 4406	6	款式	kuǎnshì	kuan3 shi4	kuan3 shi4	名
 4407	6	亏损	kuīsǔn	kui1 sun3	kui1 sun3	动
-4408	6	困扰	kùnrǎo	kunr4 ao3	kun4 r5 ao3	动
+4408	6	困扰	kùnrǎo	kun4 rao3	kun4 rao3	动
 4409	6	扩展	kuòzhǎn	kuo4 zhan3	kuo4 zhan3	动
 4410	6	落	là	la4	la4	动
 4411	6	辣椒	làjiāo	la4 jiao1	la4 jiao1	名
@@ -4593,7 +4593,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4489	6	麦克风	màikèfēng	mai4 ke4 feng1	mai4 ke4 feng1	名
 4490	6	漫长	màncháng	man4 chang2	man4 chang2	形
 4491	6	漫画	mànhuà	man4 hua4	man4 hua4	名
-4492	6	盲人	mángrén	mangr2 en2	mang2 r5 en2	名
+4492	6	盲人	mángrén	mang2 ren2	mang2 ren2	名
 4493	6	冒	mào	mao4	mao4	动
 4494	6	冒险	màoxiǎn	mao4 xian3	mao4 xian3	动
 4495	6	贸易	màoyì	mao4 yi4	mao4 yi4	名
@@ -4602,7 +4602,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4498	6	眉毛	méimao	mei2 mao5	mei2 mao5	名
 4499	6	美观	měiguān	mei3 guan1	mei3 guan1	形
 4500	6	弥补	míbǔ	mi2 bu3	mi2 bu3	动
-4501	6	迷人	mírén	mir2 en2	mi2 r5 en2	形
+4501	6	迷人	mírén	mi2 ren2	mi2 ren2	形
 4502	6	密	mì	mi4	mi4	形
 4503	6	密度	mìdù	mi4 du4	mi4 du4	名
 4504	6	蜜蜂	mìfēng	mi4 feng1	mi4 feng1	名
@@ -4619,7 +4619,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4515	6	描写	miáoxiě	miao2 xie3	miao2 xie3	动
 4516	6	妙	miào	miao4	miao4	形
 4517	6	灭	miè	mie4	mie4	动
-4518	6	民歌	míngē	ming2 e1	ming2 e1	名
+4518	6	民歌	míngē	min2 ge1	min2 ge1	名
 4519	6	民间	mínjiān	min2 jian1	min2 jian1	名
 4520	6	民俗	mínsú	min2 su2	min2 su2	名
 4521	6	民宿	mínsù	min2 su4	min2 su4	名
@@ -4634,7 +4634,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4530	6	命名	mìngmíng	ming4 ming2	ming4 ming2	动
 4531	6	模仿	mófǎng	mo2 fang3	mo2 fang3	动
 4532	6	模拟	mónǐ	mo2 ni3	mo2 ni3	动
-4533	6	模特儿	mótèr	mo2 ter4	mo2 te4 r5	名
+4533	6	模特儿	mótèr	mo2 te4 r5	mo2 te4 r5	名
 4534	6	摩托车	mótuōchē	mo2 tuo1 che1	mo2 tuo1 che1	名
 4535	6	模型	móxíng	mo2 xing2	mo2 xing2	名
 4536	6	默默	mòmò	mo4 mo4	mo4 mo4	副
@@ -4796,7 +4796,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4691	6	热水器	rèshuǐqì	re4 shui3 qi4	re4 shui3 qi4	名
 4692	6	热线	rèxiàn	re4 xian4	re4 xian4	名
 4693	6	热议	rèyì	re4 yi4	re4 yi4	动
-4694	6	人工智能	réngōngzhìnéng	reng2 o1 ng5 zhi4 neng2	reng2 o1 ng5 zhi4 neng2	
+4694	6	人工智能	réngōngzhìnéng	ren2 gong1 zhi4 neng2	ren2 gong1 zhi4 neng2	
 4695	6	人家	rénjia	ren2 jia5	ren2 jia5	代
 4696	6	人均	rénjūn	ren2 jun1	ren2 jun1	动
 4697	6	人山人海	rénshān-rénhǎi	ren2 shan1 ren2 hai3	ren2 shan1 ren2 hai3	
@@ -4992,8 +4992,8 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4887	6	添	tiān	tian1	tian1	动
 4888	6	天才	tiāncái	tian1 cai2	tian1 cai2	名
 4889	6	添加	tiānjiā	tian1 jia1	tian1 jia1	动
-4890	6	天然	tiānrán	tianr1 an2	tian1 r5 an2	形
-4891	6	天然气	tiānránqì	tianr1 an2 qi4	tian1 r5 an2 qi4	名
+4890	6	天然	tiānrán	tian1 ran2	tian1 ran2	形
+4891	6	天然气	tiānránqì	tian1 ran2 qi4	tian1 ran2 qi4	名
 4892	6	天文	tiānwén	tian1 wen2	tian1 wen2	名
 4893	6	天下	tiānxià	tian1 xia4	tian1 xia4	名
 4894	6	天真	tiānzhēn	tian1 zhen1	tian1 zhen1	形
@@ -5036,7 +5036,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4931	6	途径	tújìng	tu2 jing4	tu2 jing4	名
 4932	6	图像	túxiàng	tu2 xiang4	tu2 xiang4	名
 4933	6	吐	tǔ	tu3	tu3	动
-4934	6	土壤	tǔrǎng	tur3 ang3	tu3 r5 ang3	名
+4934	6	土壤	tǔrǎng	tu3 rang3	tu3 rang3	名
 4935	6	吐	tù	tu4	tu4	动
 4936	6	团结	tuánjié	tuan2 jie2	tuan2 jie2	动、形
 4937	6	团体	tuántǐ	tuan2 ti3	tuan2 ti3	名
@@ -5081,13 +5081,13 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 4976	6	委托	wěituō	wei3 tuo1	wei3 tuo1	动
 4977	6	未	wèi	wei4	wei4	副
 4978	6	未必	wèibì	wei4 bi4	wei4 bi4	副
-4979	6	未成年人	wèichéngniánrén	wei4 cheng2 nianr2 en2	wei4 cheng2 nian2 r5 en2	名
+4979	6	未成年人	wèichéngniánrén	wei4 cheng2 nian2 ren2	wei4 cheng2 nian2 ren2	名
 4980	6	为此	wèicǐ	wei4 ci3	wei4 ci3	连
 4981	6	为何	wèihé	wei4 he2	wei4 he2	副
 4982	6	味觉	wèijué	wei4 jue2	wei4 jue2	名
 4983	6	胃口	wèikǒu	wei4 kou3	wei4 kou3	名
 4984	6	温和	wēnhé	wen1 he2	wen1 he2	形
-4985	6	温柔	wēnróu	wenr1 ou2	wen1 r5 ou2	形
+4985	6	温柔	wēnróu	wen1 rou2	wen1 rou2	形
 4986	6	文档	wéndàng	wen2 dang4	wen2 dang4	名
 4987	6	文具	wénjù	wen2 ju4	wen2 ju4	名
 4988	6	文科	wénkē	wen2 ke1	wen2 ke1	名
@@ -5154,8 +5154,8 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5049	6	消灭	xiāomiè	xiao1 mie4	xiao1 mie4	动
 5050	6	小麦	xiǎomài	xiao3 mai4	xiao3 mai4	名
 5051	6	小气	xiǎoqi	xiao3 qi5	xiao3 qi5	形
-5052	6	小偷儿	xiǎotōur	xiao3 tour1	xiao3 tou1 r5	名
-5053	6	笑容	xiàoróng	xiaor4 o2 ng5	xiao4 r5 o2 ng5	名
+5052	6	小偷儿	xiǎotōur	xiao3 tou1 r5	xiao3 tou1 r5	名
+5053	6	笑容	xiàoróng	xiao4 rong2	xiao4 rong2	名
 5054	6	效应	xiàoyìng	xiao4 ying4	xiao4 ying4	名
 5055	6	歇	xiē	xie1	xie1	动
 5056	6	携带	xiédài	xie2 dai4	xie2 dai4	动
@@ -5211,7 +5211,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5106	6	严禁	yánjìn	yan2 jin4	yan2 jin4	动
 5107	6	严厉	yánlì	yan2 li4	yan2 li4	形
 5108	6	延期	yánqī	yan2 qi1	yan2 qi1	动
-5109	6	炎热	yánrè	yanr2 e4	yan2 r5 e4	形
+5109	6	炎热	yánrè	yan2 re4	yan2 re4	形
 5110	6	延伸	yánshēn	yan2 shen1	yan2 shen1	动
 5111	6	研讨	yántǎo	yan2 tao3	yan2 tao3	动
 5112	6	延续	yánxù	yan2 xu4	yan2 xu4	动
@@ -5270,7 +5270,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5165	6	一口气	yìkǒuqì	yi4 kou3 qi4	yi1 kou3 qi4	副
 5166	6	议论	yìlùn	yi4 lun4	yi4 lun4	动、名
 5167	6	一模一样	yìmú-yíyàng	yi4 mu2 yi2 yang4	yi1 mu2 yi1 yang4	
-5168	6	艺人	yìrén	yir4 en2	yi4 r5 en2	名
+5168	6	艺人	yìrén	yi4 ren2	yi4 ren2	名
 5169	6	一身	yìshēn	yi4 shen1	yi1 shen1	名
 5170	6	一时	yìshí	yi4 shi2	yi1 shi2	名、副
 5171	6	一同	yìtóng	yi4 tong2	yi1 tong2	副
@@ -5297,13 +5297,13 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5192	6	用餐	yòngcān	yong4 can1	yong4 can1	动
 5193	6	用处	yòngchù	yong4 chu4	yong4 chu4	名
 5194	6	用功	yònggōng	yong4 gong1	yong4 gong1	动、形
-5195	6	用人	yòngrén	yongr4 en2	yong4 r5 en2	动
+5195	6	用人	yòngrén	yong4 ren2	yong4 ren2	动
 5196	6	用心	yòngxīn	yong4 xin1	yong4 xin1	形
 5197	6	优化	yōuhuà	you1 hua4	you1 hua4	动
 5198	6	优先	yōuxiān	you1 xian1	you1 xian1	动
 5199	6	优异	yōuyì	you1 yi4	you1 yi4	形
 5200	6	由来	yóulái	you2 lai2	you2 lai2	名
-5201	6	游人	yóurén	your2 en2	you2 r5 en2	名
+5201	6	游人	yóurén	you2 ren2	you2 ren2	名
 5202	6	犹如	yóurú	you2 ru2	you2 ru2	动
 5203	6	有机	yǒujī	you3 ji1	you3 ji1	形
 5204	6	有劲	yǒujìn	you3 jin4	you3 jin4	动、形
@@ -5311,7 +5311,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5206	6	于	yú	yu2	yu2	介
 5207	6	余额	yú’é	yu2 e2	yu2 e2	名
 5208	6	与其	yǔqí	yu3 qi2	yu3 qi2	连
-5209	6	羽绒服	yǔróngfú	yur3 o2 ng5 fu2	yu3 r5 o2 ng5 fu2	名
+5209	6	羽绒服	yǔróngfú	yu3 rong2 fu2	yu3 rong2 fu2	名
 5210	6	预定	yùdìng	yu4 ding4	yu4 ding4	动
 5211	6	预料	yùliào	yu4 liao4	yu4 liao4	动、名
 5212	6	预期	yùqī	yu4 qi1	yu4 qi1	动
@@ -5435,7 +5435,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5329	6	种地	zhòngdì	zhong4 di4	zhong4 di4	动
 5330	6	中毒	zhòngdú	zhong4 du2	zhong4 du2	动
 5331	6	中奖	zhòngjiǎng	zhong4 jiang3	zhong4 jiang3	动
-5332	6	众人	zhòngrén	zhongr4 en2	zhong4 r5 en2	名
+5332	6	众人	zhòngrén	zhong4 ren2	zhong4 ren2	名
 5333	6	中暑	zhòngshǔ	zhong4 shu3	zhong4 shu3	名、动
 5334	6	众所周知	zhòngsuǒzhōuzhī	zhong4 suo3 zhou1 zhi1	zhong4 suo3 zhou1 zhi1	
 5335	6	重心	zhòngxīn	zhong4 xin1	zhong4 xin1	名
@@ -5469,7 +5469,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5363	6	专注	zhuānzhù	zhuan1 zhu4	zhuan1 zhu4	形
 5364	6	转换	zhuǎnhuàn	zhuan3 huan4	zhuan3 huan4	动
 5365	6	转交	zhuǎnjiāo	zhuan3 jiao1	zhuan3 jiao1	动
-5366	6	转让	zhuǎnràng	zhuanr3 ang4	zhuan3 r5 ang4	动
+5366	6	转让	zhuǎnràng	zhuan3 rang4	zhuan3 rang4	动
 5367	6	转身	zhuǎnshēn	zhuan3 shen1	zhuan3 shen1	动
 5368	6	转移	zhuǎnyí	zhuan3 yi2	zhuan3 yi2	动
 5369	6	转	zhuàn	zhuan4	zhuan4	动
@@ -5539,7 +5539,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5433	7-9	奥秘	àomì	ao4 mi4	ao4 mi4	名
 5434	7-9	扒	bā	ba1	ba1	动
 5435	7-9	疤	bā	ba1	ba1	名
-5436	7-9	巴不得	bābudé	ba1 bu5 de2	ba1 bu4 de2	动
+5436	7-9	巴不得	bābudé	ba1 bu5 de2	ba1 bu5 de2	动
 5437	7-9	八成	bāchéng	ba1 cheng2	ba1 cheng2	数量、副
 5438	7-9	八卦	bāguà	ba1 gua4	ba1 gua4	名、形
 5439	7-9	巴结	bājie	ba1 jie5	ba1 jie5	动
@@ -5605,7 +5605,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5499	7-9	褒贬	bāobiǎn	bao1 bian3	bao1 bian3	动
 5500	7-9	包袱	bāofu	bao1 fu5	bao1 fu5	名
 5501	7-9	包罗万象	bāoluó-wànxiàng	bao1 luo2 wan4 xiang4	bao1 luo2 wan4 xiang4	
-5502	7-9	包容	bāoróng	baor1 o2 ng5	bao1 r5 o2 ng5	动
+5502	7-9	包容	bāoróng	bao1 rong2	bao1 rong2	动
 5503	7-9	包围	bāowéi	bao1 wei2	bao1 wei2	动
 5504	7-9	包扎	bāozā	bao1 za1	bao1 za1	动
 5505	7-9	饱和	bǎohé	bao3 he2	bao3 he2	动
@@ -5693,8 +5693,8 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5587	7-9	必将	bìjiāng	bi4 jiang1	bi4 jiang1	副
 5588	7-9	壁垒	bìlěi	bi4 lei3	bi4 lei3	名
 5589	7-9	碧绿	bìlǜ	bi4 lü4	bi4 lü4	形
-5590	7-9	避难	bìnàn	bin4 an4	bin4 an4	动
-5591	7-9	避让	bìràng	bir4 ang4	bi4 r5 ang4	动
+5590	7-9	避难	bìnàn	bi4 nan4	bi4 nan4	动
+5591	7-9	避让	bìràng	bi4 rang4	bi4 rang4	动
 5592	7-9	毕生	bìshēng	bi4 sheng1	bi4 sheng1	名
 5593	7-9	避暑	bìshǔ	bi4 shu3	bi4 shu3	动
 5594	7-9	鞭策	biāncè	bian1 ce4	bian1 ce4	动
@@ -5718,8 +5718,8 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5612	7-9	辨别	biànbié	bian4 bie2	bian4 bie2	动
 5613	7-9	遍布	biànbù	bian4 bu4	bian4 bu4	动
 5614	7-9	便饭	biànfàn	bian4 fan4	bian4 fan4	名
-5615	7-9	变革	biàngé	biang4 e2	biang4 e2	动
-5616	7-9	变更	biàngēng	biang4 eng1	biang4 eng1	动
+5615	7-9	变革	biàngé	bian4 ge2	bian4 ge2	动
+5616	7-9	变更	biàngēng	bian4 geng1	bian4 geng1	动
 5617	7-9	变故	biàngù	bian4 gu4	bian4 gu4	名
 5618	7-9	辩护	biànhù	bian4 hu4	bian4 hu4	动
 5619	7-9	变换	biànhuàn	bian4 huan4	bian4 huan4	动
@@ -5727,7 +5727,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5621	7-9	辩解	biànjiě	bian4 jie3	bian4 jie3	动
 5622	7-9	辩论	biànlùn	bian4 lun4	bian4 lun4	动
 5623	7-9	变迁	biànqiān	bian4 qian1	bian4 qian1	动
-5624	7-9	辨认	biànrèn	bianr4 en4	bian4 r5 en4	动
+5624	7-9	辨认	biànrèn	bian4 ren4	bian4 ren4	动
 5625	7-9	变通	biàntōng	bian4 tong1	bian4 tong1	动
 5626	7-9	便携式	biànxiéshì	bian4 xie2 shi4	bian4 xie2 shi4	形
 5627	7-9	变形	biànxíng	bian4 xing2	bian4 xing2	动
@@ -5763,7 +5763,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5657	7-9	濒临	bīnlín	bin1 lin2	bin1 lin2	动
 5658	7-9	濒危	bīnwēi	bin1 wei1	bin1 wei1	动
 5659	7-9	冰雹	bīngbáo	bing1 bao2	bing1 bao2	名
-5660	7-9	冰棍儿	bīnggùnr	bing1 gunr4	bing1 gun4 r5	名
+5660	7-9	冰棍儿	bīnggùnr	bing1 gun4 r5	bing1 gun4 r5	名
 5661	7-9	冰山一角	bīngshān-yìjiǎo	bing1 shan1 yi4 jiao3	bing1 shan1 yi1 jiao3	
 5662	7-9	冰天雪地	bīngtiān-xuědì	bing1 tian1 xue3 di4	bing1 tian1 xue3 di4	
 5663	7-9	丙	bǐng	bing3	bing3	名
@@ -5847,14 +5847,14 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5741	7-9	不了了之	bùliǎo-liǎozhī	bu4 liao3 liao3 zhi1	bu4 liao3 liao3 zhi1	
 5742	7-9	不免	bùmiǎn	bu4 mian3	bu4 mian3	副
 5743	7-9	不平	bùpíng	bu4 ping2	bu4 ping2	形
-5744	7-9	不容	bùróng	bur4 o2 ng5	bu4 o2 ng5	动
+5744	7-9	不容	bùróng	bu4 rong2	bu4 rong2	动
 5745	7-9	步入	bùrù	bu4 ru4	bu4 ru4	动
 5746	7-9	部首	bùshǒu	bu4 shou3	bu4 shou3	名
 5747	7-9	部署	bùshǔ	bu4 shu3	bu4 shu3	动
 5748	7-9	不惜	bùxī	bu4 xi1	bu4 xi1	动
 5749	7-9	不相上下	bùxiāng-shàngxià	bu4 xiang1 shang4 xia4	bu4 xiang1 shang4 xia4	
 5750	7-9	不言而喻	bùyán’éryù	bu4 yan2 er2 yu4	bu4 yan2 er2 yu4	
-5751	7-9	不以为然	bùyǐwéirán	bu4 yi3 weir2 an2	bu4 yi3 wei2 r5 an2	
+5751	7-9	不以为然	bùyǐwéirán	bu4 yi3 wei2 ran2	bu4 yi3 wei2 ran2	
 5752	7-9	不由得	bùyóude	bu4 you2 de5	bu4 you2 de5	动、副
 5753	7-9	不由自主	bùyóuzìzhǔ	bu4 you2 zi4 zhu3	bu4 you2 zi4 zhu3	
 5754	7-9	不约而同	bùyuē’értóng	bu4 yue1 er2 tong2	bu4 yue1 er2 tong2	
@@ -5883,7 +5883,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5777	7-9	惭愧	cánkuì	can2 kui4	can2 kui4	形
 5778	7-9	残留	cánliú	can2 liu2	can2 liu2	动
 5779	7-9	残缺	cánquē	can2 que1	can2 que1	动
-5780	7-9	残忍	cánrěn	canr2 en3	can2 r5 en3	形
+5780	7-9	残忍	cánrěn	can2 ren3	can2 ren3	形
 5781	7-9	惨	cǎn	can3	can3	形
 5782	7-9	惨白	cǎnbái	can3 bai2	can3 bai2	形
 5783	7-9	惨痛	cǎntòng	can3 tong4	can3 tong4	形
@@ -5927,7 +5927,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5821	7-9	察看	chákàn	cha2 kan4	cha2 kan4	动
 5822	7-9	查明	chámíng	cha2 ming2	cha2 ming2	动
 5823	7-9	岔	chà	cha4	cha4	名、动
-5824	7-9	刹那	chànà	chan4 a4	chan4 a4	名
+5824	7-9	刹那	chànà	cha4 na4	cha4 na4	名
 5825	7-9	诧异	chàyì	cha4 yi4	cha4 yi4	形
 5826	7-9	拆迁	chāiqiān	chai1 qian1	chai1 qian1	动
 5827	7-9	柴油	cháiyóu	chai2 you2	chai2 you2	名
@@ -5935,7 +5935,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5829	7-9	搀	chān	chan1	chan1	动
 5830	7-9	馋	chán	chan2	chan2	形、动
 5831	7-9	缠	chán	chan2	chan2	动
-5832	7-9	缠绕	chánrào	chanr2 ao4	chan2 r5 ao4	动
+5832	7-9	缠绕	chánrào	chan2 rao4	chan2 rao4	动
 5833	7-9	铲	chǎn	chan3	chan3	名、动
 5834	7-9	产权	chǎnquán	chan3 quan2	chan3 quan2	名
 5835	7-9	阐释	chǎnshì	chan3 shi4	chan3 shi4	动
@@ -5949,7 +5949,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5843	7-9	偿还	chánghuán	chang2 huan2	chang2 huan2	动
 5844	7-9	常理	chánglǐ	chang2 li3	chang2 li3	名
 5845	7-9	长期以来	chángqīyǐlái	chang2 qi1 yi3 lai2	chang2 qi1 yi3 lai2	
-5846	7-9	常人	chángrén	changr2 en2	chang2 r5 en2	名
+5846	7-9	常人	chángrén	chang2 ren2	chang2 ren2	名
 5847	7-9	常态	chángtài	chang2 tai4	chang2 tai4	名
 5848	7-9	长效	chángxiào	chang2 xiao4	chang2 xiao4	名、形
 5849	7-9	长征	chángzhēng	chang2 zheng1	chang2 zheng1	动、名
@@ -6070,7 +6070,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5964	7-9	筹码	chóumǎ	chou2 ma3	chou2 ma3	名
 5965	7-9	愁眉苦脸	chóuméi-kǔliǎn	chou2 mei2 ku3 lian3	chou2 mei2 ku3 lian3	
 5966	7-9	稠密	chóumì	chou2 mi4	chou2 mi4	形
-5967	7-9	仇人	chóurén	chour2 en2	chou2 r5 en2	名
+5967	7-9	仇人	chóurén	chou2 ren2	chou2 ren2	名
 5968	7-9	瞅	chǒu	chou3	chou3	动
 5969	7-9	丑恶	chǒu’è	chou3 e4	chou3 e4	形
 5970	7-9	丑陋	chǒulòu	chou3 lou4	chou3 lou4	形
@@ -6086,8 +6086,8 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 5980	7-9	出路	chūlù	chu1 lu4	chu1 lu4	名
 5981	7-9	出卖	chūmài	chu1 mai4	chu1 mai4	动
 5982	7-9	出面	chūmiàn	chu1 mian4	chu1 mian4	动
-5983	7-9	出任	chūrèn	chur1 en4	chu1 r5 en4	动
-5984	7-9	出人意料	chūrényìliào	chur1 en2 yi4 liao4	chu1 r5 en2 yi4 liao4	
+5983	7-9	出任	chūrèn	chu1 ren4	chu1 ren4	动
+5984	7-9	出人意料	chūrényìliào	chu1 ren2 yi4 liao4	chu1 ren2 yi4 liao4	
 5985	7-9	出神	chūshén	chu1 shen2	chu1 shen2	动
 5986	7-9	出身	chūshēn	chu1 shen1	chu1 shen1	动、名
 5987	7-9	出手	chūshǒu	chu1 shou3	chu1 shou3	动、名
@@ -6129,7 +6129,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6023	7-9	传单	chuándān	chuan2 dan1	chuan2 dan1	名
 6024	7-9	传媒	chuánméi	chuan2 mei2	chuan2 mei2	名
 6025	7-9	传奇	chuánqí	chuan2 qi2	chuan2 qi2	名
-6026	7-9	传人	chuánrén	chuanr2 en2	chuan2 r5 en2	动、名
+6026	7-9	传人	chuánrén	chuan2 ren2	chuan2 ren2	动、名
 6027	7-9	传闻	chuánwén	chuan2 wen2	chuan2 wen2	动、名
 6028	7-9	传言	chuányán	chuan2 yan2	chuan2 yan2	名、动
 6029	7-9	喘	chuǎn	chuan3	chuan3	动
@@ -6139,7 +6139,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6033	7-9	创伤	chuāngshāng	chuang1 shang1	chuang1 shang1	名
 6034	7-9	床位	chuángwèi	chuang2 wei4	chuang2 wei4	名
 6035	7-9	创	chuàng	chuang4	chuang4	动
-6036	7-9	创始人	chuàngshǐrén	chuang4 shir3 en2	chuang4 shi3 r5 en2	名
+6036	7-9	创始人	chuàngshǐrén	chuang4 shi3 ren2	chuang4 shi3 ren2	名
 6037	7-9	吹牛	chuīniú	chui1 niu2	chui1 niu2	动
 6038	7-9	吹捧	chuīpěng	chui1 peng3	chui1 peng3	动
 6039	7-9	炊烟	chuīyān	chui1 yan1	chui1 yan1	名
@@ -6180,8 +6180,8 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6074	7-9	葱	cōng	cong1	cong1	名
 6075	7-9	丛	cóng	cong2	cong2	量
 6076	7-9	丛林	cónglín	cong2 lin2	cong2 lin2	名
-6077	7-9	从容	cóngróng	congr2 o2 ng5	cong2 r5 o2 ng5	形
-6078	7-9	从容不迫	cóngróng-búpò	congr2 o2 ng5 bu2 po4	cong2 r5 o2 ng5 bu4 po4	
+6077	7-9	从容	cóngróng	cong2 rong2	cong2 rong2	形
+6078	7-9	从容不迫	cóngróng-búpò	cong2 rong2 bu2 po4	cong2 rong2 bu4 po4	
 6079	7-9	从头	cóngtóu	cong2 tou2	cong2 tou2	副
 6080	7-9	凑	còu	cou4	cou4	动
 6081	7-9	凑合	còuhe	cou4 he5	cou4 he5	动
@@ -6223,7 +6223,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6117	7-9	打岔	dǎchà	da3 cha4	da3 cha4	动
 6118	7-9	打倒	dǎdǎo	da3 dao3	da3 dao3	动
 6119	7-9	打赌	dǎdǔ	da3 du3	da3 du3	动
-6120	7-9	打盹儿	dǎdǔnr	da3 dunr3	da3 dun3 r5	动
+6120	7-9	打盹儿	dǎdǔnr	da3 dun3 r5	da3 dun3 r5	动
 6121	7-9	打发	dǎfa	da3 fa5	da3 fa5	动
 6122	7-9	打搅	dǎjiǎo	da3 jiao3	da3 jiao3	动
 6123	7-9	打捞	dǎlāo	da3 lao1	da3 lao1	动
@@ -6231,7 +6231,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6125	7-9	打猎	dǎliè	da3 lie4	da3 lie4	动
 6126	7-9	打磨	dǎmó	da3 mo2	da3 mo2	动
 6127	7-9	打消	dǎxiāo	da3 xiao1	da3 xiao1	动
-6128	7-9	大不了	dàbuliǎo	da4 bu5 liao3	da4 bu4 liao3	形、副
+6128	7-9	大不了	dàbuliǎo	da4 bu5 liao3	da4 bu5 liao3	形、副
 6129	7-9	大大咧咧	dàdaliēliē	da4 da5 lie1 lie1	da4 da5 lie1 lie1	形
 6130	7-9	大纲	dàgāng	da4 gang1	da4 gang1	名
 6131	7-9	大公无私	dàgōng-wúsī	da4 gong1 wu2 si1	da4 gong1 wu2 si1	
@@ -6258,7 +6258,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6152	7-9	带队	dàiduì	dai4 dui4	dai4 dui4	动
 6153	7-9	怠工	dàigōng	dai4 gong1	dai4 gong1	动
 6154	7-9	代号	dàihào	dai4 hao4	dai4 hao4	名
-6155	7-9	代理人	dàilǐrén	dai4 lir3 en2	dai4 li3 r5 en2	名
+6155	7-9	代理人	dàilǐrén	dai4 li3 ren2	dai4 li3 ren2	名
 6156	7-9	带路	dàilù	dai4 lu4	dai4 lu4	动
 6157	7-9	怠慢	dàimàn	dai4 man4	dai4 man4	动
 6158	7-9	带头	dàitóu	dai4 tou2	dai4 tou2	动
@@ -6270,7 +6270,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6164	7-9	担当	dāndāng	dan1 dang1	dan1 dang1	动
 6165	7-9	单方面	dānfāngmiàn	dan1 fang1 mian4	dan1 fang1 mian4	名
 6166	7-9	担负	dānfù	dan1 fu4	dan1 fu4	动
-6167	7-9	耽搁	dānge	dang1 e5	dang1 e5	动
+6167	7-9	耽搁	dānge	dan1 ge5	dan1 ge5	动
 6168	7-9	单价	dānjià	dan1 jia4	dan1 jia4	名
 6169	7-9	单身	dānshēn	dan1 shen1	dan1 shen1	动、名、副
 6170	7-9	胆量	dǎnliàng	dan3 liang4	dan3 liang4	名
@@ -6286,7 +6286,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6180	7-9	当即	dāngjí	dang1 ji2	dang1 ji2	副
 6181	7-9	当机立断	dāngjī-lìduàn	dang1 ji1 li4 duan4	dang1 ji1 li4 duan4	
 6182	7-9	当日	dāngrì	dang1 ri4	dang1 ri4	名
-6183	7-9	当事人	dāngshìrén	dang1 shir4 en2	dang1 shi4 r5 en2	名
+6183	7-9	当事人	dāngshìrén	dang1 shi4 ren2	dang1 shi4 ren2	名
 6184	7-9	当务之急	dāngwùzhījí	dang1 wu4 zhi1 ji2	dang1 wu4 zhi1 ji2	
 6185	7-9	当心	dāngxīn	dang1 xin1	dang1 xin1	动
 6186	7-9	当之无愧	dāngzhīwúkuì	dang1 zhi1 wu2 kui4	dang1 zhi1 wu2 kui4	
@@ -6431,7 +6431,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6325	7-9	定做	dìngzuò	ding4 zuo4	ding4 zuo4	动
 6326	7-9	丢脸	diūliǎn	diu1 lian3	diu1 lian3	动
 6327	7-9	丢弃	diūqì	diu1 qi4	diu1 qi4	动
-6328	7-9	丢人	diūrén	diur1 en2	diu1 r5 en2	动
+6328	7-9	丢人	diūrén	diu1 ren2	diu1 ren2	动
 6329	7-9	丢三落四	diūsān-làsì	diu1 san1 la4 si4	diu1 san1 la4 si4	
 6330	7-9	东奔西走	dōngbēn-xīzǒu	dong1 ben1 xi1 zou3	dong1 ben1 xi1 zou3	
 6331	7-9	东道主	dōngdàozhǔ	dong1 dao4 zhu3	dong1 dao4 zhu3	名
@@ -6440,7 +6440,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6334	7-9	懂事	dǒngshì	dong3 shi4	dong3 shi4	形
 6335	7-9	董事会	dǒngshìhuì	dong3 shi4 hui4	dong3 shi4 hui4	名
 6336	7-9	董事长	dǒngshìzhǎng	dong3 shi4 zhang3	dong3 shi4 zhang3	名
-6337	7-9	动不动	dòngbudòng	dong4 bu5 dong4	dong4 bu4 dong4	副
+6337	7-9	动不动	dòngbudòng	dong4 bu5 dong4	dong4 bu5 dong4	副
 6338	7-9	动荡	dòngdàng	dong4 dang4	dong4 dang4	动、形
 6339	7-9	动感	dònggǎn	dong4 gan3	dong4 gan3	名
 6340	7-9	动工	dònggōng	dong4 gong1	dong4 gong1	动
@@ -6483,7 +6483,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6377	7-9	断绝	duànjué	duan4 jue2	duan4 jue2	动
 6378	7-9	断裂	duànliè	duan4 lie4	duan4 lie4	动
 6379	7-9	段落	duànluò	duan4 luo4	duan4 luo4	名
-6380	7-9	断然	duànrán	duanr4 an2	duan4 r5 an2	形、副
+6380	7-9	断然	duànrán	duan4 ran2	duan4 ran2	形、副
 6381	7-9	断章取义	duànzhāng-qǔyì	duan4 zhang1 qu3 yi4	duan4 zhang1 qu3 yi4	
 6382	7-9	堆积	duījī	dui1 ji1	dui1 ji1	动
 6383	7-9	堆砌	duīqì	dui1 qi4	dui1 qi4	动
@@ -6529,7 +6529,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6423	7-9	恶作剧	èzuòjù	e4 zuo4 ju4	e4 zuo4 ju4	动、名
 6424	7-9	恩爱	ēn’ài	en1 ai4	en1 ai4	形
 6425	7-9	恩情	ēnqíng	en1 qing2	en1 qing2	名
-6426	7-9	恩人	ēnrén	enr1 en2	en1 r5 en2	名
+6426	7-9	恩人	ēnrén	en1 ren2	en1 ren2	名
 6427	7-9	恩怨	ēnyuàn	en1 yuan4	en1 yuan4	名
 6428	7-9	而已	éryǐ	er2 yi3	er2 yi3	助
 6429	7-9	耳光	ěrguāng	er3 guang1	er3 guang1	名
@@ -6544,20 +6544,20 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6438	7-9	发掘	fājué	fa1 jue2	fa1 jue2	动
 6439	7-9	发愣	fālèng	fa1 leng4	fa1 leng4	动
 6440	7-9	发怒	fānù	fa1 nu4	fa1 nu4	动
-6441	7-9	发热	fārè	far1 e4	fa1 r5 e4	动
+6441	7-9	发热	fārè	fa1 re4	fa1 re4	动
 6442	7-9	发射	fāshè	fa1 she4	fa1 she4	动
 6443	7-9	发誓	fāshì	fa1 shi4	fa1 shi4	动
 6444	7-9	发泄	fāxiè	fa1 xie4	fa1 xie4	动
 6445	7-9	发芽	fāyá	fa1 ya2	fa1 ya2	动
 6446	7-9	发扬	fāyáng	fa1 yang2	fa1 yang2	动
 6447	7-9	发扬光大	fāyáng-guāngdà	fa1 yang2 guang1 da4	fa1 yang2 guang1 da4	
-6448	7-9	发言人	fāyánrén	fa1 yanr2 en2	fa1 yan2 r5 en2	名
+6448	7-9	发言人	fāyánrén	fa1 yan2 ren2	fa1 yan2 ren2	名
 6449	7-9	发源	fāyuán	fa1 yuan2	fa1 yuan2	动
 6450	7-9	发源地	fāyuándì	fa1 yuan2 di4	fa1 yuan2 di4	名
 6451	7-9	发作	fāzuò	fa1 zuo4	fa1 zuo4	动
 6452	7-9	乏力	fálì	fa2 li4	fa2 li4	形、动
 6453	7-9	阀门	fámén	fa2 men2	fa2 men2	名
-6454	7-9	法人	fǎrén	far3 en2	fa3 r5 en2	名
+6454	7-9	法人	fǎrén	fa3 ren2	fa3 ren2	名
 6455	7-9	法庭	fǎtíng	fa3 ting2	fa3 ting2	名
 6456	7-9	法则	fǎzé	fa3 ze2	fa3 ze2	名
 6457	7-9	法制	fǎzhì	fa3 zhi4	fa3 zhi4	名
@@ -6582,7 +6582,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6476	7-9	反差	fǎnchā	fan3 cha1	fan3 cha1	名
 6477	7-9	反常	fǎncháng	fan3 chang2	fan3 chang2	形
 6478	7-9	反倒	fǎndào	fan3 dao4	fan3 dao4	副
-6479	7-9	反感	fǎngǎn	fang3 an3	fang3 an3	名、形
+6479	7-9	反感	fǎngǎn	fan3 gan3	fan3 gan3	名、形
 6480	7-9	返还	fǎnhuán	fan3 huan2	fan3 huan2	动
 6481	7-9	反击	fǎnjī	fan3 ji1	fan3 ji1	动
 6482	7-9	反抗	fǎnkàng	fan3 kang4	fan3 kang4	动
@@ -6658,7 +6658,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6552	7-9	分发	fēnfā	fen1 fa1	fen1 fa1	动
 6553	7-9	芬芳	fēnfāng	fen1 fang1	fen1 fang1	形、名
 6554	7-9	吩咐	fēnfù	fen1 fu4	fen1 fu4	动
-6555	7-9	分割	fēngē	feng1 e1	feng1 e1	动
+6555	7-9	分割	fēngē	fen1 ge1	fen1 ge1	动
 6556	7-9	分红	fēnhóng	fen1 hong2	fen1 hong2	动
 6557	7-9	分化	fēnhuà	fen1 hua4	fen1 hua4	动
 6558	7-9	分解	fēnjiě	fen1 jie3	fen1 jie3	动
@@ -6788,7 +6788,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6682	7-9	概	gài	gai4	gai4	副
 6683	7-9	概况	gàikuàng	gai4 kuang4	gai4 kuang4	名
 6684	7-9	概论	gàilùn	gai4 lun4	gai4 lun4	名
-6685	7-9	干戈	gāngē	gang1 e1	gang1 e1	名
+6685	7-9	干戈	gāngē	gan1 ge1	gan1 ge1	名
 6686	7-9	干枯	gānkū	gan1 ku1	gan1 ku1	形
 6687	7-9	干涉	gānshè	gan1 she4	gan1 she4	动
 6688	7-9	甘心	gānxīn	gan1 xin1	gan1 xin1	动
@@ -6853,7 +6853,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6747	7-9	格子	gézi	ge2 zi5	ge2 zi5	名
 6748	7-9	个案	gè’àn	ge4 an4	ge4 an4	名
 6749	7-9	各抒己见	gèshū-jǐjiàn	ge4 shu1 ji3 jian4	ge4 shu1 ji3 jian4	
-6750	7-9	个头儿	gètóur	ge4 tour2	ge4 tou2 r5	名
+6750	7-9	个头儿	gètóur	ge4 tou2 r5	ge4 tou2 r5	名
 6751	7-9	根基	gēnjī	gen1 ji1	gen1 ji1	名
 6752	7-9	跟进	gēnjìn	gen1 jin4	gen1 jin4	动
 6753	7-9	根深蒂固	gēnshēn-dìgù	gen1 shen1 di4 gu4	gen1 shen1 di4 gu4	
@@ -6897,7 +6897,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6791	7-9	公仆	gōngpú	gong1 pu2	gong1 pu2	名
 6792	7-9	公顷	gōngqǐng	gong1 qing3	gong1 qing3	量
 6793	7-9	供求	gōngqiú	gong1 qiu2	gong1 qiu2	名
-6794	7-9	公然	gōngrán	gongr1 an2	gong1 r5 an2	副
+6794	7-9	公然	gōngrán	gong1 ran2	gong1 ran2	副
 6795	7-9	公示	gōngshì	gong1 shi4	gong1 shi4	动
 6796	7-9	公式	gōngshì	gong1 shi4	gong1 shi4	名
 6797	7-9	公事	gōngshì	gong1 shi4	gong1 shi4	名
@@ -6959,7 +6959,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6853	7-9	顾虑	gùlǜ	gu4 lü4	gu4 lü4	动、名
 6854	7-9	顾名思义	gùmíng-sīyì	gu4 ming2 si1 yi4	gu4 ming2 si1 yi4	
 6855	7-9	顾全大局	gùquán-dàjú	gu4 quan2 da4 ju2	gu4 quan2 da4 ju2	
-6856	7-9	固然	gùrán	gur4 an2	gu4 r5 an2	连
+6856	7-9	固然	gùrán	gu4 ran2	gu4 ran2	连
 6857	7-9	雇佣	gùyōng	gu4 yong1	gu4 yong1	动
 6858	7-9	固有	gùyǒu	gu4 you3	gu4 you3	形
 6859	7-9	雇员	gùyuán	gu4 yuan2	gu4 yuan2	名
@@ -6975,13 +6975,13 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6869	7-9	乖	guāi	guai1	guai1	形
 6870	7-9	乖巧	guāiqiǎo	guai1 qiao3	guai1 qiao3	形
 6871	7-9	拐杖	guǎizhàng	guai3 zhang4	guai3 zhang4	名
-6872	7-9	怪不得	guàibude	guai4 bu5 de5	guai4 bu4 de5	动、副
+6872	7-9	怪不得	guàibude	guai4 bu5 de5	guai4 bu5 de5	动、副
 6873	7-9	怪物	guàiwu	guai4 wu5	guai4 wu5	名
 6874	7-9	怪异	guàiyì	guai4 yi4	guai4 yi4	形、名
 6875	7-9	官兵	guānbīng	guan1 bing1	guan1 bing1	名
 6876	7-9	棺材	guāncai	guan1 cai5	guan1 cai5	名
 6877	7-9	观测	guāncè	guan1 ce4	guan1 ce4	动
-6878	7-9	观感	guāngǎn	guang1 an3	guang1 an3	名
+6878	7-9	观感	guāngǎn	guan1 gan3	guan1 gan3	名
 6879	7-9	关节	guānjié	guan1 jie2	guan1 jie2	名
 6880	7-9	官吏	guānlì	guan1 li4	guan1 li4	名
 6881	7-9	官僚	guānliáo	guan1 liao2	guan1 liao2	名
@@ -7000,7 +7000,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6894	7-9	灌	guàn	guan4	guan4	动
 6895	7-9	贯彻	guànchè	guan4 che4	guan4 che4	动
 6896	7-9	贯穿	guànchuān	guan4 chuan1	guan4 chuan1	动
-6897	7-9	灌溉	guàngài	guang4 ai4	guang4 ai4	动
+6897	7-9	灌溉	guàngài	guan4 gai4	guan4 gai4	动
 6898	7-9	惯例	guànlì	guan4 li4	guan4 li4	名
 6899	7-9	灌输	guànshū	guan4 shu1	guan4 shu1	动
 6900	7-9	贯通	guàntōng	guan4 tong1	guan4 tong1	动
@@ -7015,7 +7015,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6909	7-9	光芒	guāngmáng	guang1 mang2	guang1 mang2	名
 6910	7-9	光明磊落	guāngmíng-lěiluò	guang1 ming2 lei3 luo4	guang1 ming2 lei3 luo4	
 6911	7-9	光盘	guāngpán	guang1 pan2	guang1 pan2	名
-6912	7-9	光荣	guāngróng	guangr1 o2 ng5	guang1 r5 o2 ng5	形、名
+6912	7-9	光荣	guāngróng	guang1 rong2	guang1 rong2	形、名
 6913	7-9	光泽	guāngzé	guang1 ze2	guang1 ze2	名
 6914	7-9	广义	guǎngyì	guang3 yi4	guang3 yi4	名
 6915	7-9	龟	guī	gui1	gui1	名
@@ -7050,7 +7050,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6944	7-9	果真	guǒzhēn	guo3 zhen1	guo3 zhen1	副、连
 6945	7-9	过意不去	guòyìbúqù	guo4 yi4 bu2 qu4	guo4 yi4 bu4 qu4	
 6946	7-9	过半	guòbàn	guo4 ban4	guo4 ban4	动
-6947	7-9	过不去	guòbuqù	guo4 bu5 qu4	guo4 bu4 qu4	动
+6947	7-9	过不去	guòbuqù	guo4 bu5 qu4	guo4 bu5 qu4	动
 6948	7-9	过错	guòcuò	guo4 cuo4	guo4 cuo4	名
 6949	7-9	过道	guòdào	guo4 dao4	guo4 dao4	名
 6950	7-9	过关	guòguān	guo4 guan1	guo4 guan1	动
@@ -7079,13 +7079,13 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 6973	7-9	海运	hǎiyùn	hai3 yun4	hai3 yun4	动
 6974	7-9	海藻	hǎizǎo	hai3 zao3	hai3 zao3	名
 6975	7-9	害虫	hàichóng	hai4 chong2	hai4 chong2	名
-6976	7-9	骇人听闻	hàiréntīngwén	hair4 en2 ting1 wen2	hai4 r5 en2 ting1 wen2	
+6976	7-9	骇人听闻	hàiréntīngwén	hai4 ren2 ting1 wen2	hai4 ren2 ting1 wen2	
 6977	7-9	酣畅	hānchàng	han1 chang4	han1 chang4	形
 6978	7-9	憨厚	hānhòu	han1 hou4	han1 hou4	形
 6979	7-9	酣睡	hānshuì	han1 shui4	han1 shui4	动
 6980	7-9	函	hán	han2	han2	名
 6981	7-9	寒带	hándài	han2 dai4	han2 dai4	名
-6982	7-9	涵盖	hángài	hang2 ai4	hang2 ai4	动
+6982	7-9	涵盖	hángài	han2 gai4	han2 gai4	动
 6983	7-9	含糊	hánhu	han2 hu5	han2 hu5	形
 6984	7-9	含蓄	hánxù	han2 xu4	han2 xu4	动、形
 6985	7-9	寒暄	hánxuān	han2 xuan1	han2 xuan1	动
@@ -7140,7 +7140,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7034	7-9	何况	hékuàng	he2 kuang4	he2 kuang4	连
 7035	7-9	禾苗	hémiáo	he2 miao2	he2 miao2	名
 7036	7-9	和睦	hémù	he2 mu4	he2 mu4	形
-7037	7-9	核能	hénéng	hen2 eng2	hen2 eng2	名
+7037	7-9	核能	hénéng	he2 neng2	he2 neng2	名
 7038	7-9	河畔	hépàn	he2 pan4	he2 pan4	名
 7039	7-9	和平共处	hépínggòngchǔ	he2 ping2 gong4 chu3	he2 ping2 gong4 chu3	
 7040	7-9	和气	héqi	he2 qi5	he2 qi5	形、名
@@ -7154,12 +7154,12 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7048	7-9	喝彩	hècǎi	he4 cai3	he4 cai3	动
 7049	7-9	贺电	hèdiàn	he4 dian4	he4 dian4	名
 7050	7-9	鹤立鸡群	hèlìjīqún	he4 li4 ji1 qun2	he4 li4 ji1 qun2	
-7051	7-9	赫然	hèrán	her4 an2	he4 r5 an2	形
+7051	7-9	赫然	hèrán	he4 ran2	he4 ran2	形
 7052	7-9	贺信	hèxìn	he4 xin4	he4 xin4	名
 7053	7-9	黑客	hēikè	hei1 ke4	hei1 ke4	名
 7054	7-9	黑马	hēimǎ	hei1 ma3	hei1 ma3	名
 7055	7-9	黑名单	hēimíngdān	hei1 ming2 dan1	hei1 ming2 dan1	名
-7056	7-9	恨不得	hènbude	hen4 bu5 de5	hen4 bu4 de5	动
+7056	7-9	恨不得	hènbude	hen4 bu5 de5	hen4 bu5 de5	动
 7057	7-9	哼	hēng	heng1	heng1	动
 7058	7-9	横	héng	heng2	heng2	形
 7059	7-9	横向	héngxiàng	heng2 xiang4	heng2 xiang4	形
@@ -7193,13 +7193,13 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7087	7-9	后世	hòushì	hou4 shi4	hou4 shi4	名
 7088	7-9	后台	hòutái	hou4 tai2	hou4 tai2	名
 7089	7-9	后续	hòuxù	hou4 xu4	hou4 xu4	形
-7090	7-9	候选人	hòuxuǎnrén	hou4 xuanr3 en2	hou4 xuan3 r5 en2	名
+7090	7-9	候选人	hòuxuǎnrén	hou4 xuan3 ren2	hou4 xuan3 ren2	名
 7091	7-9	后裔	hòuyì	hou4 yi4	hou4 yi4	名
 7092	7-9	后遗症	hòuyízhèng	hou4 yi2 zheng4	hou4 yi2 zheng4	名
 7093	7-9	呼	hū	hu1	hu1	动
 7094	7-9	呼唤	hūhuàn	hu1 huan4	hu1 huan4	动
 7095	7-9	呼救	hūjiù	hu1 jiu4	hu1 jiu4	动
-7096	7-9	忽冷忽热	hūlěng-hūrè	hu1 leng3 hur1 e4	hu1 leng3 hu1 r5 e4	
+7096	7-9	忽冷忽热	hūlěng-hūrè	hu1 leng3 hu1 re4	hu1 leng3 hu1 re4	
 7097	7-9	呼声	hūshēng	hu1 sheng1	hu1 sheng1	名
 7098	7-9	呼啸	hūxiào	hu1 xiao4	hu1 xiao4	动
 7099	7-9	呼应	hūyìng	hu1 ying4	hu1 ying4	动
@@ -7208,7 +7208,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7102	7-9	糊	hú	hu2	hu2	动
 7103	7-9	狐狸	húli	hu2 li5	hu2 li5	名
 7104	7-9	胡乱	húluàn	hu2 luan4	hu2 luan4	副
-7105	7-9	胡闹	húnào	hun2 ao4	hun2 ao4	动
+7105	7-9	胡闹	húnào	hu2 nao4	hu2 nao4	动
 7106	7-9	湖泊	húpō	hu2 po1	hu2 po1	名
 7107	7-9	胡说	húshuō	hu2 shuo1	hu2 shuo1	动
 7108	7-9	胡思乱想	húsī-luànxiǎng	hu2 si1 luan4 xiang3	hu2 si1 luan4 xiang3	
@@ -7221,13 +7221,13 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7115	7-9	花蕾	huālěi	hua1 lei3	hua1 lei3	名
 7116	7-9	花纹	huāwén	hua1 wen2	hua1 wen2	名
 7117	7-9	花样	huāyàng	hua1 yang4	hua1 yang4	名
-7118	7-9	划不来	huábulái	hua2 bu5 lai2	hua2 bu4 lai2	形
+7118	7-9	划不来	huábulái	hua2 bu5 lai2	hua2 bu5 lai2	形
 7119	7-9	划得来	huádelái	hua2 de5 lai2	hua2 de5 lai2	形
 7120	7-9	滑稽	huájī	hua2 ji1	hua2 ji1	形
 7121	7-9	华丽	huálì	hua2 li4	hua2 li4	形
 7122	7-9	华侨	huáqiáo	hua2 qiao2	hua2 qiao2	名
-7123	7-9	哗然	huárán	huar2 an2	hua2 r5 an2	形
-7124	7-9	华人	huárén	huar2 en2	hua2 r5 en2	名
+7123	7-9	哗然	huárán	hua2 ran2	hua2 ran2	形
+7124	7-9	华人	huárén	hua2 ren2	hua2 ren2	名
 7125	7-9	划算	huásuàn	hua2 suan4	hua2 suan4	动、形
 7126	7-9	滑梯	huátī	hua2 ti1	hua2 ti1	名
 7127	7-9	华裔	huáyì	hua2 yi4	hua2 yi4	名
@@ -7250,14 +7250,14 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7144	7-9	欢声笑语	huānshēng-xiàoyǔ	huan1 sheng1 xiao4 yu3	huan1 sheng1 xiao4 yu3	
 7145	7-9	环比	huánbǐ	huan2 bi3	huan2 bi3	动
 7146	7-9	环球	huánqiú	huan2 qiu2	huan2 qiu2	动
-7147	7-9	环绕	huánrào	huanr2 ao4	huan2 r5 ao4	动
+7147	7-9	环绕	huánrào	huan2 rao4	huan2 rao4	动
 7148	7-9	缓	huǎn	huan3	huan3	动
 7149	7-9	缓和	huǎnhé	huan3 he2	huan3 he2	形、动
 7150	7-9	焕发	huànfā	huan4 fa1	huan4 fa1	动
 7151	7-9	幻觉	huànjué	huan4 jue2	huan4 jue2	名
 7152	7-9	唤起	huànqǐ	huan4 qi3	huan4 qi3	动
 7153	7-9	换取	huànqǔ	huan4 qu3	huan4 qu3	动
-7154	7-9	焕然一新	huànrán-yìxīn	huanr4 an2 yi4 xin1	huan4 r5 an2 yi1 xin1	
+7154	7-9	焕然一新	huànrán-yìxīn	huan4 ran2 yi4 xin1	huan4 ran2 yi1 xin1	
 7155	7-9	唤醒	huànxǐng	huan4 xing3	huan4 xing3	动
 7156	7-9	幻影	huànyǐng	huan4 ying3	huan4 ying3	名
 7157	7-9	荒	huāng	huang1	huang1	动
@@ -7276,7 +7276,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7170	7-9	皇室	huángshì	huang2 shi4	huang2 shi4	名
 7171	7-9	晃	huǎng	huang3	huang3	动
 7172	7-9	谎话	huǎnghuà	huang3 hua4	huang3 hua4	名
-7173	7-9	恍然大悟	huǎngrán-dàwù	huangr3 an2 da4 wu4	huang3 r5 an2 da4 wu4	
+7173	7-9	恍然大悟	huǎngrán-dàwù	huang3 ran2 da4 wu4	huang3 ran2 da4 wu4	
 7174	7-9	谎言	huǎngyán	huang3 yan2	huang3 yan2	名
 7175	7-9	晃	huàng	huang4	huang4	动
 7176	7-9	晃荡	huàngdang	huang4 dang5	huang4 dang5	动
@@ -7327,7 +7327,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7221	7-9	火箭	huǒjiàn	huo3 jian4	huo3 jian4	名
 7222	7-9	火炬	huǒjù	huo3 ju4	huo3 ju4	名
 7223	7-9	火辣辣	huǒlàlà	huo3 la4 la4	huo3 la4 la4	形
-7224	7-9	火热	huǒrè	huor3 e4	huo3 r5 e4	形
+7224	7-9	火热	huǒrè	huo3 re4	huo3 re4	形
 7225	7-9	火山	huǒshān	huo3 shan1	huo3 shan1	名
 7226	7-9	伙食	huǒshí	huo3 shi2	huo3 shi2	名
 7227	7-9	火速	huǒsù	huo3 su4	huo3 su4	副
@@ -7339,7 +7339,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7233	7-9	获悉	huòxī	huo4 xi1	huo4 xi1	动
 7234	7-9	货运	huòyùn	huo4 yun4	huo4 yun4	名
 7235	7-9	积	jī	ji1	ji1	动
-7236	7-9	基本功	jīběngōng	ji1 beng3 o1 ng5	ji1 beng3 o1 ng5	名
+7236	7-9	基本功	jīběngōng	ji1 ben3 gong1	ji1 ben3 gong1	名
 7237	7-9	机舱	jīcāng	ji1 cang1	ji1 cang1	名
 7238	7-9	基层	jīcéng	ji1 ceng2	ji1 ceng2	名
 7239	7-9	激荡	jīdàng	ji1 dang4	ji1 dang4	动
@@ -7464,9 +7464,9 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7358	7-9	艰巨	jiānjù	jian1 ju4	jian1 ju4	形
 7359	7-9	监控	jiānkòng	jian1 kong4	jian1 kong4	动
 7360	7-9	歼灭	jiānmiè	jian1 mie4	jian1 mie4	动
-7361	7-9	坚韧	jiānrèn	jianr1 en4	jian1 r5 en4	形
-7362	7-9	兼任	jiānrèn	jianr1 en4	jian1 r5 en4	动
-7363	7-9	兼容	jiānróng	jianr1 o2 ng5	jian1 r5 o2 ng5	动
+7361	7-9	坚韧	jiānrèn	jian1 ren4	jian1 ren4	形
+7362	7-9	兼任	jiānrèn	jian1 ren4	jian1 ren4	动
+7363	7-9	兼容	jiānróng	jian1 rong2	jian1 rong2	动
 7364	7-9	尖锐	jiānruì	jian1 rui4	jian1 rui4	形
 7365	7-9	坚实	jiānshí	jian1 shi2	jian1 shi2	形
 7366	7-9	监视	jiānshì	jian1 shi4	jian1 shi4	动
@@ -7500,7 +7500,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7394	7-9	见解	jiànjiě	jian4 jie3	jian4 jie3	名
 7395	7-9	见利忘义	jiànlì-wàngyì	jian4 li4 wang4 yi4	jian4 li4 wang4 yi4	
 7396	7-9	健美	jiànměi	jian4 mei3	jian4 mei3	形、名
-7397	7-9	见仁见智	jiànrén-jiànzhì	jianr4 en2 jian4 zhi4	jian4 r5 en2 jian4 zhi4	
+7397	7-9	见仁见智	jiànrén-jiànzhì	jian4 ren2 jian4 zhi4	jian4 ren2 jian4 zhi4	
 7398	7-9	鉴赏	jiànshǎng	jian4 shang3	jian4 shang3	动
 7399	7-9	见识	jiànshi	jian4 shi5	jian4 shi5	动、名
 7400	7-9	建树	jiànshù	jian4 shu4	jian4 shu4	动、名
@@ -7572,7 +7572,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7466	7-9	揭	jiē	jie1	jie1	动
 7467	7-9	接二连三	jiē’èr-liánsān	jie1 er4 lian2 san1	jie1 er4 lian2 san1	
 7468	7-9	接班	jiēbān	jie1 ban1	jie1 ban1	动
-7469	7-9	接班人	jiēbānrén	jie1 banr1 en2	jie1 ban1 r5 en2	名
+7469	7-9	接班人	jiēbānrén	jie1 ban1 ren2	jie1 ban1 ren2	名
 7470	7-9	阶层	jiēcéng	jie1 ceng2	jie1 ceng2	名
 7471	7-9	皆大欢喜	jiēdàhuānxǐ	jie1 da4 huan1 xi3	jie1 da4 huan1 xi3	
 7472	7-9	揭发	jiēfā	jie1 fa1	jie1 fa1	动
@@ -7601,7 +7601,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7495	7-9	结局	jiéjú	jie2 ju2	jie2 ju2	名
 7496	7-9	竭力	jiélì	jie2 li4	jie2 li4	副
 7497	7-9	节气	jiéqì	jie2 qi4	jie2 qi4	名
-7498	7-9	截然不同	jiérán-bùtóng	jier2 an2 bu4 tong2	jie2 r5 an2 bu4 tong2	
+7498	7-9	截然不同	jiérán-bùtóng	jie2 ran2 bu4 tong2	jie2 ran2 bu4 tong2	
 7499	7-9	结识	jiéshí	jie2 shi2	jie2 shi2	动
 7500	7-9	结算	jiésuàn	jie2 suan4	jie2 suan4	动
 7501	7-9	节衣缩食	jiéyī-suōshí	jie2 yi1 suo1 shi2	jie2 yi1 suo1 shi2	
@@ -7631,7 +7631,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7525	7-9	借用	jièyòng	jie4 yong4	jie4 yong4	动
 7526	7-9	介于	jièyú	jie4 yu2	jie4 yu2	动
 7527	7-9	筋	jīn	jin1	jin1	名
-7528	7-9	禁不住	jīnbuzhù	jin1 bu5 zhu4	jin1 bu4 zhu4	动
+7528	7-9	禁不住	jīnbuzhù	jin1 bu5 zhu4	jin1 bu5 zhu4	动
 7529	7-9	津津有味	jīnjīn-yǒuwèi	jin1 jin1 you3 wei4	jin1 jin1 you3 wei4	
 7530	7-9	尽	jǐn	jin3	jin3	动、副
 7531	7-9	紧凑	jǐncòu	jin3 cou4	jin3 cou4	形
@@ -7643,7 +7643,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7537	7-9	尽早	jǐnzǎo	jin3 zao3	jin3 zao3	副
 7538	7-9	劲	jìn	jin4	jin4	名
 7539	7-9	进程	jìnchéng	jin4 cheng2	jin4 cheng2	名
-7540	7-9	进攻	jìngōng	jing4 o1 ng5	jing4 o1 ng5	动
+7540	7-9	进攻	jìngōng	jin4 gong1	jin4 gong1	动
 7541	7-9	晋级	jìnjí	jin4 ji2	jin4 ji2	动
 7542	7-9	禁忌	jìnjì	jin4 ji4	jin4 ji4	名、动
 7543	7-9	进军	jìnjūn	jin4 jun1	jin4 jun1	动
@@ -7735,7 +7735,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7629	7-9	就地	jiùdì	jiu4 di4	jiu4 di4	副
 7630	7-9	救济	jiùjì	jiu4 ji4	jiu4 ji4	动
 7631	7-9	就近	jiùjìn	jiu4 jin4	jiu4 jin4	副
-7632	7-9	就任	jiùrèn	jiur4 en4	jiu4 r5 en4	动
+7632	7-9	就任	jiùrèn	jiu4 ren4	jiu4 ren4	动
 7633	7-9	救死扶伤	jiùsǐ-fúshāng	jiu4 si3 fu2 shang1	jiu4 si3 fu2 shang1	
 7634	7-9	就绪	jiùxù	jiu4 xu4	jiu4 xu4	动
 7635	7-9	就医	jiùyī	jiu4 yi1	jiu4 yi1	动
@@ -7767,7 +7767,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7661	7-9	聚精会神	jùjīng-huìshén	ju4 jing1 hui4 shen2	ju4 jing1 hui4 shen2	
 7662	7-9	剧目	jùmù	ju4 mu4	ju4 mu4	名
 7663	7-9	剧情	jùqíng	ju4 qing2	ju4 qing2	名
-7664	7-9	巨人	jùrén	jur4 en2	ju4 r5 en2	名
+7664	7-9	巨人	jùrén	ju4 ren2	ju4 ren2	名
 7665	7-9	巨头	jùtóu	ju4 tou2	ju4 tou2	名
 7666	7-9	据悉	jùxī	ju4 xi1	ju4 xi1	动
 7667	7-9	圈	juān	juan1	juan1	动
@@ -7857,7 +7857,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7751	7-9	可想而知	kěxiǎng’érzhī	ke3 xiang3 er2 zhi1	ke3 xiang3 er2 zhi1	
 7752	7-9	可笑	kěxiào	ke3 xiao4	ke3 xiao4	形
 7753	7-9	可疑	kěyí	ke3 yi2	ke3 yi2	形
-7754	7-9	刻不容缓	kèbùrónghuǎn	ke4 bur4 o2 ng5 huan3	ke4 bu4 o2 ng5 huan3	
+7754	7-9	刻不容缓	kèbùrónghuǎn	ke4 bu4 rong2 huan3	ke4 bu4 rong2 huan3	
 7755	7-9	客房	kèfáng	ke4 fang2	ke4 fang2	名
 7756	7-9	刻画	kèhuà	ke4 hua4	ke4 hua4	动
 7757	7-9	客机	kèjī	ke4 ji1	ke4 ji1	名
@@ -7896,7 +7896,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7790	7-9	口径	kǒujìng	kou3 jing4	kou3 jing4	名
 7791	7-9	口令	kǒulìng	kou3 ling4	kou3 ling4	名
 7792	7-9	口气	kǒuqì	kou3 qi4	kou3 qi4	名
-7793	7-9	口哨儿	kǒushàor	kou3 shaor4	kou3 shao4 r5	名
+7793	7-9	口哨儿	kǒushàor	kou3 shao4 r5	kou3 shao4 r5	名
 7794	7-9	口水	kǒushuǐ	kou3 shui3	kou3 shui3	名
 7795	7-9	口头禅	kǒutóuchán	kou3 tou2 chan2	kou3 tou2 chan2	名
 7796	7-9	口香糖	kǒuxiāngtáng	kou3 xiang1 tang2	kou3 xiang1 tang2	名
@@ -7905,7 +7905,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7799	7-9	口子	kǒuzi	kou3 zi5	kou3 zi5	名
 7800	7-9	扣除	kòuchú	kou4 chu2	kou4 chu2	动
 7801	7-9	扣留	kòuliú	kou4 liu2	kou4 liu2	动
-7802	7-9	扣人心弦	kòurénxīnxián	kour4 en2 xin1 xian2	kou4 r5 en2 xin1 xian2	
+7802	7-9	扣人心弦	kòurénxīnxián	kou4 ren2 xin1 xian2	kou4 ren2 xin1 xian2	
 7803	7-9	扣押	kòuyā	kou4 ya1	kou4 ya1	动
 7804	7-9	枯竭	kūjié	ku1 jie2	ku1 jie2	形
 7805	7-9	窟窿	kūlong	ku1 long5	ku1 long5	名
@@ -7913,8 +7913,8 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7807	7-9	枯萎	kūwěi	ku1 wei3	ku1 wei3	形
 7808	7-9	哭笑不得	kūxiào-bùdé	ku1 xiao4 bu4 de2	ku1 xiao4 bu4 de2	
 7809	7-9	苦尽甘来	kǔjìn-gānlái	ku3 jin4 gan1 lai2	ku3 jin4 gan1 lai2	
-7810	7-9	苦难	kǔnàn	kun3 an4	kun3 an4	名
-7811	7-9	苦恼	kǔnǎo	kun3 ao3	kun3 ao3	形
+7810	7-9	苦难	kǔnàn	ku3 nan4	ku3 nan4	名
+7811	7-9	苦恼	kǔnǎo	ku3 nao3	ku3 nao3	形
 7812	7-9	苦涩	kǔsè	ku3 se4	ku3 se4	形
 7813	7-9	苦笑	kǔxiào	ku3 xiao4	ku3 xiao4	动
 7814	7-9	苦心	kǔxīn	ku3 xin1	ku3 xin1	名、副
@@ -7935,7 +7935,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7829	7-9	宽广	kuānguǎng	kuan1 guang3	kuan1 guang3	形
 7830	7-9	宽厚	kuānhòu	kuan1 hou4	kuan1 hou4	形
 7831	7-9	宽阔	kuānkuò	kuan1 kuo4	kuan1 kuo4	形
-7832	7-9	宽容	kuānróng	kuanr1 o2 ng5	kuan1 r5 o2 ng5	动
+7832	7-9	宽容	kuānróng	kuan1 rong2	kuan1 rong2	动
 7833	7-9	宽恕	kuānshù	kuan1 shu4	kuan1 shu4	动
 7834	7-9	宽松	kuānsōng	kuan1 song1	kuan1 song1	形
 7835	7-9	款待	kuǎndài	kuan3 dai4	kuan3 dai4	动
@@ -7943,7 +7943,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7837	7-9	筐	kuāng	kuang1	kuang1	名
 7838	7-9	狂	kuáng	kuang2	kuang2	形
 7839	7-9	狂欢	kuánghuān	kuang2 huan1	kuang2 huan1	动
-7840	7-9	狂热	kuángrè	kuangr2 e4	kuang2 r5 e4	形
+7840	7-9	狂热	kuángrè	kuang2 re4	kuang2 re4	形
 7841	7-9	矿	kuàng	kuang4	kuang4	名
 7842	7-9	框	kuàng	kuang4	kuang4	名、动
 7843	7-9	矿藏	kuàngcáng	kuang4 cang2	kuang4 cang2	名
@@ -7979,7 +7979,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7873	7-9	来龙去脉	láilóng-qùmài	lai2 long2 qu4 mai4	lai2 long2 qu4 mai4	
 7874	7-9	来年	láinián	lai2 nian2	lai2 nian2	名
 7875	7-9	来之不易	láizhī-búyì	lai2 zhi1 bu2 yi4	lai2 zhi1 bu4 yi4	
-7876	7-9	栏杆	lángān	lang2 an1	lang2 an1	名
+7876	7-9	栏杆	lángān	lan2 gan1	lan2 gan1	名
 7877	7-9	栏目	lánmù	lan2 mu4	lan2 mu4	名
 7878	7-9	蓝图	lántú	lan2 tu2	lan2 tu2	名
 7879	7-9	揽	lǎn	lan3	lan3	动
@@ -7999,10 +7999,10 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7893	7-9	劳累	láolèi	lao2 lei4	lao2 lei4	形
 7894	7-9	牢骚	láosāo	lao2 sao1	lao2 sao1	名
 7895	7-9	劳务	láowù	lao2 wu4	lao2 wu4	名
-7896	7-9	老伴儿	lǎobànr	lao3 banr4	lao3 ban4 r5	名
+7896	7-9	老伴儿	lǎobànr	lao3 ban4 r5	lao3 ban4 r5	名
 7897	7-9	老大	lǎodà	lao3 da4	lao3 da4	形、副
 7898	7-9	老化	lǎohuà	lao3 hua4	lao3 hua4	动
-7899	7-9	老人家	lǎorenjia	laor3 en5 jia5	lao3 r5 en5 jia5	名
+7899	7-9	老人家	lǎorenjia	lao3 ren5 jia5	lao3 ren5 jia5	名
 7900	7-9	老乡	lǎoxiāng	lao3 xiang1	lao3 xiang1	名
 7901	7-9	老字号	lǎozìhao	lao3 zi4 hao5	lao3 zi4 hao5	名
 7902	7-9	涝	lào	lao4	lao4	形
@@ -8027,7 +8027,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7921	7-9	冷战	lěngzhàn	leng3 zhan4	leng3 zhan4	名
 7922	7-9	愣	lèng	leng4	leng4	动、形、副
 7923	7-9	黎明	límíng	li2 ming2	li2 ming2	名
-7924	7-9	离谱儿	lípǔr	li2 pur3	li2 pu3 r5	形
+7924	7-9	离谱儿	lípǔr	li2 pu3 r5	li2 pu3 r5	形
 7925	7-9	离奇	líqí	li2 qi2	li2 qi2	形
 7926	7-9	理睬	lǐcǎi	li3 cai3	li3 cai3	动
 7927	7-9	里程碑	lǐchéngbēi	li3 cheng2 bei1	li3 cheng2 bei1	名
@@ -8037,7 +8037,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7931	7-9	礼品	lǐpǐn	li3 pin3	li3 pin3	名
 7932	7-9	礼尚往来	lǐshàngwǎnglái	li3 shang4 wang3 lai2	li3 shang4 wang3 lai2	
 7933	7-9	理事	lǐshì	li3 shi4	li3 shi4	动、名
-7934	7-9	理所当然	lǐsuǒdāngrán	li3 suo3 dangr1 an2	li3 suo3 dang1 r5 an2	
+7934	7-9	理所当然	lǐsuǒdāngrán	li3 suo3 dang1 ran2	li3 suo3 dang1 ran2	
 7935	7-9	礼堂	lǐtáng	li3 tang2	li3 tang2	名
 7936	7-9	礼仪	lǐyí	li3 yi2	li3 yi2	名
 7937	7-9	鲤鱼	lǐyú	li3 yu2	li3 yu2	名
@@ -8075,7 +8075,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 7969	7-9	联盟	liánméng	lian2 meng2	lian2 meng2	名
 7970	7-9	连绵	liánmián	lian2 mian2	lian2 mian2	动
 7971	7-9	连年	liánnián	lian2 nian2	lian2 nian2	动
-7972	7-9	连任	liánrèn	lianr2 en4	lian2 r5 en4	动
+7972	7-9	连任	liánrèn	lian2 ren4	lian2 ren4	动
 7973	7-9	联赛	liánsài	lian2 sai4	lian2 sai4	名
 7974	7-9	联手	liánshǒu	lian2 shou3	lian2 shou3	动
 7975	7-9	连锁	liánsuǒ	lian2 suo3	lian2 suo3	形
@@ -8115,7 +8115,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8009	7-9	裂缝	lièfèng	lie4 feng4	lie4 feng4	动、名
 8010	7-9	裂痕	lièhén	lie4 hen2	lie4 hen2	名
 8011	7-9	列举	lièjǔ	lie4 ju3	lie4 ju3	动
-8012	7-9	猎人	lièrén	lier4 en2	lie4 r5 en2	名
+8012	7-9	猎人	lièrén	lie4 ren2	lie4 ren2	名
 8013	7-9	烈日	lièrì	lie4 ri4	lie4 ri4	名
 8014	7-9	劣势	lièshì	lie4 shi4	lie4 shi4	名
 8015	7-9	烈士	lièshì	lie4 shi4	lie4 shi4	名
@@ -8252,7 +8252,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8146	7-9	忙乱	mángluàn	mang2 luan4	mang2 luan4	形
 8147	7-9	茫茫	mángmáng	mang2 mang2	mang2 mang2	形
 8148	7-9	盲目	mángmù	mang2 mu4	mang2 mu4	形
-8149	7-9	茫然	mángrán	mangr2 an2	mang2 r5 an2	形
+8149	7-9	茫然	mángrán	mang2 ran2	mang2 ran2	形
 8150	7-9	矛头	máotóu	mao2 tou2	mao2 tou2	名
 8151	7-9	冒充	màochōng	mao4 chong1	mao4 chong1	动
 8152	7-9	冒犯	màofàn	mao4 fan4	mao4 fan4	动
@@ -8267,18 +8267,18 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8161	7-9	煤炭	méitàn	mei2 tan4	mei2 tan4	名
 8162	7-9	没完没了	méiwán-méiliǎo	mei2 wan2 mei2 liao3	mei2 wan2 mei2 liao3	
 8163	7-9	没辙	méizhé	mei2 zhe2	mei2 zhe2	动
-8164	7-9	没准儿	méizhǔnr	mei2 zhunr3	mei2 zhun3 r5	动
+8164	7-9	没准儿	méizhǔnr	mei2 zhun3 r5	mei2 zhun3 r5	动
 8165	7-9	美德	měidé	mei3 de2	mei3 de2	名
 8166	7-9	美化	měihuà	mei3 hua4	mei3 hua4	动
 8167	7-9	美满	měimǎn	mei3 man3	mei3 man3	形
 8168	7-9	美妙	měimiào	mei3 miao4	mei3 miao4	形
-8169	7-9	美容	měiróng	meir3 o2 ng5	mei3 r5 o2 ng5	动
+8169	7-9	美容	měiróng	mei3 rong2	mei3 rong2	动
 8170	7-9	美学	měixué	mei3 xue2	mei3 xue2	名
 8171	7-9	美誉	měiyù	mei3 yu4	mei3 yu4	名
 8172	7-9	美中不足	měizhōng-bùzú	mei3 zhong1 bu4 zu2	mei3 zhong1 bu4 zu2	
 8173	7-9	美滋滋	měizīzī	mei3 zi1 zi1	mei3 zi1 zi1	形
 8174	7-9	闷	mēn	men1	men1	形、动
-8175	7-9	闷热	mēnrè	menr1 e4	men1 r5 e4	形
+8175	7-9	闷热	mēnrè	men1 re4	men1 re4	形
 8176	7-9	门槛	ménkǎn	men2 kan3	men2 kan3	名
 8177	7-9	门路	ménlu	men2 lu5	men2 lu5	名
 8178	7-9	闷	mèn	men4	men4	形
@@ -8290,7 +8290,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8184	7-9	盟友	méngyǒu	meng2 you3	meng2 you3	名
 8185	7-9	猛	měng	meng3	meng3	形
 8186	7-9	猛烈	měngliè	meng3 lie4	meng3 lie4	形
-8187	7-9	猛然	měngrán	mengr3 an2	meng3 r5 an2	副
+8187	7-9	猛然	měngrán	meng3 ran2	meng3 ran2	副
 8188	7-9	梦幻	mènghuàn	meng4 huan4	meng4 huan4	名
 8189	7-9	梦寐以求	mèngmèiyǐqiú	meng4 mei4 yi3 qiu2	meng4 mei4 yi3 qiu2	
 8190	7-9	眯	mī	mi1	mi1	动
@@ -8309,7 +8309,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8203	7-9	秘诀	mìjué	mi4 jue2	mi4 jue2	名
 8204	7-9	蜜月	mìyuè	mi4 yue4	mi4 yue4	名
 8205	7-9	棉花	miánhuā	mian2 hua1	mian2 hua1	名
-8206	7-9	免不了	miǎnbuliǎo	mian3 bu5 liao3	mian3 bu4 liao3	动
+8206	7-9	免不了	miǎnbuliǎo	mian3 bu5 liao3	mian3 bu5 liao3	动
 8207	7-9	免除	miǎnchú	mian3 chu2	mian3 chu2	动
 8208	7-9	免得	miǎnde	mian3 de5	mian3 de5	连
 8209	7-9	缅怀	miǎnhuái	mian3 huai2	mian3 huai2	动
@@ -8380,7 +8380,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8274	7-9	莫名其妙	mòmíngqímiào	mo4 ming2 qi2 miao4	mo4 ming2 qi2 miao4	
 8275	7-9	默默无闻	mòmò-wúwén	mo4 mo4 wu2 wen2	mo4 mo4 wu2 wen2	
 8276	7-9	默契	mòqì	mo4 qi4	mo4 qi4	形、名
-8277	7-9	漠然	mòrán	mor4 an2	mo4 r5 an2	形
+8277	7-9	漠然	mòrán	mo4 ran2	mo4 ran2	形
 8278	7-9	末日	mòrì	mo4 ri4	mo4 ri4	名
 8279	7-9	没收	mòshōu	mo4 shou1	mo4 shou1	动
 8280	7-9	墨水	mòshuǐ	mo4 shui3	mo4 shui3	名
@@ -8406,18 +8406,18 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8300	7-9	牧民	mùmín	mu4 min2	mu4 min2	名
 8301	7-9	木偶	mù’ǒu	mu4 ou3	mu4 ou3	名
 8302	7-9	沐浴	mùyù	mu4 yu4	mu4 yu4	动
-8303	7-9	目中无人	mùzhōng-wúrén	mu4 zhong1 wur2 en2	mu4 zhong1 wu2 r5 en2	
+8303	7-9	目中无人	mùzhōng-wúrén	mu4 zhong1 wu2 ren2	mu4 zhong1 wu2 ren2	
 8304	7-9	拿手	náshǒu	na2 shou3	na2 shou3	形
 8305	7-9	呐喊	nàhǎn	na4 han3	na4 han3	动
-8306	7-9	纳闷儿	nàmènr	na4 menr4	na4 men4 r5	动
+8306	7-9	纳闷儿	nàmènr	na4 men4 r5	na4 men4 r5	动
 8307	7-9	纳入	nàrù	na4 ru4	na4 ru4	动
 8308	7-9	纳税	nàshuì	na4 shui4	na4 shui4	动
-8309	7-9	纳税人	nàshuìrén	na4 shuir4 en2	na4 shui4 r5 en2	名
+8309	7-9	纳税人	nàshuìrén	na4 shui4 ren2	na4 shui4 ren2	名
 8310	7-9	乃	nǎi	nai3	nai3	副
 8311	7-9	奶酪	nǎilào	nai3 lao4	nai3 lao4	名
 8312	7-9	乃至	nǎizhì	nai3 zhi4	nai3 zhi4	连
 8313	7-9	耐	nài	nai4	nai4	动
-8314	7-9	耐人寻味	nàirénxúnwèi	nair4 en2 xun2 wei4	nai4 r5 en2 xun2 wei4	
+8314	7-9	耐人寻味	nàirénxúnwèi	nai4 ren2 xun2 wei4	nai4 ren2 xun2 wei4	
 8315	7-9	耐用	nàiyòng	nai4 yong4	nai4 yong4	形
 8316	7-9	难处	nánchù	nan2 chu4	nan2 chu4	名
 8317	7-9	难得一见	nándéyíjiàn	nan2 de2 yi2 jian4	nan2 de2 yi1 jian4	
@@ -8446,7 +8446,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8340	7-9	嫩	nèn	nen4	nen4	形
 8341	7-9	能耗	nénghào	neng2 hao4	neng2 hao4	名
 8342	7-9	能耐	néngnai	neng2 nai5	neng2 nai5	名、形
-8343	7-9	能人	néngrén	nengr2 en2	neng2 r5 en2	名
+8343	7-9	能人	néngrén	neng2 ren2	neng2 ren2	名
 8344	7-9	泥泞	nínìng	ni2 ning4	ni2 ning4	形
 8345	7-9	泥潭	nítán	ni2 tan2	ni2 tan2	名
 8346	7-9	泥土	nítǔ	ni2 tu3	ni2 tu3	名
@@ -8489,7 +8489,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8383	7-9	扭转	niǔzhuǎn	niu3 zhuan3	niu3 zhuan3	动
 8384	7-9	农场	nóngchǎng	nong2 chang3	nong2 chang3	名
 8385	7-9	农历	nónglì	nong2 li4	nong2 li4	名
-8386	7-9	农民工	nóngmíngōng	nong2 ming2 o1 ng5	nong2 ming2 o1 ng5	名
+8386	7-9	农民工	nóngmíngōng	nong2 min2 gong1	nong2 min2 gong1	名
 8387	7-9	浓缩	nóngsuō	nong2 suo1	nong2 suo1	动
 8388	7-9	浓郁	nóngyù	nong2 yu4	nong2 yu4	形
 8389	7-9	浓重	nóngzhòng	nong2 zhong4	nong2 zhong4	形
@@ -8524,7 +8524,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8418	7-9	判定	pàndìng	pan4 ding4	pan4 ding4	动
 8419	7-9	判决	pànjué	pan4 jue2	pan4 jue2	动
 8420	7-9	叛逆	pànnì	pan4 ni4	pan4 ni4	动、名
-8421	7-9	旁人	pángrén	pangr2 en2	pang2 r5 en2	代
+8421	7-9	旁人	pángrén	pang2 ren2	pang2 ren2	代
 8422	7-9	螃蟹	pángxiè	pang2 xie4	pang2 xie4	名
 8423	7-9	胖乎乎	pànghūhū	pang4 hu1 hu1	pang4 hu1 hu1	形
 8424	7-9	抛弃	pāoqì	pao1 qi4	pao1 qi4	动
@@ -8543,7 +8543,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8437	7-9	喷泉	pēnquán	pen1 quan2	pen1 quan2	名
 8438	7-9	盆地	péndì	pen2 di4	pen2 di4	名
 8439	7-9	抨击	pēngjī	peng1 ji1	peng1 ji1	动
-8440	7-9	烹饪	pēngrèn	pengr1 en4	peng1 r5 en4	动
+8440	7-9	烹饪	pēngrèn	peng1 ren4	peng1 ren4	动
 8441	7-9	烹调	pēngtiáo	peng1 tiao2	peng1 tiao2	动
 8442	7-9	棚	péng	peng2	peng2	名
 8443	7-9	蓬勃	péngbó	peng2 bo2	peng2 bo2	形
@@ -8597,7 +8597,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8491	7-9	品味	pǐnwèi	pin3 wei4	pin3 wei4	动、名
 8492	7-9	品行	pǐnxíng	pin3 xing2	pin3 xing2	名
 8493	7-9	聘	pìn	pin4	pin4	动
-8494	7-9	聘任	pìnrèn	pinr4 en4	pin4 r5 en4	动
+8494	7-9	聘任	pìnrèn	pin4 ren4	pin4 ren4	动
 8495	7-9	聘用	pìnyòng	pin4 yong4	pin4 yong4	动
 8496	7-9	屏蔽	píngbì	ping2 bi4	ping2 bi4	动
 8497	7-9	平淡	píngdàn	ping2 dan4	ping2 dan4	形
@@ -8685,7 +8685,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8579	7-9	迄今	qìjīn	qi4 jin1	qi4 jin1	动
 8580	7-9	器具	qìjù	qi4 ju4	qi4 ju4	名
 8581	7-9	气流	qìliú	qi4 liu2	qi4 liu2	名
-8582	7-9	气馁	qìněi	qin4 ei3	qin4 ei3	形
+8582	7-9	气馁	qìněi	qi4 nei3	qi4 nei3	形
 8583	7-9	气派	qìpài	qi4 pai4	qi4 pai4	名、形
 8584	7-9	气泡	qìpào	qi4 pao4	qi4 pao4	名
 8585	7-9	气魄	qìpò	qi4 po4	qi4 po4	名
@@ -8729,13 +8729,13 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8623	7-9	潜伏	qiánfú	qian2 fu2	qian2 fu2	动
 8624	7-9	前赴后继	qiánfù-hòujì	qian2 fu4 hou4 ji4	qian2 fu4 hou4 ji4	
 8625	7-9	潜能	qiánnéng	qian2 neng2	qian2 neng2	名
-8626	7-9	前任	qiánrèn	qianr2 en4	qian2 r5 en4	名
+8626	7-9	前任	qiánrèn	qian2 ren4	qian2 ren4	名
 8627	7-9	潜入	qiánrù	qian2 ru4	qian2 ru4	动
 8628	7-9	潜水	qiánshuǐ	qian2 shui3	qian2 shui3	动
 8629	7-9	前所未有	qiánsuǒwèiyǒu	qian2 suo3 wei4 you3	qian2 suo3 wei4 you3	
 8630	7-9	前台	qiántái	qian2 tai2	qian2 tai2	名
 8631	7-9	潜艇	qiántǐng	qian2 ting3	qian2 ting3	名
-8632	7-9	前无古人	qiánwúgǔrén	qian2 wu2 gur3 en2	qian2 wu2 gu3 r5 en2	
+8632	7-9	前无古人	qiánwúgǔrén	qian2 wu2 gu3 ren2	qian2 wu2 gu3 ren2	
 8633	7-9	前夕	qiánxī	qian2 xi1	qian2 xi1	名
 8634	7-9	前线	qiánxiàn	qian2 xian4	qian2 xian4	名
 8635	7-9	潜心	qiánxīn	qian2 xin1	qian2 xin1	动
@@ -8787,13 +8787,13 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8681	7-9	侵略	qīnlüè	qin1 lüe4	qin1 lüe4	动
 8682	7-9	钦佩	qīnpèi	qin1 pei4	qin1 pei4	动
 8683	7-9	侵权	qīnquán	qin1 quan2	qin1 quan2	动
-8684	7-9	亲热	qīnrè	qinr1 e4	qin1 r5 e4	形、动
+8684	7-9	亲热	qīnrè	qin1 re4	qin1 re4	形、动
 8685	7-9	亲身	qīnshēn	qin1 shen1	qin1 shen1	形
 8686	7-9	亲生	qīnshēng	qin1 sheng1	qin1 sheng1	形
 8687	7-9	亲手	qīnshǒu	qin1 shou3	qin1 shou3	副
 8688	7-9	亲眼	qīnyǎn	qin1 yan3	qin1 yan3	副
 8689	7-9	侵占	qīnzhàn	qin1 zhan4	qin1 zhan4	动
-8690	7-9	勤工俭学	qíngōng-jiǎnxué	qing2 o1 ng5 jian3 xue2	qing2 o1 ng5 jian3 xue2	
+8690	7-9	勤工俭学	qíngōng-jiǎnxué	qin2 gong1 jian3 xue2	qin2 gong1 jian3 xue2	
 8691	7-9	勤俭	qínjiǎn	qin2 jian3	qin2 jian3	形
 8692	7-9	勤快	qínkuai	qin2 kuai5	qin2 kuai5	形
 8693	7-9	琴棋书画	qín-qí-shū-huà	qin2 qi2 shu1 hua4	qin2 qi2 shu1 hua4	
@@ -8825,7 +8825,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8719	7-9	情境	qíngjìng	qing2 jing4	qing2 jing4	名
 8720	7-9	情理	qínglǐ	qing2 li3	qing2 li3	名
 8721	7-9	情侣	qínglǚ	qing2 lü3	qing2 lü3	名
-8722	7-9	情人	qíngrén	qingr2 en2	qing2 r5 en2	名
+8722	7-9	情人	qíngrén	qing2 ren2	qing2 ren2	名
 8723	7-9	情商	qíngshāng	qing2 shang1	qing2 shang1	名
 8724	7-9	情谊	qíngyì	qing2 yi4	qing2 yi4	名
 8725	7-9	情愿	qíngyuàn	qing2 yuan4	qing2 yuan4	动、副
@@ -8897,7 +8897,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8791	7-9	饶恕	ráoshù	rao2 shu4	rao2 shu4	动
 8792	7-9	扰乱	rǎoluàn	rao3 luan4	rao3 luan4	动
 8793	7-9	绕行	ràoxíng	rao4 xing2	rao4 xing2	动
-8794	7-9	绕远儿	ràoyuǎnr	rao4 yuanr3	rao4 yuan3 r5	动、形
+8794	7-9	绕远儿	ràoyuǎnr	rao4 yuan3 r5	rao4 yuan3 r5	动、形
 8795	7-9	惹	rě	re3	re3	动
 8796	7-9	热潮	rècháo	re4 chao2	re4 chao2	名
 8797	7-9	热带	rèdài	re4 dai4	re4 dai4	名
@@ -8908,7 +8908,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8802	7-9	仁慈	réncí	ren2 ci2	ren2 ci2	形
 8803	7-9	人次	réncì	ren2 ci4	ren2 ci4	量
 8804	7-9	人道	réndào	ren2 dao4	ren2 dao4	名、形
-8805	7-9	人格	réngé	reng2 e2	reng2 e2	名
+8805	7-9	人格	réngé	ren2 ge2	ren2 ge2	名
 8806	7-9	人间	rénjiān	ren2 jian1	ren2 jian1	名
 8807	7-9	人品	rénpǐn	ren2 pin3	ren2 pin3	名
 8808	7-9	人气	rénqì	ren2 qi4	ren2 qi4	名
@@ -8920,7 +8920,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8814	7-9	人性	rénxìng	ren2 xing4	ren2 xing4	名
 8815	7-9	任性	rénxìng	ren2 xing4	ren2 xing4	形
 8816	7-9	人选	rénxuǎn	ren2 xuan3	ren2 xuan3	名
-8817	7-9	人缘儿	rényuánr	ren2 yuanr2	ren2 yuan2 r5	名
+8817	7-9	人缘儿	rényuánr	ren2 yuan2 r5	ren2 yuan2 r5	名
 8818	7-9	人造	rénzào	ren2 zao4	ren2 zao4	形
 8819	7-9	人质	rénzhì	ren2 zhi4	ren2 zhi4	名
 8820	7-9	忍耐	rěnnài	ren3 nai4	ren3 nai4	动
@@ -8945,7 +8945,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8839	7-9	容纳	róngnà	rong2 na4	rong2 na4	动
 8840	7-9	容器	róngqì	rong2 qi4	rong2 qi4	名
 8841	7-9	融洽	róngqià	rong2 qia4	rong2 qia4	形
-8842	7-9	容忍	róngrěn	rongr2 en3	rong2 r5 en3	动
+8842	7-9	容忍	róngrěn	rong2 ren3	rong2 ren3	动
 8843	7-9	荣幸	róngxìng	rong2 xing4	rong2 xing4	形
 8844	7-9	容许	róngxǔ	rong2 xu3	rong2 xu3	动
 8845	7-9	容颜	róngyán	rong2 yan2	rong2 yan2	名
@@ -8989,13 +8989,13 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8883	7-9	嗓音	sǎngyīn	sang3 yin1	sang3 yin1	名
 8884	7-9	丧生	sàngshēng	sang4 sheng1	sang4 sheng1	动
 8885	7-9	骚乱	sāoluàn	sao1 luan4	sao1 luan4	动
-8886	7-9	骚扰	sāorǎo	saor1 ao3	sao1 r5 ao3	动
+8886	7-9	骚扰	sāorǎo	sao1 rao3	sao1 rao3	动
 8887	7-9	扫除	sǎochú	sao3 chu2	sao3 chu2	动
 8888	7-9	扫墓	sǎomù	sao3 mu4	sao3 mu4	动
 8889	7-9	扫兴	sǎoxìng	sao3 xing4	sao3 xing4	形
 8890	7-9	嫂子	sǎozi	sao3 zi5	sao3 zi5	名
 8891	7-9	扫帚	sàozhou	sao4 zhou5	sao4 zhou5	名
-8892	7-9	僧人	sēngrén	sengr1 en2	seng1 r5 en2	名
+8892	7-9	僧人	sēngrén	seng1 ren2	seng1 ren2	名
 8893	7-9	纱	shā	sha1	sha1	名
 8894	7-9	杀毒	shādú	sha1 du2	sha1 du2	动
 8895	7-9	杀害	shāhài	sha1 hai4	sha1 hai4	动
@@ -9038,7 +9038,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8932	7-9	上火	shànghuǒ	shang4 huo3	shang4 huo3	动
 8933	7-9	上空	shàngkōng	shang4 kong1	shang4 kong1	名
 8934	7-9	尚且	shàngqiě	shang4 qie3	shang4 qie3	连
-8935	7-9	上任	shàngrèn	shangr4 en4	shang4 r5 en4	动、名
+8935	7-9	上任	shàngrèn	shang4 ren4	shang4 ren4	动、名
 8936	7-9	上司	shàngsi	shang4 si5	shang4 si5	名
 8937	7-9	上诉	shàngsù	shang4 su4	shang4 su4	动
 8938	7-9	上调	shàngtiáo	shang4 tiao2	shang4 tiao2	动
@@ -9053,7 +9053,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 8947	7-9	稍后	shāohòu	shao1 hou4	shao1 hou4	副
 8948	7-9	烧毁	shāohuǐ	shao1 hui3	shao1 hui3	动
 8949	7-9	稍稍	shāoshāo	shao1 shao1	shao1 shao1	副
-8950	7-9	少不了	shǎobuliǎo	shao3 bu5 liao3	shao3 bu4 liao3	动
+8950	7-9	少不了	shǎobuliǎo	shao3 bu5 liao3	shao3 bu5 liao3	动
 8951	7-9	哨	shào	shao4	shao4	名
 8952	7-9	少女	shàonǚ	shao4 nü3	shao4 nü3	名
 8953	7-9	奢侈	shēchǐ	she1 chi3	she1 chi3	形
@@ -9139,9 +9139,9 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9033	7-9	胜负	shèngfù	sheng4 fu4	sheng4 fu4	名
 9034	7-9	盛会	shènghuì	sheng4 hui4	sheng4 hui4	名
 9035	7-9	盛开	shèngkāi	sheng4 kai1	sheng4 kai1	动
-9036	7-9	盛气凌人	shèngqì-língrén	sheng4 qi4 lingr2 en2	sheng4 qi4 ling2 r5 en2	
+9036	7-9	盛气凌人	shèngqì-língrén	sheng4 qi4 ling2 ren2	sheng4 qi4 ling2 ren2	
 9037	7-9	盛情	shèngqíng	sheng4 qing2	sheng4 qing2	名
-9038	7-9	胜任	shèngrèn	shengr4 en4	sheng4 r5 en4	动
+9038	7-9	胜任	shèngrèn	sheng4 ren4	sheng4 ren4	动
 9039	7-9	盛夏	shèngxià	sheng4 xia4	sheng4 xia4	名
 9040	7-9	圣贤	shèngxián	sheng4 xian2	sheng4 xian2	名
 9041	7-9	盛行	shèngxíng	sheng4 xing2	sheng4 xing2	动
@@ -9205,7 +9205,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9099	7-9	视角	shìjiǎo	shi4 jiao3	shi4 jiao3	名
 9100	7-9	适量	shìliàng	shi4 liang4	shi4 liang4	形
 9101	7-9	士气	shìqì	shi4 qi4	shi4 qi4	名
-9102	7-9	世人	shìrén	shir4 en2	shi4 r5 en2	名
+9102	7-9	世人	shìrén	shi4 ren2	shi4 ren2	名
 9103	7-9	适时	shìshí	shi4 shi2	shi4 shi2	形
 9104	7-9	逝世	shìshì	shi4 shi4	shi4 shi4	动
 9105	7-9	事态	shìtài	shi4 tai4	shi4 tai4	名
@@ -9254,7 +9254,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9148	7-9	受宠若惊	shòuchǒng-ruòjīng	shou4 chong3 ruo4 jing1	shou4 chong3 ruo4 jing1	
 9149	7-9	受挫	shòucuò	shou4 cuo4	shou4 cuo4	动
 9150	7-9	受害	shòuhài	shou4 hai4	shou4 hai4	动
-9151	7-9	受害人	shòuhàirén	shou4 hair4 en2	shou4 hai4 r5 en2	名
+9151	7-9	受害人	shòuhàirén	shou4 hai4 ren2	shou4 hai4 ren2	名
 9152	7-9	受贿	shòuhuì	shou4 hui4	shou4 hui4	动
 9153	7-9	受惊	shòujīng	shou4 jing1	shou4 jing1	动
 9154	7-9	受苦	shòukǔ	shou4 ku3	shou4 ku3	动
@@ -9325,7 +9325,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9219	7-9	水土	shuǐtǔ	shui3 tu3	shui3 tu3	名
 9220	7-9	水域	shuǐyù	shui3 yu4	shui3 yu4	名
 9221	7-9	水源	shuǐyuán	shui3 yuan2	shui3 yuan2	名
-9222	7-9	水涨船高	shuǐzhǎng-chuángāo	shui3 zhang3 chuang2 ao1	shui3 zhang3 chuang2 ao1	
+9222	7-9	水涨船高	shuǐzhǎng-chuángāo	shui3 zhang3 chuan2 gao1	shui3 zhang3 chuan2 gao1	
 9223	7-9	水准	shuǐzhǔn	shui3 zhun3	shui3 zhun3	名
 9224	7-9	睡袋	shuìdài	shui4 dai4	shui4 dai4	名
 9225	7-9	税收	shuìshōu	shui4 shou1	shui4 shou1	名
@@ -9335,13 +9335,13 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9229	7-9	顺从	shùncóng	shun4 cong2	shun4 cong2	动
 9230	7-9	顺理成章	shùnlǐ-chéngzhāng	shun4 li3 cheng2 zhang1	shun4 li3 cheng2 zhang1	
 9231	7-9	顺路	shùnlù	shun4 lu4	shun4 lu4	副、形
-9232	7-9	顺其自然	shùnqízìrán	shun4 qi2 zir4 an2	shun4 qi2 zi4 r5 an2	
+9232	7-9	顺其自然	shùnqízìrán	shun4 qi2 zi4 ran2	shun4 qi2 zi4 ran2	
 9233	7-9	顺势	shùnshì	shun4 shi4	shun4 shi4	副
 9234	7-9	顺手	shùnshǒu	shun4 shou3	shun4 shou3	形、副
 9235	7-9	顺心	shùnxīn	shun4 xin1	shun4 xin1	形
 9236	7-9	顺延	shùnyán	shun4 yan2	shun4 yan2	动
 9237	7-9	顺应	shùnyìng	shun4 ying4	shun4 ying4	动
-9238	7-9	说不上	shuōbushàng	shuo1 bu5 shang4	shuo1 bu4 shang4	动
+9238	7-9	说不上	shuōbushàng	shuo1 bu5 shang4	shuo1 bu5 shang4	动
 9239	7-9	说谎	shuōhuǎng	shuo1 huang3	shuo1 huang3	动
 9240	7-9	说情	shuōqíng	shuo1 qing2	shuo1 qing2	动
 9241	7-9	硕果	shuòguǒ	shuo4 guo3	shuo4 guo3	名
@@ -9415,7 +9415,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9309	7-9	随时随地	suíshí-suídì	sui2 shi2 sui2 di4	sui2 shi2 sui2 di4	
 9310	7-9	随心所欲	suíxīnsuǒyù	sui2 xin1 suo3 yu4	sui2 xin1 suo3 yu4	
 9311	7-9	隧道	suìdào	sui4 dao4	sui4 dao4	名
-9312	7-9	损人利己	sǔnrén-lìjǐ	sunr3 en2 li4 ji3	sun3 r5 en2 li4 ji3	
+9312	7-9	损人利己	sǔnrén-lìjǐ	sun3 ren2 li4 ji3	sun3 ren2 li4 ji3	
 9313	7-9	缩	suō	suo1	suo1	动
 9314	7-9	缩减	suōjiǎn	suo1 jian3	suo1 jian3	动
 9315	7-9	缩水	suōshuǐ	suo1 shui3	suo1 shui3	动
@@ -9450,7 +9450,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9344	7-9	坦白	tǎnbái	tan3 bai2	tan3 bai2	形、动
 9345	7-9	坦诚	tǎnchéng	tan3 cheng2	tan3 cheng2	形
 9346	7-9	坦克	tǎnkè	tan3 ke4	tan3 ke4	名
-9347	7-9	坦然	tǎnrán	tanr3 an2	tan3 r5 an2	形
+9347	7-9	坦然	tǎnrán	tan3 ran2	tan3 ran2	形
 9348	7-9	坦率	tǎnshuài	tan3 shuai4	tan3 shuai4	形
 9349	7-9	坦言	tǎnyán	tan3 yan2	tan3 yan2	动、名
 9350	7-9	毯子	tǎnzi	tan3 zi5	tan3 zi5	名
@@ -9585,7 +9585,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9479	7-9	同伙	tónghuǒ	tong2 huo3	tong2 huo3	动、名
 9480	7-9	同盟	tóngméng	tong2 meng2	tong2 meng2	动、名
 9481	7-9	同期	tóngqī	tong2 qi1	tong2 qi1	名
-9482	7-9	同仁	tóngrén	tongr2 en2	tong2 r5 en2	名
+9482	7-9	同仁	tóngrén	tong2 ren2	tong2 ren2	名
 9483	7-9	同志	tóngzhì	tong2 zhi4	tong2 zhi4	名
 9484	7-9	同舟共济	tóngzhōu-gòngjì	tong2 zhou1 gong4 ji4	tong2 zhou1 gong4 ji4	
 9485	7-9	捅	tǒng	tong3	tong3	动
@@ -9645,7 +9645,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9539	7-9	退化	tuìhuà	tui4 hua4	tui4 hua4	动
 9540	7-9	退回	tuìhuí	tui4 hui2	tui4 hui2	动
 9541	7-9	退却	tuìquè	tui4 que4	tui4 que4	动
-9542	7-9	退让	tuìràng	tuir4 ang4	tui4 r5 ang4	动
+9542	7-9	退让	tuìràng	tui4 rang4	tui4 rang4	动
 9543	7-9	退缩	tuìsuō	tui4 suo1	tui4 suo1	动
 9544	7-9	退役	tuìyì	tui4 yi4	tui4 yi4	动
 9545	7-9	吞吞吐吐	tūntūntǔtǔ	tun1 tun1 tu3 tu3	tun1 tun1 tu3 tu3	形
@@ -9683,7 +9683,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9577	7-9	外贸	wàimào	wai4 mao4	wai4 mao4	名
 9578	7-9	外貌	wàimào	wai4 mao4	wai4 mao4	名
 9579	7-9	外向	wàixiàng	wai4 xiang4	wai4 xiang4	形
-9580	7-9	外星人	wàixīngrén	wai4 xingr1 en2	wai4 xing1 r5 en2	名
+9580	7-9	外星人	wàixīngrén	wai4 xing1 ren2	wai4 xing1 ren2	名
 9581	7-9	外援	wàiyuán	wai4 yuan2	wai4 yuan2	名
 9582	7-9	外在	wàizài	wai4 zai4	wai4 zai4	形
 9583	7-9	外资	wàizī	wai4 zi1	wai4 zi1	名
@@ -9695,7 +9695,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9589	7-9	玩弄	wánnòng	wan2 nong4	wan2 nong4	动
 9590	7-9	顽皮	wánpí	wan2 pi2	wan2 pi2	形
 9591	7-9	玩耍	wánshuǎ	wan2 shua3	wan2 shua3	动
-9592	7-9	玩意儿	wányìr	wan2 yir4	wan2 yi4 r5	名
+9592	7-9	玩意儿	wányìr	wan2 yi4 r5	wan2 yi4 r5	名
 9593	7-9	丸子	wánzi	wan2 zi5	wan2 zi5	名
 9594	7-9	挽	wǎn	wan3	wan3	动
 9595	7-9	挽回	wǎnhuí	wan3 hui2	wan3 hui2	动
@@ -9745,7 +9745,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9639	7-9	围观	wéiguān	wei2 guan1	wei2 guan1	动
 9640	7-9	围墙	wéiqiáng	wei2 qiang2	wei2 qiang2	名
 9641	7-9	维权	wéiquán	wei2 quan2	wei2 quan2	动
-9642	7-9	为人	wéirén	weir2 en2	wei2 r5 en2	动、名
+9642	7-9	为人	wéirén	wei2 ren2	wei2 ren2	动、名
 9643	7-9	唯有	wéiyǒu	wei2 you3	wei2 you3	连、副
 9644	7-9	违约	wéiyuē	wei2 yue1	wei2 yue1	动
 9645	7-9	违章	wéizhāng	wei2 zhang1	wei2 zhang1	动
@@ -9781,7 +9781,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9675	7-9	文	wén	wen2	wen2	名
 9676	7-9	文盲	wénmáng	wen2 mang2	wen2 mang2	名
 9677	7-9	文凭	wénpíng	wen2 ping2	wen2 ping2	名
-9678	7-9	文人	wénrén	wenr2 en2	wen2 r5 en2	名
+9678	7-9	文人	wénrén	wen2 ren2	wen2 ren2	名
 9679	7-9	文雅	wényǎ	wen2 ya3	wen2 ya3	形
 9680	7-9	蚊帐	wénzhàng	wen2 zhang4	wen2 zhang4	名
 9681	7-9	蚊子	wénzi	wen2 zi5	wen2 zi5	名
@@ -9822,7 +9822,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9716	7-9	无精打采	wújīng-dǎcǎi	wu2 jing1 da3 cai3	wu2 jing1 da3 cai3	
 9717	7-9	无济于事	wújìyúshì	wu2 ji4 yu2 shi4	wu2 ji4 yu2 shi4	
 9718	7-9	无可厚非	wúkěhòufēi	wu2 ke3 hou4 fei1	wu2 ke3 hou4 fei1	
-9719	7-9	无可奈何	wúkěnàihé	wu2 ken3 ai4 he2	wu2 ken3 ai4 he2	
+9719	7-9	无可奈何	wúkěnàihé	wu2 ke3 nai4 he2	wu2 ke3 nai4 he2	
 9720	7-9	无赖	wúlài	wu2 lai4	wu2 lai4	形、名
 9721	7-9	无力	wúlì	wu2 li4	wu2 li4	动
 9722	7-9	无理	wúlǐ	wu2 li3	wu2 li3	动
@@ -9875,13 +9875,13 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9769	7-9	犀利	xīlì	xi1 li4	xi1 li4	形
 9770	7-9	奚落	xīluò	xi1 luo4	xi1 luo4	动
 9771	7-9	熄灭	xīmiè	xi1 mie4	xi1 mie4	动
-9772	7-9	吸纳	xīnà	xin1 a4	xin1 a4	动
+9772	7-9	吸纳	xīnà	xi1 na4	xi1 na4	动
 9773	7-9	稀奇	xīqí	xi1 qi2	xi1 qi2	形
 9774	7-9	昔日	xīrì	xi1 ri4	xi1 ri4	名
 9775	7-9	稀少	xīshǎo	xi1 shao3	xi1 shao3	形
 9776	7-9	牺牲	xīshēng	xi1 sheng1	xi1 sheng1	动
 9777	7-9	嬉笑	xīxiào	xi1 xiao4	xi1 xiao4	动
-9778	7-9	熙熙攘攘	xīxī-rǎngrǎng	xi1 xi1 rangr3 ang3	xi1 xi1 rang3 r5 ang3	形
+9778	7-9	熙熙攘攘	xīxī-rǎngrǎng	xi1 xi1 rang3 rang3	xi1 xi1 rang3 rang3	形
 9779	7-9	息息相关	xīxī-xiāngguān	xi1 xi1 xiang1 guan1	xi1 xi1 xiang1 guan1	
 9780	7-9	夕阳	xīyáng	xi1 yang2	xi1 yang2	名、形
 9781	7-9	稀有	xīyǒu	xi1 you3	xi1 you3	形
@@ -9920,7 +9920,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9814	7-9	下级	xiàjí	xia4 ji2	xia4 ji2	名
 9815	7-9	下令	xiàlìng	xia4 ling4	xia4 ling4	动
 9816	7-9	下落	xiàluò	xia4 luo4	xia4 luo4	名、动
-9817	7-9	吓人	xiàrén	xiar4 en2	xia4 r5 en2	形
+9817	7-9	吓人	xiàrén	xia4 ren2	xia4 ren2	形
 9818	7-9	下手	xiàshǒu	xia4 shou3	xia4 shou3	动
 9819	7-9	下属	xiàshǔ	xia4 shu3	xia4 shu3	名
 9820	7-9	下台	xiàtái	xia4 tai2	xia4 tai2	动
@@ -9951,7 +9951,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9845	7-9	显露	xiǎnlù	xian3 lu4	xian3 lu4	动
 9846	7-9	显示器	xiǎnshìqì	xian3 shi4 qi4	xian3 shi4 qi4	名
 9847	7-9	显微镜	xiǎnwēijìng	xian3 wei1 jing4	xian3 wei1 jing4	名
-9848	7-9	鲜为人知	xiǎnwéirénzhī	xian3 weir2 en2 zhi1	xian3 wei2 r5 en2 zhi1	
+9848	7-9	鲜为人知	xiǎnwéirénzhī	xian3 wei2 ren2 zhi1	xian3 wei2 ren2 zhi1	
 9849	7-9	显现	xiǎnxiàn	xian3 xian4	xian3 xian4	动
 9850	7-9	显性	xiǎnxìng	xian3 xing4	xian3 xing4	形
 9851	7-9	显眼	xiǎnyǎn	xian3 yan3	xian3 yan3	形
@@ -9963,7 +9963,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9857	7-9	宪法	xiànfǎ	xian4 fa3	xian4 fa3	名
 9858	7-9	陷害	xiànhài	xian4 hai4	xian4 hai4	动
 9859	7-9	陷阱	xiànjǐng	xian4 jing3	xian4 jing3	名
-9860	7-9	现任	xiànrèn	xianr4 en4	xian4 r5 en4	动、形
+9860	7-9	现任	xiànrèn	xian4 ren4	xian4 ren4	动、形
 9861	7-9	线条	xiàntiáo	xian4 tiao2	xian4 tiao2	名
 9862	7-9	现行	xiànxíng	xian4 xing2	xian4 xing2	形
 9863	7-9	镶	xiāng	xiang1	xiang1	动
@@ -10011,7 +10011,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9905	7-9	小看	xiǎokàn	xiao3 kan4	xiao3 kan4	动
 9906	7-9	小康	xiǎokāng	xiao3 kang1	xiao3 kang1	形
 9907	7-9	小品	xiǎopǐn	xiao3 pin3	xiao3 pin3	名
-9908	7-9	小人	xiǎorén	xiaor3 en2	xiao3 r5 en2	名
+9908	7-9	小人	xiǎorén	xiao3 ren2	xiao3 ren2	名
 9909	7-9	小提琴	xiǎotíqín	xiao3 ti2 qin2	xiao3 ti2 qin2	名
 9910	7-9	小心翼翼	xiǎoxīn-yìyì	xiao3 xin1 yi4 yi4	xiao3 xin1 yi4 yi4	
 9911	7-9	效仿	xiàofǎng	xiao4 fang3	xiao4 fang3	动
@@ -10037,7 +10037,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9931	7-9	泄露	xièlòu	xie4 lou4	xie4 lou4	动
 9932	7-9	泄密	xièmì	xie4 mi4	xie4 mi4	动
 9933	7-9	泄气	xièqì	xie4 qi4	xie4 qi4	动、形
-9934	7-9	卸任	xièrèn	xier4 en4	xie4 r5 en4	动
+9934	7-9	卸任	xièrèn	xie4 ren4	xie4 ren4	动
 9935	7-9	卸载	xièzài	xie4 zai4	xie4 zai4	动
 9936	7-9	心安理得	xīn’ān-lǐdé	xin1 an1 li3 de2	xin1 an1 li3 de2	
 9937	7-9	心病	xīnbìng	xin1 bing4	xin1 bing4	名
@@ -10047,7 +10047,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9941	7-9	薪酬	xīnchóu	xin1 chou2	xin1 chou2	名
 9942	7-9	新春	xīnchūn	xin1 chun1	xin1 chun1	名
 9943	7-9	心得	xīndé	xin1 de2	xin1 de2	名
-9944	7-9	心甘情愿	xīngān-qíngyuàn	xing1 an1 qing2 yuan4	xing1 an1 qing2 yuan4	
+9944	7-9	心甘情愿	xīngān-qíngyuàn	xin1 gan1 qing2 yuan4	xin1 gan1 qing2 yuan4	
 9945	7-9	心慌	xīnhuāng	xin1 huang1	xin1 huang1	形
 9946	7-9	心急如焚	xīnjí-rúfén	xin1 ji2 ru2 fen2	xin1 ji2 ru2 fen2	
 9947	7-9	心灵手巧	xīnlíng-shǒuqiǎo	xin1 ling2 shou3 qiao3	xin1 ling2 shou3 qiao3	
@@ -10065,10 +10065,10 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 9959	7-9	欣慰	xīnwèi	xin1 wei4	xin1 wei4	形
 9960	7-9	欣喜	xīnxǐ	xin1 xi3	xin1 xi3	形
 9961	7-9	心想事成	xīnxiǎng-shìchéng	xin1 xiang3 shi4 cheng2	xin1 xiang3 shi4 cheng2	
-9962	7-9	欣欣向荣	xīnxīn-xiàngróng	xin1 xin1 xiangr4 o2 ng5	xin1 xin1 xiang4 r5 o2 ng5	
+9962	7-9	欣欣向荣	xīnxīn-xiàngróng	xin1 xin1 xiang4 rong2	xin1 xin1 xiang4 rong2	
 9963	7-9	心胸	xīnxiōng	xin1 xiong1	xin1 xiong1	名
 9964	7-9	心血	xīnxuè	xin1 xue4	xin1 xue4	名
-9965	7-9	心眼儿	xīnyǎnr	xin1 yanr3	xin1 yan3 r5	名
+9965	7-9	心眼儿	xīnyǎnr	xin1 yan3 r5	xin1 yan3 r5	名
 9966	7-9	心意	xīnyì	xin1 yi4	xin1 yi4	名
 9967	7-9	信贷	xìndài	xin4 dai4	xin4 dai4	名
 9968	7-9	信件	xìnjiàn	xin4 jian4	xin4 jian4	名
@@ -10141,7 +10141,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10035	7-9	虚幻	xūhuàn	xu1 huan4	xu1 huan4	形
 10036	7-9	虚假	xūjiǎ	xu1 jia3	xu1 jia3	形
 10037	7-9	虚拟	xūnǐ	xu1 ni3	xu1 ni3	动、形
-10038	7-9	虚荣	xūróng	xur1 o2 ng5	xu1 r5 o2 ng5	名、形
+10038	7-9	虚荣	xūróng	xu1 rong2	xu1 rong2	名、形
 10039	7-9	虚弱	xūruò	xu1 ruo4	xu1 ruo4	形
 10040	7-9	虚伪	xūwěi	xu1 wei3	xu1 wei3	形
 10041	7-9	须知	xūzhī	xu1 zhi1	xu1 zhi1	名、动
@@ -10242,7 +10242,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10136	7-9	沿用	yányòng	yan2 yong4	yan2 yong4	动
 10137	7-9	演变	yǎnbiàn	yan3 bian4	yan3 bian4	动
 10138	7-9	掩耳盗铃	yǎn’ěr-dàolíng	yan3 er3 dao4 ling2	yan3 er3 dao4 ling2	
-10139	7-9	掩盖	yǎngài	yang3 ai4	yang3 ai4	动
+10139	7-9	掩盖	yǎngài	yan3 gai4	yan3 gai4	动
 10140	7-9	眼红	yǎnhóng	yan3 hong2	yan3 hong2	形
 10141	7-9	掩护	yǎnhù	yan3 hu4	yan3 hu4	动、名
 10142	7-9	演化	yǎnhuà	yan3 hua4	yan3 hua4	动
@@ -10333,10 +10333,10 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10227	7-9	遗漏	yílòu	yi2 lou4	yi2 lou4	动
 10228	7-9	疑虑	yílǜ	yi2 lü4	yi2 lü4	动、名
 10229	7-9	一面	yímiàn	yi2 mian4	yi1 mian4	名、副
-10230	7-9	一目了然	yímù-liǎorán	yi2 mu4 liaor3 an2	yi1 mu4 liao3 r5 an2	
+10230	7-9	一目了然	yímù-liǎorán	yi2 mu4 liao3 ran2	yi1 mu4 liao3 ran2	
 10231	7-9	遗弃	yíqì	yi2 qi4	yi2 qi4	动
-10232	7-9	怡然自得	yírán-zìdé	yir2 an2 zi4 de2	yi2 r5 an2 zi4 de2	
-10233	7-9	宜人	yírén	yir2 en2	yi2 r5 en2	形
+10232	7-9	怡然自得	yírán-zìdé	yi2 ran2 zi4 de2	yi2 ran2 zi4 de2	
+10233	7-9	宜人	yírén	yi2 ren2	yi2 ren2	形
 10234	7-9	遗失	yíshī	yi2 shi1	yi2 shi1	动
 10235	7-9	一事无成	yíshì-wúchéng	yi2 shi4 wu2 cheng2	yi1 shi4 wu2 cheng2	
 10236	7-9	遗体	yítǐ	yi2 ti3	yi2 ti3	名
@@ -10376,7 +10376,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10270	7-9	疫苗	yìmiáo	yi4 miao2	yi4 miao2	名
 10271	7-9	一旁	yìpáng	yi4 pang2	yi1 pang2	名
 10272	7-9	一齐	yìqí	yi4 qi2	yi1 qi2	副
-10273	7-9	毅然	yìrán	yir4 an2	yi4 r5 an2	副
+10273	7-9	毅然	yìrán	yi4 ran2	yi4 ran2	副
 10274	7-9	一如既往	yìrú-jìwǎng	yi4 ru2 ji4 wang3	yi1 ru2 ji4 wang3	
 10275	7-9	一声不吭	yìshēng-bùkēng	yi4 sheng1 bu4 keng1	yi1 sheng1 bu4 keng1	
 10276	7-9	一手	yìshǒu	yi4 shou3	yi1 shou3	名、副
@@ -10413,7 +10413,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10307	7-9	阴历	yīnlì	yin1 li4	yin1 li4	名
 10308	7-9	阴谋	yīnmóu	yin1 mou2	yin1 mou2	动、名
 10309	7-9	殷勤	yīnqín	yin1 qin2	yin1 qin2	形
-10310	7-9	因人而异	yīnrén’éryì	yinr1 en2 er2 yi4	yin1 r5 en2 er2 yi4	
+10310	7-9	因人而异	yīnrén’éryì	yin1 ren2 er2 yi4	yin1 ren2 er2 yi4	
 10311	7-9	音响	yīnxiǎng	yin1 xiang3	yin1 xiang3	名
 10312	7-9	阴性	yīnxìng	yin1 xing4	yin1 xing4	名
 10313	7-9	阴影	yīnyǐng	yin1 ying3	yin1 ying3	名
@@ -10428,8 +10428,8 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10322	7-9	隐瞒	yǐnmán	yin3 man2	yin3 man2	动
 10323	7-9	引擎	yǐnqíng	yin3 qing2	yin3 qing2	名
 10324	7-9	隐情	yǐnqíng	yin3 qing2	yin3 qing2	名
-10325	7-9	引人入胜	yǐnrén-rùshèng	yinr3 en2 ru4 sheng4	yin3 r5 en2 ru4 sheng4	
-10326	7-9	引人注目	yǐnrén-zhùmù	yinr3 en2 zhu4 mu4	yin3 r5 en2 zhu4 mu4	
+10325	7-9	引人入胜	yǐnrén-rùshèng	yin3 ren2 ru4 sheng4	yin3 ren2 ru4 sheng4	
+10326	7-9	引人注目	yǐnrén-zhùmù	yin3 ren2 zhu4 mu4	yin3 ren2 zhu4 mu4	
 10327	7-9	隐形	yǐnxíng	yin3 xing2	yin3 xing2	形
 10328	7-9	隐性	yǐnxìng	yin3 xing4	yin3 xing4	形
 10329	7-9	引用	yǐnyòng	yin3 yong4	yin3 yong4	动
@@ -10487,7 +10487,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10381	7-9	由衷	yóuzhōng	you2 zhong1	you2 zhong1	动
 10382	7-9	有待	yǒudài	you3 dai4	you3 dai4	动
 10383	7-9	有的放矢	yǒudì-fàngshǐ	you3 di4 fang4 shi3	you3 di4 fang4 shi3	
-10384	7-9	友人	yǒurén	your3 en2	you3 r5 en2	名
+10384	7-9	友人	yǒurén	you3 ren2	you3 ren2	名
 10385	7-9	友善	yǒushàn	you3 shan4	you3 shan4	形
 10386	7-9	有声有色	yǒushēng-yǒusè	you3 sheng1 you3 se4	you3 sheng1 you3 se4	
 10387	7-9	有条不紊	yǒutiáo-bùwěn	you3 tiao2 bu4 wen3	you3 tiao2 bu4 wen3	
@@ -10498,7 +10498,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10392	7-9	诱饵	yòu’ěr	you4 er3	you4 er3	名
 10393	7-9	诱发	yòufā	you4 fa1	you4 fa1	动
 10394	7-9	诱惑	yòuhuò	you4 huo4	you4 huo4	动、名
-10395	7-9	诱人	yòurén	your4 en2	you4 r5 en2	动、形
+10395	7-9	诱人	yòurén	you4 ren2	you4 ren2	动、形
 10396	7-9	幼稚	yòuzhì	you4 zhi4	you4 zhi4	形
 10397	7-9	淤泥	yūní	yu1 ni2	yu1 ni2	名
 10398	7-9	余	yú	yu2	yu2	动、数
@@ -10527,7 +10527,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10421	7-9	预见	yùjiàn	yu4 jian4	yu4 jian4	动、名
 10422	7-9	预警	yùjǐng	yu4 jing3	yu4 jing3	动
 10423	7-9	郁闷	yùmèn	yu4 men4	yu4 men4	形
-10424	7-9	遇难	yùnàn	yun4 an4	yun4 an4	动
+10424	7-9	遇难	yùnàn	yu4 nan4	yu4 nan4	动
 10425	7-9	预赛	yùsài	yu4 sai4	yu4 sai4	动、名
 10426	7-9	预示	yùshì	yu4 shi4	yu4 shi4	动
 10427	7-9	预售	yùshòu	yu4 shou4	yu4 shou4	动
@@ -10737,7 +10737,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10631	7-9	震撼	zhènhàn	zhen4 han4	zhen4 han4	动
 10632	7-9	镇静	zhènjìng	zhen4 jing4	zhen4 jing4	形、动
 10633	7-9	震惊	zhènjīng	zhen4 jing1	zhen4 jing1	形、动
-10634	7-9	阵容	zhènróng	zhenr4 o2 ng5	zhen4 r5 o2 ng5	名
+10634	7-9	阵容	zhènróng	zhen4 rong2	zhen4 rong2	名
 10635	7-9	振兴	zhènxīng	zhen4 xing1	zhen4 xing1	动
 10636	7-9	阵营	zhènyíng	zhen4 ying2	zhen4 ying2	名
 10637	7-9	振作	zhènzuò	zhen4 zuo4	zhen4 zuo4	形、动
@@ -10772,7 +10772,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10666	7-9	正气	zhèngqì	zheng4 qi4	zheng4 qi4	名
 10667	7-9	政权	zhèngquán	zheng4 quan2	zheng4 quan2	名
 10668	7-9	证券	zhèngquàn	zheng4 quan4	zheng4 quan4	名
-10669	7-9	证人	zhèngrén	zhengr4 en2	zheng4 r5 en2	名
+10669	7-9	证人	zhèngrén	zheng4 ren2	zheng4 ren2	名
 10670	7-9	正视	zhèngshì	zheng4 shi4	zheng4 shi4	动
 10671	7-9	正直	zhèngzhí	zheng4 zhi2	zheng4 zhi2	形
 10672	7-9	郑重	zhèngzhòng	zheng4 zhong4	zheng4 zhong4	形
@@ -10879,7 +10879,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10773	7-9	仲裁	zhòngcái	zhong4 cai2	zhong4 cai2	动
 10774	7-9	重创	zhòngchuāng	zhong4 chuang1	zhong4 chuang1	动
 10775	7-9	重量级	zhòngliàngjí	zhong4 liang4 ji2	zhong4 liang4 ji2	形
-10776	7-9	重任	zhòngrèn	zhongr4 en4	zhong4 r5 en4	名
+10776	7-9	重任	zhòngrèn	zhong4 ren4	zhong4 ren4	名
 10777	7-9	重型	zhòngxíng	zhong4 xing2	zhong4 xing2	形
 10778	7-9	重用	zhòngyòng	zhong4 yong4	zhong4 yong4	动
 10779	7-9	众志成城	zhòngzhì-chéngchéng	zhong4 zhi4 cheng2 cheng2	zhong4 zhi4 cheng2 cheng2	
@@ -10890,7 +10890,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10784	7-9	周折	zhōuzhé	zhou1 zhe2	zhou1 zhe2	名
 10785	7-9	周转	zhōuzhuǎn	zhou1 zhuan3	zhou1 zhuan3	动
 10786	7-9	皱	zhòu	zhou4	zhou4	名、动
-10787	7-9	骤然	zhòurán	zhour4 an2	zhou4 r5 an2	副
+10787	7-9	骤然	zhòurán	zhou4 ran2	zhou4 ran2	副
 10788	7-9	皱纹	zhòuwén	zhou4 wen2	zhou4 wen2	名
 10789	7-9	昼夜	zhòuyè	zhou4 ye4	zhou4 ye4	名
 10790	7-9	朱红	zhūhóng	zhu1 hong2	zhu1 hong2	形
@@ -10905,7 +10905,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10799	7-9	嘱咐	zhǔfù	zhu3 fu4	zhu3 fu4	动
 10800	7-9	主力	zhǔlì	zhu3 li4	zhu3 li4	名
 10801	7-9	主权	zhǔquán	zhu3 quan2	zhu3 quan2	名
-10802	7-9	主人公	zhǔréngōng	zhur3 eng2 o1 ng5	zhu3 r5 eng2 o1 ng5	名
+10802	7-9	主人公	zhǔréngōng	zhu3 ren2 gong1	zhu3 ren2 gong1	名
 10803	7-9	主体	zhǔtǐ	zhu3 ti3	zhu3 ti3	名
 10804	7-9	主题曲	zhǔtíqǔ	zhu3 ti2 qu3	zhu3 ti2 qu3	名
 10805	7-9	嘱托	zhǔtuō	zhu3 tuo1	zhu3 tuo1	动
@@ -10939,7 +10939,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10833	7-9	专辑	zhuānjí	zhuan1 ji2	zhuan1 ji2	名
 10834	7-9	专栏	zhuānlán	zhuan1 lan2	zhuan1 lan2	名
 10835	7-9	专卖	zhuānmài	zhuan1 mai4	zhuan1 mai4	动
-10836	7-9	专人	zhuānrén	zhuanr1 en2	zhuan1 r5 en2	名
+10836	7-9	专人	zhuānrén	zhuan1 ren2	zhuan1 ren2	名
 10837	7-9	专项	zhuānxiàng	zhuan1 xiang4	zhuan1 xiang4	名
 10838	7-9	专职	zhuānzhí	zhuan1 zhi2	zhuan1 zhi2	名
 10839	7-9	专制	zhuānzhì	zhuan1 zhi4	zhuan1 zhi4	动、形
@@ -10989,7 +10989,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10883	7-9	着力	zhuólì	zhuo2 li4	zhuo2 li4	动
 10884	7-9	着落	zhuóluò	zhuo2 luo4	zhuo2 luo4	名
 10885	7-9	酌情	zhuóqíng	zhuo2 qing2	zhuo2 qing2	动
-10886	7-9	灼热	zhuórè	zhuor2 e4	zhuo2 r5 e4	形
+10886	7-9	灼热	zhuórè	zhuo2 re4	zhuo2 re4	形
 10887	7-9	着实	zhuóshí	zhuo2 shi2	zhuo2 shi2	副
 10888	7-9	着手	zhuóshǒu	zhuo2 shou3	zhuo2 shou3	动
 10889	7-9	着想	zhuóxiǎng	zhuo2 xiang3	zhuo2 xiang3	动
@@ -11024,8 +11024,8 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10918	7-9	自力更生	zìlì-gēngshēng	zi4 li4 geng1 sheng1	zi4 li4 geng1 sheng1	
 10919	7-9	自满	zìmǎn	zi4 man3	zi4 man3	形
 10920	7-9	自强不息	zìqiáng-bùxī	zi4 qiang2 bu4 xi1	zi4 qiang2 bu4 xi1	
-10921	7-9	自然而然	zìrán’érrán	zir4 an2 er2 ran2	zi4 r5 an2 er2 ran2	
-10922	7-9	自然界	zìránjiè	zir4 an2 jie4	zi4 r5 an2 jie4	名
+10921	7-9	自然而然	zìrán’érrán	zi4 ran2 er2 ran2	zi4 ran2 er2 ran2	
+10922	7-9	自然界	zìránjiè	zi4 ran2 jie4	zi4 ran2 jie4	名
 10923	7-9	自如	zìrú	zi4 ru2	zi4 ru2	形
 10924	7-9	自始至终	zìshǐ-zhìzhōng	zi4 shi3 zhi4 zhong1	zi4 shi3 zhi4 zhong1	
 10925	7-9	自首	zìshǒu	zi4 shou3	zi4 shou3	动
@@ -11051,8 +11051,8 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10945	7-9	总和	zǒnghé	zong3 he2	zong3 he2	名
 10946	7-9	纵观	zòngguān	zong4 guan1	zong4 guan1	动
 10947	7-9	纵横	zònghéng	zong4 heng2	zong4 heng2	形、动
-10948	7-9	纵然	zòngrán	zongr4 an2	zong4 r5 an2	连
-10949	7-9	纵容	zòngróng	zongr4 o2 ng5	zong4 r5 o2 ng5	动
+10948	7-9	纵然	zòngrán	zong4 ran2	zong4 ran2	连
+10949	7-9	纵容	zòngróng	zong4 rong2	zong4 rong2	动
 10950	7-9	纵深	zòngshēn	zong4 shen1	zong4 shen1	名
 10951	7-9	走过场	zǒuguòchǎng	zou3 guo4 chang3	zou3 guo4 chang3	
 10952	7-9	走弯路	zǒuwānlù	zou3 wan1 lu4	zou3 wan1 lu4	
@@ -11074,7 +11074,7 @@ word_index	level	word	pinyin	pinyin_numbered	pinyin_cc-cedict	part_of_speech
 10968	7-9	阻拦	zǔlán	zu3 lan2	zu3 lan2	动
 10969	7-9	阻力	zǔlì	zu3 li4	zu3 li4	名
 10970	7-9	祖母	zǔmǔ	zu3 mu3	zu3 mu3	名
-10971	7-9	阻挠	zǔnáo	zun3 ao2	zun3 ao2	动
+10971	7-9	阻挠	zǔnáo	zu3 nao2	zu3 nao2	动
 10972	7-9	组装	zǔzhuāng	zu3 zhuang1	zu3 zhuang1	动
 10973	7-9	祖宗	zǔzong	zu3 zong5	zu3 zong5	名
 10974	7-9	钻空子	zuānkòngzi	zuan1 kong4 zi5	zuan1 kong4 zi5	

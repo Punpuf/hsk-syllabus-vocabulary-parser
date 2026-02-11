@@ -24,7 +24,8 @@ Output rows: level=1 -> "形、介" and level=4 -> "动、量"
 Pinyin numbering
 - The output includes a `pinyin_numbered` column (e.g., "bàba" -> "ba4 ba5").
 - The output also includes `pinyin_cc-cedict`, which normalizes Hanzi "不" to `bu4`
-  and "一" to `yi1` based on character position.
+  unless it is already neutral tone (`bu5`), and "一" to `yi1` based on character
+  position.
 - Pinyin is split into syllables, tone numbers are derived from accent marks, and
   neutral tone syllables use tone 5.
 - Source pinyin may contain internal spaces for syllable boundaries (e.g.,
@@ -43,6 +44,7 @@ from __future__ import annotations
 import argparse
 from collections import Counter
 import dataclasses
+import functools
 import re
 import unicodedata
 from pathlib import Path
@@ -89,7 +91,7 @@ TONE_MARKS = {
 
 SEPARATOR_CHARS = set("-/'’·•")
 PRESERVE_SEPARATORS = {"/"}
-EXTRA_VALID_SYLLABLES = {"m", "n", "ng", "hm", "hng"}
+EXTRA_VALID_SYLLABLES = {"m", "n", "ng", "hm", "hng", "r"}
 PINYIN_TOKEN_RE = re.compile(r"^[A-Za-zāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜńňǹḿüÜêÊ]+$")
 CJK_RE = re.compile(r"[\u4e00-\u9fff]")
 CJK_ONLY_RE = re.compile(r"[\u4e00-\u9fff]+")
@@ -99,6 +101,8 @@ VALID_HSK_LEVELS = {"1", "2", "3", "4", "5", "6", "7-9"}
 WORD_VALID_RE = re.compile(r"^[一-鿿]+[12]?$")
 PINYIN_EXCEPTION_CHARS = {"-", "’"}
 PINYIN_ALLOWED_SEPARATORS = PRESERVE_SEPARATORS | PINYIN_EXCEPTION_CHARS
+CEDICT_ENTRY_RE = re.compile(r"^(\S+)\s+(\S+)\s+\[([^]]+)]")
+CEDICT_ALSO_PR_RE = re.compile(r"also pr\. \[([^]]+)]")
 
 CID_CHAR_MAP = {
     "6656": "提",
@@ -141,7 +145,7 @@ def _extract_hanzi_chars(word: str) -> List[str]:
     return [char for char in word if CJK_RE.fullmatch(char)]
 
 
-def _split_erhua_syllables(numbered_text: str) -> str:
+def _split_erhua_syllables(numbered_text: str, split_syllable_indices: set[int]) -> str:
     """
     Split merged erhua syllables into separate tokens in numbered pinyin.
 
@@ -149,13 +153,16 @@ def _split_erhua_syllables(numbered_text: str) -> str:
         zher4 -> zhe4 r5
         dianr3 -> dian3 r5
     """
+    if not split_syllable_indices:
+        return numbered_text
+
     matches = list(NUMBERED_SYLLABLE_RE.finditer(numbered_text.lower()))
     if not matches:
         return numbered_text
 
     out_parts: List[str] = []
     cursor = 0
-    for match in matches:
+    for syll_idx, match in enumerate(matches):
         start = match.start()
         end = match.end()
         out_parts.append(numbered_text[cursor:start])
@@ -163,7 +170,11 @@ def _split_erhua_syllables(numbered_text: str) -> str:
         original = numbered_text[start:end]
         lower = original.lower()
         erhua = ERHUA_MERGED_RE.fullmatch(lower)
-        if erhua and lower not in {"er1", "er2", "er3", "er4", "er5", "r5"}:
+        if (
+            syll_idx in split_syllable_indices
+            and erhua
+            and lower not in {"er1", "er2", "er3", "er4", "er5", "r5"}
+        ):
             base, tone = erhua.groups()
             out_parts.append(f"{base}{tone} r5")
         else:
@@ -175,81 +186,243 @@ def _split_erhua_syllables(numbered_text: str) -> str:
     return "".join(out_parts)
 
 
+def _map_hanzi_to_syllable_indices(
+    hanzi_chars: Sequence[str],
+    syllable_matches: Sequence[re.Match[str]],
+) -> List[int | None]:
+    """Map each Hanzi character to its best syllable index."""
+    char_to_syllable: List[int | None] = []
+    syllable_idx = 0
+
+    for idx, hanzi in enumerate(hanzi_chars):
+        if hanzi == "儿" and idx > 0 and syllable_idx > 0:
+            next_is_explicit_er = (
+                syllable_idx < len(syllable_matches)
+                and syllable_matches[syllable_idx].group(0).startswith("er")
+            )
+            if next_is_explicit_er:
+                char_to_syllable.append(syllable_idx)
+                syllable_idx += 1
+            else:
+                char_to_syllable.append(syllable_idx - 1)
+            continue
+
+        if syllable_idx >= len(syllable_matches):
+            char_to_syllable.append(None)
+            continue
+
+        char_to_syllable.append(syllable_idx)
+        syllable_idx += 1
+
+    return char_to_syllable
+
+
 def _pinyin_cc_cedict(word: str, pinyin_numbered: str) -> str:
     """
     Build a CC-CEDICT-normalized numbered pinyin string.
 
-    This keeps "不" as bu4 and "一" as yi1 by Hanzi position while preserving
-    the original separators (spaces, slashes).
+    This keeps "不" as bu4 (unless it is already neutral tone) and "一" as yi1
+    by Hanzi position while preserving the original separators (spaces, slashes).
     """
     cc_cedict = pinyin_numbered
     hanzi_chars = _extract_hanzi_chars(word)
     if not hanzi_chars:
-        return _split_erhua_syllables(cc_cedict)
-    if "不" not in hanzi_chars and "一" not in hanzi_chars:
-        return _split_erhua_syllables(cc_cedict)
+        return cc_cedict
 
     syllable_matches = list(NUMBERED_SYLLABLE_RE.finditer(cc_cedict.lower()))
     if not syllable_matches:
-        return _split_erhua_syllables(cc_cedict)
+        return cc_cedict
 
     # Map each Hanzi to the syllable index it most likely aligns with.
-    # Handle erhua forms where "儿" may be merged into a preceding syllable (e.g., dianr3).
-    char_to_syllable: List[int | None] = []
-    syllable_idx = 0
-    for idx, hanzi in enumerate(hanzi_chars):
-        is_suffix_erhua = hanzi == "儿" and idx > 0 and syllable_idx > 0
-        if is_suffix_erhua:
-            char_to_syllable.append(syllable_idx - 1)
-            continue
-        if syllable_idx >= len(syllable_matches):
-            char_to_syllable.append(None)
-            continue
-        char_to_syllable.append(syllable_idx)
-        syllable_idx += 1
+    char_to_syllable = _map_hanzi_to_syllable_indices(hanzi_chars, syllable_matches)
 
-    override_indices: dict[int, str] = {}
-    used_override_indices: set[int] = set()
-    for char_idx, hanzi in enumerate(hanzi_chars):
-        override = CC_CEDICT_TONE_OVERRIDES.get(hanzi)
-        if not override:
-            continue
+    erhua_split_indices = {
+        syll_idx
+        for hanzi, syll_idx in zip(hanzi_chars, char_to_syllable)
+        if hanzi == "儿" and syll_idx is not None
+    }
 
-        target_prefix = override[:-1]
-        preferred_idx = char_to_syllable[char_idx]
-        chosen_idx: int | None = None
+    if "不" in hanzi_chars or "一" in hanzi_chars:
+        override_indices: dict[int, str] = {}
+        used_override_indices: set[int] = set()
+        for char_idx, hanzi in enumerate(hanzi_chars):
+            override = CC_CEDICT_TONE_OVERRIDES.get(hanzi)
+            if not override:
+                continue
 
-        if preferred_idx is not None and preferred_idx < len(syllable_matches):
-            preferred_syllable = syllable_matches[preferred_idx].group(0)[:-1]
-            if preferred_syllable.startswith(target_prefix):
+            target_prefix = override[:-1]
+            preferred_idx = char_to_syllable[char_idx]
+            chosen_idx: int | None = None
+
+            if preferred_idx is not None and preferred_idx < len(syllable_matches):
+                preferred_syllable = syllable_matches[preferred_idx].group(0)[:-1]
+                if preferred_syllable.startswith(target_prefix):
+                    chosen_idx = preferred_idx
+
+            if chosen_idx is None:
+                for syll_idx, match in enumerate(syllable_matches):
+                    if syll_idx in used_override_indices:
+                        continue
+                    if match.group(0)[:-1].startswith(target_prefix):
+                        chosen_idx = syll_idx
+                        break
+
+            if chosen_idx is None and preferred_idx is not None and preferred_idx < len(syllable_matches):
                 chosen_idx = preferred_idx
 
-        if chosen_idx is None:
-            for syll_idx, match in enumerate(syllable_matches):
-                if syll_idx in used_override_indices:
+            if chosen_idx is not None:
+                if hanzi == "不" and syllable_matches[chosen_idx].group(0).endswith("5"):
+                    used_override_indices.add(chosen_idx)
                     continue
-                if match.group(0)[:-1].startswith(target_prefix):
-                    chosen_idx = syll_idx
+                override_indices[chosen_idx] = override
+                used_override_indices.add(chosen_idx)
+
+        out_parts: List[str] = []
+        cursor = 0
+        for idx, match in enumerate(syllable_matches):
+            out_parts.append(cc_cedict[cursor:match.start()])
+            override = override_indices.get(idx)
+            out_parts.append(override if override else match.group(0))
+            cursor = match.end()
+
+        out_parts.append(cc_cedict[cursor:])
+        cc_cedict = "".join(out_parts)
+
+    return _split_erhua_syllables(cc_cedict, erhua_split_indices)
+
+
+def _normalize_cedict_syllable(token: str) -> str | None:
+    """Normalize a CC-CEDICT syllable token into numbered pinyin."""
+    token = token.strip()
+    if not token:
+        return None
+    token = token.replace("u:", "ü").replace("U:", "ü")
+    token = token.replace("v", "ü").replace("V", "ü")
+    token = token.lower()
+    if not NUMBERED_SYLLABLE_RE.fullmatch(token):
+        return None
+    return token
+
+
+def _extract_additional_cedict_pinyin(def_text: str) -> List[List[str]]:
+    """Extract alternate pronunciations from CC-CEDICT definition text."""
+    extra_tokens: List[List[str]] = []
+    for match in CEDICT_ALSO_PR_RE.finditer(def_text):
+        raw = match.group(1)
+        tokens: List[str] = []
+        invalid = False
+        for token in raw.split():
+            normalized = _normalize_cedict_syllable(token)
+            if normalized is None:
+                invalid = True
+                break
+            tokens.append(normalized)
+        if not invalid and tokens:
+            extra_tokens.append(tokens)
+    return extra_tokens
+
+
+@functools.lru_cache(maxsize=1)
+def _load_cedict_hanzi_map() -> dict[str, set[str]]:
+    """Load a Hanzi -> numbered pinyin mapping from the bundled CC-CEDICT file."""
+    cedict_path = Path(__file__).with_name("cedict_ts.u8")
+    if not cedict_path.exists():
+        raise FileNotFoundError(f"CC-CEDICT file not found: {cedict_path}")
+
+    mapping: dict[str, set[str]] = {}
+    multi_char_entries: List[Tuple[str, List[str]]] = []
+    with cedict_path.open("r", encoding="utf-8") as handle:
+        for line in handle:
+            if not line or line.startswith("#"):
+                continue
+            match = CEDICT_ENTRY_RE.match(line)
+            if not match:
+                continue
+            trad, simp, pinyin_field = match.groups()
+            def_text = line[match.end():]
+            pinyin_token_sets: List[List[str]] = []
+            primary_tokens: List[str] = []
+            invalid_token = False
+            for token in pinyin_field.split():
+                normalized = _normalize_cedict_syllable(token)
+                if normalized is None:
+                    invalid_token = True
                     break
+                primary_tokens.append(normalized)
+            if invalid_token or not primary_tokens:
+                continue
+            pinyin_token_sets.append(primary_tokens)
+            pinyin_token_sets.extend(_extract_additional_cedict_pinyin(def_text))
 
-        if chosen_idx is None and preferred_idx is not None and preferred_idx < len(syllable_matches):
-            chosen_idx = preferred_idx
+            for word in {trad, simp}:
+                if not CJK_ONLY_RE.fullmatch(word):
+                    continue
+                for pinyin_tokens in pinyin_token_sets:
+                    if len(word) != len(pinyin_tokens):
+                        continue
+                    if len(word) == 1:
+                        mapping.setdefault(word, set()).add(pinyin_tokens[0])
+                    else:
+                        multi_char_entries.append((word, pinyin_tokens))
 
-        if chosen_idx is not None:
-            override_indices[chosen_idx] = override
-            used_override_indices.add(chosen_idx)
+    for word, pinyin_tokens in multi_char_entries:
+        for hanzi, syllable in zip(word, pinyin_tokens):
+            if hanzi not in mapping:
+                mapping.setdefault(hanzi, set()).add(syllable)
+                continue
+            existing_bases = {item[:-1] for item in mapping[hanzi]}
+            if syllable[:-1] not in existing_bases:
+                mapping[hanzi].add(syllable)
 
-    out_parts: List[str] = []
-    cursor = 0
-    for idx, match in enumerate(syllable_matches):
-        out_parts.append(cc_cedict[cursor:match.start()])
-        override = override_indices.get(idx)
-        out_parts.append(override if override else match.group(0))
-        cursor = match.end()
+    tone_flex = {"一": "yi", "不": "bu"}
+    for char, base in tone_flex.items():
+        options = mapping.setdefault(char, set())
+        for tone in range(1, 6):
+            options.add(f"{base}{tone}")
 
-    out_parts.append(cc_cedict[cursor:])
-    cc_cedict = "".join(out_parts)
-    return _split_erhua_syllables(cc_cedict)
+    return mapping
+
+
+@functools.lru_cache(maxsize=1)
+def _load_cedict_word_map() -> dict[str, set[tuple[str, ...]]]:
+    """Load a word -> numbered pinyin mapping from the bundled CC-CEDICT file."""
+    cedict_path = Path(__file__).with_name("cedict_ts.u8")
+    if not cedict_path.exists():
+        raise FileNotFoundError(f"CC-CEDICT file not found: {cedict_path}")
+
+    mapping: dict[str, set[tuple[str, ...]]] = {}
+    with cedict_path.open("r", encoding="utf-8") as handle:
+        for line in handle:
+            if not line or line.startswith("#"):
+                continue
+            match = CEDICT_ENTRY_RE.match(line)
+            if not match:
+                continue
+            trad, simp, pinyin_field = match.groups()
+            def_text = line[match.end():]
+            pinyin_token_sets: List[List[str]] = []
+            primary_tokens: List[str] = []
+            invalid_token = False
+            for token in pinyin_field.split():
+                normalized = _normalize_cedict_syllable(token)
+                if normalized is None:
+                    invalid_token = True
+                    break
+                primary_tokens.append(normalized)
+            if invalid_token or not primary_tokens:
+                continue
+            pinyin_token_sets.append(primary_tokens)
+            pinyin_token_sets.extend(_extract_additional_cedict_pinyin(def_text))
+
+            for word in {trad, simp}:
+                if not CJK_ONLY_RE.fullmatch(word):
+                    continue
+                for pinyin_tokens in pinyin_token_sets:
+                    if len(word) != len(pinyin_tokens):
+                        continue
+                    mapping.setdefault(word, set()).add(tuple(pinyin_tokens))
+
+    return mapping
 
 
 def _validate_pinyin_text(pinyin: str, word_index: str) -> None:
@@ -313,7 +486,7 @@ def validate_rows(rows: Sequence[Row]) -> None:
 
         try:
             _validate_pinyin_text(row.pinyin, row.word_index)
-            expected_numbered = _pinyin_numbered(row.pinyin, row.word_index)
+            expected_numbered = _pinyin_numbered(row.pinyin, row.word_index, word=row.word)
         except ValueError as exc:
             total_errors += 1
             if len(shown_errors) < max_shown_errors:
@@ -584,7 +757,7 @@ def _segment_syllables(base: str) -> List[Tuple[int, int, str]]:
     return result
 
 
-def _pinyin_numbered(pinyin: str, word_index: str) -> str:
+def _pinyin_numbered_basic(pinyin: str, word_index: str) -> str:
     """Convert tone-marked pinyin into numbered pinyin with syllable spacing."""
     pinyin = unicodedata.normalize("NFC", pinyin)
     pinyin = pinyin.lower()
@@ -657,6 +830,256 @@ def _pinyin_numbered(pinyin: str, word_index: str) -> str:
     return output.strip()
 
 
+def _segment_pinyin_with_hanzi(
+    tokens: Sequence[str],
+    hanzi_chars: Sequence[str],
+    hanzi_map: dict[str, set[str]],
+    word_index: str,
+) -> List[str]:
+    """Segment tokenized pinyin into numbered syllables aligned to Hanzi."""
+    allowed = {char: hanzi_map[char] for char in hanzi_chars}
+    allowed_bases = {
+        char: {syllable[:-1] for syllable in syllables}
+        for char, syllables in allowed.items()
+    }
+
+    def parse_token(token: str) -> tuple[str, List[int]]:
+        base_chars: List[str] = []
+        tone_marks: List[int] = []
+        for ch in token:
+            if ch in TONE_MARKS:
+                base_char, tone = TONE_MARKS[ch]
+                base_chars.append(base_char)
+                tone_marks.append(tone)
+            else:
+                base_chars.append("ü" if ch.lower() == "v" else ch)
+                tone_marks.append(0)
+        base = "".join(base_chars).lower()
+        return base, tone_marks
+
+    def segment_token(
+        base: str,
+        tone_marks: Sequence[int],
+        start_char_idx: int,
+    ) -> List[tuple[List[str], int]]:
+        if len(base) != len(tone_marks):
+            raise ValueError(
+                f"Pinyin normalization mismatch for word index {word_index}: "
+                "base/tone length differs."
+            )
+
+        memo: dict[tuple[int, int], List[tuple[List[str], int]]] = {}
+
+        def helper(base_idx: int, char_idx: int) -> List[tuple[List[str], int]]:
+            key = (base_idx, char_idx)
+            if key in memo:
+                return memo[key]
+
+            if base_idx == len(base):
+                return [([], char_idx)]
+            if char_idx >= len(hanzi_chars):
+                return []
+
+            char = hanzi_chars[char_idx]
+            solutions: List[tuple[List[str], int]] = []
+            for syllable in VALID_SYLLABLES:
+                if not base.startswith(syllable, base_idx):
+                    continue
+                end_idx = base_idx + len(syllable)
+                tones = {tone for tone in tone_marks[base_idx:end_idx] if tone}
+                if len(tones) > 1:
+                    continue
+                if tones:
+                    candidate_tones = [tones.pop()]
+                else:
+                    candidate_tones = [5]
+
+                for tone in candidate_tones:
+                    numbered = f"{syllable}{tone}"
+
+                    if (
+                        syllable.endswith("r")
+                        and char_idx + 1 < len(hanzi_chars)
+                        and hanzi_chars[char_idx + 1] == "儿"
+                    ):
+                        base_without_r = syllable[:-1]
+                        erhua_possible = (
+                            base_without_r
+                            and base_without_r in allowed_bases[char]
+                            and ("r5" in allowed["儿"])
+                        )
+                        if erhua_possible:
+                            preferred = False
+                            for rest, next_char_idx in helper(end_idx, char_idx + 2):
+                                solutions.append(([f"{base_without_r}{tone}", "r5"] + rest, next_char_idx))
+                                preferred = True
+                                if len(solutions) > 1:
+                                    memo[key] = solutions
+                                    return solutions
+                            if preferred:
+                                memo[key] = solutions
+                                return solutions
+                            for rest, next_char_idx in helper(end_idx, char_idx + 2):
+                                solutions.append(([numbered] + rest, next_char_idx))
+                                if len(solutions) > 1:
+                                    memo[key] = solutions
+                                    return solutions
+                            if solutions:
+                                memo[key] = solutions
+                                return solutions
+
+                    if syllable in EXTRA_VALID_SYLLABLES:
+                        for rest, next_char_idx in helper(end_idx, char_idx + 1):
+                            solutions.append(([numbered] + rest, next_char_idx))
+                            if len(solutions) > 1:
+                                memo[key] = solutions
+                                return solutions
+                        continue
+
+                    if len(hanzi_chars) == 1 and syllable not in allowed_bases[char]:
+                        for rest, next_char_idx in helper(end_idx, char_idx + 1):
+                            solutions.append(([numbered] + rest, next_char_idx))
+                            if len(solutions) > 1:
+                                memo[key] = solutions
+                                return solutions
+                        continue
+
+                    if syllable in allowed_bases[char]:
+                        for rest, next_char_idx in helper(end_idx, char_idx + 1):
+                            solutions.append(([numbered] + rest, next_char_idx))
+                            if len(solutions) > 1:
+                                memo[key] = solutions
+                                return solutions
+
+            memo[key] = solutions
+            return solutions
+
+        return helper(0, start_char_idx)
+
+    memo: dict[tuple[int, int], List[List[str]]] = {}
+
+    def helper(token_idx: int, char_idx: int) -> List[List[str]]:
+        key = (token_idx, char_idx)
+        if key in memo:
+            return memo[key]
+
+        if token_idx == len(tokens):
+            return [[]] if char_idx == len(hanzi_chars) else []
+
+        token = tokens[token_idx]
+        base, tone_marks = parse_token(token)
+        if not base:
+            return []
+
+        solutions: List[List[str]] = []
+        for syllables, next_char_idx in segment_token(base, tone_marks, char_idx):
+            for rest in helper(token_idx + 1, next_char_idx):
+                solutions.append(syllables + rest)
+                if len(solutions) > 1:
+                    memo[key] = solutions
+                    return solutions
+
+        memo[key] = solutions
+        return solutions
+
+    solutions = helper(0, 0)
+    if not solutions:
+        raise ValueError(
+            f"Unable to align pinyin to Hanzi '{''.join(hanzi_chars)}' "
+            f"for word index {word_index}."
+        )
+    if len(solutions) > 1:
+        word_map = _load_cedict_word_map()
+        word = "".join(hanzi_chars)
+        candidates = word_map.get(word)
+        if candidates:
+            candidate_bases = {
+                tuple(syllable[:-1] for syllable in seq) for seq in candidates
+            }
+            filtered = [
+                solution
+                for solution in solutions
+                if tuple(syllable[:-1] for syllable in solution) in candidate_bases
+            ]
+            if len(filtered) == 1:
+                return filtered[0]
+            if filtered:
+                solutions = filtered
+        formatted = "; ".join(" ".join(syllables) for syllables in solutions)
+        raise ValueError(
+            f"Ambiguous pinyin alignment for word index {word_index} "
+            f"('{''.join(hanzi_chars)}'): {len(solutions)} valid segmentations "
+            f"({formatted})."
+        )
+    return solutions[0]
+
+
+def _pinyin_numbered(
+    pinyin: str,
+    word_index: str,
+    word: str | None = None,
+) -> str:
+    """Convert tone-marked pinyin into numbered pinyin with syllable spacing."""
+    if not word:
+        return _pinyin_numbered_basic(pinyin, word_index)
+
+    hanzi_chars = _extract_hanzi_chars(word)
+    if not hanzi_chars:
+        return _pinyin_numbered_basic(pinyin, word_index)
+
+    hanzi_map = _load_cedict_hanzi_map()
+    missing = [char for char in hanzi_chars if char not in hanzi_map]
+    if missing:
+        missing_display = " ".join(sorted(set(missing)))
+        raise ValueError(
+            f"Missing CC-CEDICT pinyin mapping for Hanzi '{missing_display}' "
+            f"(word index {word_index})."
+        )
+
+    pinyin = unicodedata.normalize("NFC", pinyin).lower()
+    variants = [part.strip() for part in pinyin.split("/") if part.strip()]
+    numbered_variants: List[str] = []
+
+    for variant in variants:
+        tokens = [
+            token
+            for token, is_separator in _tokenize_pinyin(variant)
+            if not is_separator
+        ]
+        if not tokens:
+            raise ValueError(f"Empty pinyin for word index {word_index}.")
+
+        normalized_parts: List[str] = []
+        for token in tokens:
+            base_chars: List[str] = []
+            for ch in token:
+                if ch in TONE_MARKS:
+                    base_char, _ = TONE_MARKS[ch]
+                    base_chars.append(base_char)
+                else:
+                    base_chars.append("ü" if ch.lower() == "v" else ch)
+            normalized_parts.append("".join(base_chars).lower())
+        normalized_joined = "".join(normalized_parts)
+
+        syllables = _segment_pinyin_with_hanzi(
+            tokens=tokens,
+            hanzi_chars=hanzi_chars,
+            hanzi_map=hanzi_map,
+            word_index=word_index,
+        )
+
+        numbered_joined = "".join(syllable[:-1] for syllable in syllables)
+        if normalized_joined != numbered_joined:
+            raise ValueError(
+                f"Pinyin normalization mismatch for word index {word_index}: "
+                f"'{normalized_joined}' != '{numbered_joined}'."
+            )
+
+        numbered_variants.append(" ".join(syllables))
+
+    return "/".join(numbered_variants).strip()
+
+
 def _build_rows(
     word_index: str,
     level_field: str,
@@ -665,7 +1088,7 @@ def _build_rows(
     part_of_speech: str,
 ) -> List[Row]:
     """Build rows for a single word entry."""
-    pinyin_numbered = _pinyin_numbered(pinyin, word_index)
+    pinyin_numbered = _pinyin_numbered(pinyin, word_index, word=word)
     pinyin_cc_cedict = _pinyin_cc_cedict(word, pinyin_numbered)
 
     levels = parse_levels(level_field)
