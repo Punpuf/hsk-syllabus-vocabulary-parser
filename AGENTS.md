@@ -2,34 +2,62 @@
 
 ## Project Overview
 
-This repository extracts the official HSK 3.0 vocabulary list from a PDF syllabus into a TSV file.
+This repository extracts the official HSK 3.0 vocabulary list from a syllabus PDF into TSV,
+then enriches rows with CC-CEDICT pinyin and definitions.
 
-- Main script: `extract_hsk_tsv.py`
-- Main output: `hsk_word_list.tsv`
-- Primary input PDF (example): `新版HSK考试大纲（词汇、汉字、语法）.pdf`
-- Python package metadata: `pyproject.toml`
+Pipeline stages:
+1. Stage 1: PDF parsing to raw rows
+2. Stage 2: numbered pinyin generation
+3. Stage 3: CC-CEDICT enrichment
+4. Stage 4: validation and continuity checks
+5. Stage 5: TSV + Markdown report export
 
-The script parses `word_index`, `level`, `word`, `pinyin`, and `part_of_speech`, generates `pinyin_numbered`, and prints post-run analysis (index continuity, POS counts, level counts).
+Main package layout:
+- CLI: `src/hsk_pipeline/cli.py`
+- Orchestration: `src/hsk_pipeline/pipeline.py`
+- Stages: `src/hsk_pipeline/stages/`
+- CEDICT utilities: `src/hsk_pipeline/cedict/`
+- Validation: `src/hsk_pipeline/validation.py`
+- Report builder: `src/hsk_pipeline/reporting/report_md.py`
+
+Primary data files:
+- Main dictionary: `cedict_ts.u8`
+- Disambiguation map: `data/disambiguation.tsv`
+- Patch dictionary: `data/cedict_patch.u8`
+
+Primary outputs:
+- TSV (default example): `hsk_word_list.tsv`
+- Markdown report (default): `report.md` next to TSV output
 
 ## Build And Run Commands
 
-Use `uv` with the project root as working directory.
+Use `uv` with project root as working directory.
 
 1. Install dependencies:
 ```bash
-uv sync
+uv sync --group dev
 ```
 
-2. Run extractor:
+2. Run extractor pipeline:
 ```bash
-uv run python extract_hsk_tsv.py \
+uv run python -m hsk_pipeline.cli \
   --pdf "新版HSK考试大纲（词汇、汉字、语法）.pdf" \
   --output "hsk_word_list.tsv" \
   --page-start 4 \
   --page-end 278
 ```
 
-3. Optional quick checks:
+3. Allow unresolved Stage 3 rows (temporary/debug mode):
+```bash
+uv run python -m hsk_pipeline.cli \
+  --pdf "新版HSK考试大纲（词汇、汉字、语法）.pdf" \
+  --output "hsk_word_list.tsv" \
+  --page-start 4 \
+  --page-end 278 \
+  --allow-unresolved
+```
+
+4. Optional quick checks:
 ```bash
 head -n 10 hsk_word_list.tsv
 rg -n "^14\t|^24\t|^120\t" hsk_word_list.tsv
@@ -37,48 +65,63 @@ rg -n "^14\t|^24\t|^120\t" hsk_word_list.tsv
 
 ## Testing Instructions
 
-There is currently no dedicated automated test suite. Validate changes with repeatable script runs and output checks.
+Automated tests are available.
 
-Recommended manual verification:
+1. Run unit + integration tests:
+```bash
+uv run --with pytest pytest
+```
 
-1. Run the extractor command above.
-2. Confirm terminal output includes:
-`Wrote ... rows to ...`, `word_index continuity check: ...`, and POS/level summary tables.
-3. Confirm continuity warning behavior by inspecting output message when indexes are missing (if testing parser changes).
-4. Spot-check a few known multi-sense and multi-level entries in `hsk_word_list.tsv`.
+2. Format checks:
+```bash
+uv run --with black black src tests
+```
 
-For the official syllabus pages (`4-278`), current expected output is:
-- 11,105 TSV rows
+3. Recommended end-to-end verification:
+- Run pipeline command on pages `4-278`.
+- Confirm terminal output includes:
+  - `Wrote ... rows to ...`
+  - `Wrote report to ...`
+  - continuity message and POS/level tables
+  - resolution summary line
+
+Current Stage 1/2 parity expectation for official pages (`4-278`):
+- 11,105 rows
 - `word_index` range `1-11000` with no missing indexes
 
 ## Code Style Guidelines
 
 - Target Python 3.10+.
-- Keep changes minimal and focused; avoid broad refactors unless requested.
-- Preserve existing function naming and typing style (`typing` hints and dataclasses are already used).
-- Prefer explicit parsing logic over clever/implicit behavior.
-- Keep Unicode handling intact (Hanzi and tone-marked pinyin are required).
-- Update `README.md` when behavior/output format changes.
+- Keep changes minimal and scoped.
+- Prefer explicit logic over implicit behavior.
+- Keep Unicode handling intact (Hanzi + tone-marked pinyin).
+- Use dataclasses/type hints consistently.
+- Keep markdown docs current when behavior or schema changes.
 
 ## Security Considerations
 
-- Treat input PDFs as untrusted files. Do not execute or open unknown files outside the parser flow.
-- Avoid adding network-dependent runtime behavior to extraction logic.
-- Do not hardcode absolute machine-specific paths in code or docs.
-- The source PDF and generated TSV are sizable and can impact diff readability and review time.
-- Avoid unnecessary regeneration of `hsk_word_list.tsv` when changes are docs-only.
+- Treat input PDFs as untrusted files.
+- Avoid network-dependent runtime logic in extraction/enrichment.
+- Do not hardcode machine-specific absolute paths.
+- Avoid unnecessary regeneration of large outputs when docs-only changes are made.
 
 ## Data And Parsing Gotchas
 
-- Source pinyin may include internal spaces (for syllable/word boundaries); output `pinyin` normalizes these spaces away.
+- Source pinyin may include internal spaces; source `pinyin` output keeps row value from Stage 1 parsing.
 - Multiple pinyin pronunciations use `/`.
 - Multiple POS values use `、`.
-- Some words use sense suffixes (`1`, `2`) in `word` to distinguish same-Hanzi/same-pinyin senses.
-- Multi-level mappings can split one source row into multiple TSV rows.
+- Some words use sense suffixes (`1`, `2`) in `word`; Stage 3 strips non-Hanzi for dictionary lookup but preserves original output word.
+- Multi-level mappings split one source row into multiple TSV rows.
+- Default Stage 3 policy is hard-fail on unresolved matches unless `--allow-unresolved` is set.
 
 ## Commit And PR Guidelines
 
 - Prefer Conventional Commit style: `feat: ...`, `fix: ...`, `docs: ...`, `refactor: ...`, `chore: ...`.
-- Keep commit messages scoped to actual changed files/behavior.
-- Include a short verification note in PR descriptions with: command(s) run, key output summary (row count + continuity result), and why `hsk_word_list.tsv` changed (if applicable).
+- Include a body description with bullet points
+- Keep commits scoped to related behavior/files.
+- In PR verification notes, include:
+  - exact command(s) run
+  - row count + continuity result
+  - resolution summary (including unresolved count)
+  - reason output artifacts changed
 - Do not bundle unrelated workspace changes in the same commit.
