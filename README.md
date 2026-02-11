@@ -123,6 +123,37 @@ The source syllabus rows are interpreted as:
 - `pinyin`
 - `part_of_speech`
 
+<details>
+<summary>Notes on the source syllabus formatting conventions.</summary>
+
+**Conventions used in the syllabus:**
+- Multiple pinyin pronunciations in `pinyin` are separated by `/` (e.g., `shéi/shuí`).
+- Multiple part-of-speech labels in `part_of_speech` are separated by `、`.
+- Some syllabus entries include internal pinyin spaces to show sub-word boundaries (e.g., `打电话` as `dǎ diànhuà`). In the extractor output, this internal space is removed in `pinyin` (output: `dǎdiànhuà`).
+
+If a word appears in multiple levels, the syllabus uses parentheses in both the `level` and `part_of_speech` columns. For example:
+- `level`: `1（4）`
+- `part_of_speech`: `形、介、（动、量）`
+
+In those cases, the extractor **creates multiple entries**, one per level, repeating the **same word index** (so it's easier to compare the script's result with the syllabus) and other fields with the corresponding part-of-speech group.
+
+**Sense Suffixes in `word` (`1` / `2`)**
+
+Some entries append `1` or `2` to the `word` field (for example, `点1`, `点2`, `等1`, `等2`).  
+This marks different dictionary senses that share the same Hanzi and the same pinyin spelling.
+There are no examples present of words with more than two senses in the syllabus.
+
+Examples from the generated TSV (the _meanings_ in the table below are AI-generated and may very well be incorrect, this was included only to help illustrate):
+
+| pair      | pinyin | `1` meaning + POS/level                       | `2` meaning + POS/level                                  |
+|-----------|--------|-----------------------------------------------|----------------------------------------------------------|
+| 会1 / 会2   | huì    | `会1`: *can / be able to* (verb, level 1)      | `会2`: *meeting* (noun, level 3)                          |
+| 站1 / 站2   | zhàn   | `站1`: *station / stop* (noun, level 2)        | `站2`: *to stand* (verb, level 3)                         |
+| 过去1 / 过去2 | guòqù  | `过去1`: *to pass / to go over* (verb, level 2) | `过去2`: *the past* (noun, level 3)                        |
+| 花1 / 花2   | huā    | `花1`: *to spend (money/time)* (verb, level 2) | `花2`: *flower; floral* (noun level 2, adjective level 6) |
+
+</details>
+
 ### Stage 1 (PDF Parsing → Raw Rows)
 
 Code path:
