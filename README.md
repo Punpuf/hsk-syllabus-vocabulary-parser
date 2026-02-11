@@ -27,7 +27,7 @@ and runs a staged enrichment pipeline:
 | 7          | 1     | 半    | bàn       | 数              | ban4            | ban4             | half; semi-; incomplete (..)           |
 | 7          | 4     | 半    | bàn       | 副              | ban4            | ban4             | half; semi-; incomplete (..)           |
 | 23         | 1     | 穿    | chuān     | 动              | chuan1          | chuan1           | to wear; to put on; to dress (..)      |
-| 24         | 1     | 打电话  | dǎdiànhuà | —              | da3 dian4 hua4  | da3 dian4 hua4   | to make a telephone call               |
+| 24         | 1     | 打电话  | dǎdiànhuà |                | da3 dian4 hua4  | da3 dian4 hua4   | to make a telephone call               |
 | 33         | 1     | 点1   | diǎn      | 量              | dian3           | dian3            | to touch briefly; to tap; to mark (..) |
 | 33         | 3     | 点1   | diǎn      | 名              | dian3           | dian3            | to touch briefly; to tap; to mark (..) |
 | 336        | 2     | 点2   | diǎn      | 动              | dian3           | dian3            | to touch briefly; to tap; to mark (..) |
