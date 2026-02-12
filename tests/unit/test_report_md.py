@@ -17,8 +17,8 @@ def test_build_report_md_contains_required_sections() -> None:
     """Report output should include all required summary sections."""
 
     rows = [
-        EnrichedRow("1", "1", "爱", "ài", "动", "ai4", "ai4", "to love"),
-        EnrichedRow("2", "2", "半", "bàn", "名", "ban4", "ban4", "half"),
+        EnrichedRow("1", "1", "爱", "ài", "动", "ai4", "ai4", "愛", "to love"),
+        EnrichedRow("2", "2", "半", "bàn", "名", "ban4", "ban4", "半", "half"),
     ]
     report = ResolutionReport(
         tone_insensitive_unique=(ToneInsensitiveUniqueMatch("2", "半", "bàn", "ban4", "ban4"),),

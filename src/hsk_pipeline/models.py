@@ -44,8 +44,9 @@ class NumberedRow:
 class EnrichedRow:
     """Stage 3 row enriched with CC-CEDICT pronunciation and definition.
 
-    The final output contract includes normalized CC-CEDICT pinyin and a selected
-    CC-CEDICT definition alongside the source-derived and numbered fields.
+    The final output contract includes normalized CC-CEDICT pinyin, the selected
+    traditional form(s), and a selected CC-CEDICT definition alongside the
+    source-derived and numbered fields.
     """
 
     word_index: str
@@ -55,6 +56,7 @@ class EnrichedRow:
     part_of_speech: str
     pinyin_numbered: str
     pinyin_cc_cedict: str
+    traditional_cc_cedict: str
     definition_cc_cedict: str
 
 

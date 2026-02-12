@@ -11,6 +11,10 @@ from hsk_pipeline.models import EnrichedRow, NumberedRow, RawRow
 VALID_HSK_LEVELS = {"1", "2", "3", "4", "5", "6", "7-9"}
 WORD_VALID_RE = re.compile(r"^[一-鿿]+[12]?$")
 PINYIN_NUMBERED_TOKEN_RE = re.compile(r"^[a-zü]+[1-5]$")
+TRADITIONAL_CEDICT_RE = re.compile(
+    r"^[\u3400-\u4dbf\u4e00-\u9fff\U00020000-\U0002A6DF]+"
+    r"(?:/[\u3400-\u4dbf\u4e00-\u9fff\U00020000-\U0002A6DF]+)*$"
+)
 
 
 def validate_raw_rows(rows: Sequence[RawRow]) -> None:
@@ -89,6 +93,12 @@ def validate_enriched_rows(rows: Sequence[EnrichedRow], allow_unresolved: bool =
     for idx, row in enumerate(rows, start=1):
         if not row.pinyin_cc_cedict and not allow_unresolved:
             errors.append(f"Row {idx}: empty pinyin_cc-cedict")
+        if not row.traditional_cc_cedict and not allow_unresolved:
+            errors.append(f"Row {idx}: empty traditional_cc-cedict")
+        if row.traditional_cc_cedict and not TRADITIONAL_CEDICT_RE.fullmatch(
+            row.traditional_cc_cedict
+        ):
+            errors.append(f"Row {idx}: invalid traditional_cc-cedict '{row.traditional_cc_cedict}'")
         if not row.definition_cc_cedict and not allow_unresolved:
             errors.append(f"Row {idx}: empty definition_cc-cedict")
 

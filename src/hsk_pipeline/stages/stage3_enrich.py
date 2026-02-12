@@ -119,7 +119,7 @@ def enrich_with_cedict(
     patch_repo: CedictRepository,
     allow_unresolved: bool = False,
 ) -> tuple[list[EnrichedRow], ResolutionReport]:
-    """Add ``pinyin_cc-cedict`` and ``definition_cc-cedict`` to Stage 2 rows.
+    """Add CC-CEDICT enrichment fields to Stage 2 rows.
 
     Resolution order per row:
     1) exact numbered match in main CC-CEDICT,
@@ -199,6 +199,7 @@ def enrich_with_cedict(
                         part_of_speech=row.part_of_speech,
                         pinyin_numbered=row.pinyin_numbered,
                         pinyin_cc_cedict="",
+                        traditional_cc_cedict="",
                         definition_cc_cedict="",
                     )
                 )
@@ -238,6 +239,7 @@ def enrich_with_cedict(
                 part_of_speech=row.part_of_speech,
                 pinyin_numbered=row.pinyin_numbered,
                 pinyin_cc_cedict=resolution.candidate.pinyin_numbered,
+                traditional_cc_cedict="/".join(resolution.candidate.traditional_forms),
                 definition_cc_cedict=resolution.candidate.definition,
             )
         )

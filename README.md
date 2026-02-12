@@ -4,7 +4,7 @@ This project extracts the official **HSK 3.0 (2026)** vocabulary list from the s
 and runs a staged enrichment pipeline:
 - Stage 1: parse raw rows from PDF
 - Stage 2: generate `pinyin_numbered`
-- Stage 3: enrich from CC-CEDICT (`pinyin_cc-cedict`, `definition_cc-cedict`)
+- Stage 3: enrich from CC-CEDICT (`pinyin_cc-cedict`, `traditional_cc-cedict`, `definition_cc-cedict`)
 - Stage 4: validate rows and continuity
 - Stage 5: export TSV + Markdown report
 
@@ -14,29 +14,30 @@ and runs a staged enrichment pipeline:
 - Syllabus for the Chinese Proficiency Test. 
 - Download: [新版HSK考试大纲（词汇、汉字、语法）](https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B2%EF%BC%88%E8%AF%8D%E6%B1%87%E3%80%81%E6%B1%89%E5%AD%97%E3%80%81%E8%AF%AD%E6%B3%95%EF%BC%89.pdf)
 
-**AI usage notice:** A model was used to generate the processing scripts and this README file.
+**AI usage notice:** A model was used to generate the processing scripts.
 
 
 ## Output Structure
 
-| word_index | level | word | pinyin    | part_of_speech | pinyin_numbered | pinyin_cc-cedict | definition_cc-cedict                   |
-|------------|-------|------|-----------|----------------|-----------------|------------------|----------------------------------------|
-| 1          | 1     | 爱    | ài        | 动              | ai4             | ai4              | to love; to be fond of; to like (..)   |
-| 2          | 1     | 八    | bā        | 数              | ba1             | ba1              | eight                                  |
-| 6          | 1     | 百    | bǎi       | 数              | bai3            | bai3             | hundred; numerous; all kinds of (..)   |
-| 7          | 1     | 半    | bàn       | 数              | ban4            | ban4             | half; semi-; incomplete (..)           |
-| 7          | 4     | 半    | bàn       | 副              | ban4            | ban4             | half; semi-; incomplete (..)           |
-| 23         | 1     | 穿    | chuān     | 动              | chuan1          | chuan1           | to wear; to put on; to dress (..)      |
-| 24         | 1     | 打电话  | dǎdiànhuà |                | da3 dian4 hua4  | da3 dian4 hua4   | to make a telephone call               |
-| 33         | 1     | 点1   | diǎn      | 量              | dian3           | dian3            | to touch briefly; to tap; to mark (..) |
-| 33         | 3     | 点1   | diǎn      | 名              | dian3           | dian3            | to touch briefly; to tap; to mark (..) |
-| 336        | 2     | 点2   | diǎn      | 动              | dian3           | dian3            | to touch briefly; to tap; to mark (..) |
-| 336        | 4     | 点2   | diǎn      | 名、量            | dian3           | dian3            | to touch briefly; to tap; to mark (..) |
-| 3944       | 6     | 恶心   | ěxin      | 形、动            | e3 xin5         | e3 xin1          | nausea; to feel sick; disgust; (..)    |
+| word_index | level | word | pinyin    | part_of_speech | pinyin_numbered | pinyin_cc-cedict | traditional_cc-cedict | definition_cc-cedict                   |
+|------------|-------|------|-----------|----------------|-----------------|------------------|-----------------------|----------------------------------------|
+| 1          | 1     | 爱    | ài        | 动              | ai4             | ai4              | 愛                     | to love; to be fond of; to like (..)   |
+| 2          | 1     | 八    | bā        | 数              | ba1             | ba1              | 八                     | eight                                  |
+| 6          | 1     | 百    | bǎi       | 数              | bai3            | bai3             | 百                     | hundred; numerous; all kinds of (..)   |
+| 7          | 1     | 半    | bàn       | 数              | ban4            | ban4             | 半                     | half; semi-; incomplete (..)           |
+| 7          | 4     | 半    | bàn       | 副              | ban4            | ban4             | 半                     | half; semi-; incomplete (..)           |
+| 23         | 1     | 穿    | chuān     | 动              | chuan1          | chuan1           | 穿                     | to wear; to put on; to dress (..)      |
+| 24         | 1     | 打电话  | dǎdiànhuà |                | da3 dian4 hua4  | da3 dian4 hua4   | 打電話                   | to make a telephone call               |
+| 33         | 1     | 点1   | diǎn      | 量              | dian3           | dian3            | 點                     | to touch briefly; to tap; to mark (..) |
+| 33         | 3     | 点1   | diǎn      | 名              | dian3           | dian3            | 點                     | to touch briefly; to tap; to mark (..) |
+| 336        | 2     | 点2   | diǎn      | 动              | dian3           | dian3            | 點                     | to touch briefly; to tap; to mark (..) |
+| 336        | 4     | 点2   | diǎn      | 名、量            | dian3           | dian3            | 點                     | to touch briefly; to tap; to mark (..) |
+| 3944       | 6     | 恶心   | ěxin      | 形、动            | e3 xin5         | e3 xin1          | 噁心/惡心                 | nausea; to feel sick; disgust; (..)    |
 
 ## Output Quality
 
-A manual (human-done) check was performed by comparing all entries on the first and last pages of the original syllabus with extracted output, and the information matched. Further quality analysis is very much recommended.
+A manual check was done by comparing all entries on the first and last pages of the original syllabus with extracted output, and the information matched. 
+Further quality analysis is very much recommended.
 
 Each run also writes a Markdown quality report (`report.md` by default, next to the TSV) with:
 - row counts by HSK level
@@ -114,7 +115,7 @@ uv run --with black black src tests
 - `data/disambiguation.tsv`: tone-insensitive multi-match overrides
 - `data/cedict_patch.u8`: CEDICT-format patch file
 
-## Processing Rules
+## Syllabus Formatting Conventions
 
 The source syllabus rows are interpreted as:
 - `word_index`
@@ -122,9 +123,6 @@ The source syllabus rows are interpreted as:
 - `word`
 - `pinyin`
 - `part_of_speech`
-
-<details>
-<summary>Notes on the source syllabus formatting conventions.</summary>
 
 **Conventions used in the syllabus:**
 - Multiple pinyin pronunciations in `pinyin` are separated by `/` (e.g., `shéi/shuí`).
@@ -152,7 +150,7 @@ Examples from the generated TSV (the _meanings_ in the table below are AI-genera
 | 过去1 / 过去2 | guòqù  | `过去1`: *to pass / to go over* (verb, level 2) | `过去2`: *the past* (noun, level 3)                        |
 | 花1 / 花2   | huā    | `花1`: *to spend (money/time)* (verb, level 2) | `花2`: *flower; floral* (noun level 2, adjective level 6) |
 
-</details>
+## Processing Rules
 
 ### Stage 1 (PDF Parsing → Raw Rows)
 
@@ -187,7 +185,7 @@ Rules:
 - Keeps neutral tone as `5`.
 - Supports syllabic interjections (`m`, `n`, `ng`, `hm`, `hng`, `r`).
 
-### Stage 3 (Add `pinyin_cc-cedict` + `definition_cc-cedict`)
+### Stage 3 (Add `pinyin_cc-cedict` + `traditional_cc-cedict` + `definition_cc-cedict`)
 
 Code path:
 - `src/hsk_pipeline/stages/stage3_enrich.py`
@@ -215,8 +213,8 @@ Code path:
 - `src/hsk_pipeline/cedict/matcher.py::group_candidates()`
 
 Behavior:
-- Each CC-CEDICT line definition is normalized by splitting slash-glosses and joining them with `; `.
-- If multiple CC-CEDICT entries map to the same `(word, pinyin)` candidate, their definitions are all kept and merged deterministically using ` | `.
+- Each CC-CEDICT line definition preserves slash-gloss delimiters from CEDICT.
+- If multiple CC-CEDICT entries map to the same `(word, pinyin)` candidate, their definitions are all kept and merged deterministically using `/`.
 - The selected Stage 3 candidate writes that merged definition into `definition_cc-cedict`.
 - So it is not "first definition only"; merged definitions are used for duplicate same-pinyin candidates.
 
@@ -231,7 +229,7 @@ Behavior:
 - Pinyin matching is case-insensitive because both source pinyin and CEDICT pinyin are lowercased before comparison.
 - Tone-insensitive matching removes tone numbers only; token boundaries still must match.
 - Definitions are not used as match keys, so definition capitalization does not affect matching.
-- Definition text is preserved from CEDICT (apart from slash-to-`; ` normalization and possible ` | ` merge).
+- Definition text is preserved from CEDICT (with slash-delimited glosses and slash-delimited merged candidates).
 
 ## Contributing
 

@@ -16,13 +16,14 @@ class CedictEntry:
     """One normalized dictionary record for a specific word and pinyin tokenization.
 
     Each record is keyed by simplified/traditional word form plus a numbered
-    pinyin token sequence. Definition text is stored as slash-delimited glosses
-    joined into a single ``; `` separated string for stable TSV output.
+    pinyin token sequence. Definition text preserves CEDICT slash-delimited
+    glosses joined with ``/``.
     """
 
     word: str
     pinyin_tokens: tuple[str, ...]
     definition: str
+    traditional: str
 
     @property
     def pinyin_numbered(self) -> str:
@@ -123,7 +124,7 @@ def parse_cedict_lines(lines: Iterator[str]) -> list[CedictEntry]:
             continue
 
         glosses = [part for part in definition_payload.split("/") if part]
-        definition = "; ".join(glosses).strip()
+        definition = "/".join(glosses).strip()
 
         token_sets = [primary_tokens, *extract_additional_pinyin(definition_payload)]
         words = {trad, simp}
@@ -136,6 +137,7 @@ def parse_cedict_lines(lines: Iterator[str]) -> list[CedictEntry]:
                         word=word,
                         pinyin_tokens=tokens,
                         definition=definition,
+                        traditional=trad,
                     )
                 )
 

@@ -37,9 +37,9 @@ class CedictRepository:
         with self.path.open("r", encoding="utf-8") as handle:
             parsed = parse_cedict_lines(handle)
 
-        deduped: dict[tuple[str, tuple[str, ...], str], CedictEntry] = {}
+        deduped: dict[tuple[str, tuple[str, ...], str, str], CedictEntry] = {}
         for entry in parsed:
-            key = (entry.word, entry.pinyin_tokens, entry.definition)
+            key = (entry.word, entry.pinyin_tokens, entry.definition, entry.traditional)
             deduped[key] = entry
         return tuple(deduped.values())
 

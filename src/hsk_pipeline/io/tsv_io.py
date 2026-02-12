@@ -15,6 +15,7 @@ TSV_HEADER = [
     "part_of_speech",
     "pinyin_numbered",
     "pinyin_cc-cedict",
+    "traditional_cc-cedict",
     "definition_cc-cedict",
 ]
 
@@ -43,6 +44,7 @@ def write_tsv(rows: Sequence[EnrichedRow], output_path: Path, include_header: bo
                         row.part_of_speech,
                         row.pinyin_numbered,
                         row.pinyin_cc_cedict,
+                        row.traditional_cc_cedict,
                         row.definition_cc_cedict,
                     ]
                 )

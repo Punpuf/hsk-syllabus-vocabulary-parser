@@ -62,3 +62,4 @@ def test_stage_chain_fixture_roundtrip(tmp_path: Path) -> None:
     assert len(enriched_rows) == 3
     assert len(report.no_match) == 0
     assert [row.pinyin_cc_cedict for row in enriched_rows] == ["ai4", "ba4 ba5", "yi1 ge4"]
+    assert [row.traditional_cc_cedict for row in enriched_rows] == ["愛", "爸爸", "一個"]

@@ -12,13 +12,20 @@ class CandidateGroup:
     """Grouped CEDICT candidates sharing the same pinyin token sequence."""
 
     pinyin_tokens: tuple[str, ...]
-    definition: str
+    definitions: tuple[str, ...]
+    traditional_forms: tuple[str, ...]
 
     @property
     def pinyin_numbered(self) -> str:
         """Return grouped pinyin tokens rendered as a space-separated string."""
 
         return " ".join(self.pinyin_tokens)
+
+    @property
+    def definition(self) -> str:
+        """Return grouped definitions rendered as a slash-separated string."""
+
+        return "/".join(self.definitions)
 
 
 def split_numbered_variants(numbered: str) -> list[tuple[str, ...]]:
@@ -63,13 +70,22 @@ def group_candidates(entries: tuple[CedictEntry, ...]) -> tuple[CandidateGroup, 
     """
 
     grouped_defs: dict[tuple[str, ...], set[str]] = {}
+    grouped_trad: dict[tuple[str, ...], set[str]] = {}
     for entry in entries:
         grouped_defs.setdefault(entry.pinyin_tokens, set()).add(entry.definition)
+        grouped_trad.setdefault(entry.pinyin_tokens, set()).add(entry.traditional)
 
     groups: list[CandidateGroup] = []
     for pinyin_tokens, defs in grouped_defs.items():
-        definition = " | ".join(sorted(d for d in defs if d))
-        groups.append(CandidateGroup(pinyin_tokens=pinyin_tokens, definition=definition))
+        definitions = tuple(sorted(d for d in defs if d))
+        traditional_forms = tuple(sorted(grouped_trad.get(pinyin_tokens, set())))
+        groups.append(
+            CandidateGroup(
+                pinyin_tokens=pinyin_tokens,
+                definitions=definitions,
+                traditional_forms=traditional_forms,
+            )
+        )
 
     groups.sort(key=lambda item: (item.pinyin_tokens, item.definition))
     return tuple(groups)
